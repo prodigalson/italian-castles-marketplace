@@ -286,7 +286,7 @@ function buildSpread(listing, index, total) {
         </div>
         <div class="page-right">
             <header class="folio">
-                <span>Italian Castles Marketplace</span>
+                <span>Browse Italian Castles for Sale</span>
                 <span>${index + 1} / ${total}</span>
             </header>
             <div class="info-layout">
@@ -437,9 +437,9 @@ function updateUrl() {
 
 async function shareListing(listing) {
     const activeListing = listing || displayedListings[currentSpread];
-    const title = activeListing ? activeListing.title : 'Italian Castles Marketplace';
+    const title = activeListing ? activeListing.title : 'Browse Italian Castles for Sale';
     const url = activeListing ? `${window.location.origin}${window.location.pathname}?listing=${activeListing.id}` : window.location.href;
-    const text = activeListing ? `${title} · ${formatPrice(activeListing)} · ${activeListing.location.display}` : 'Italian castles for sale';
+    const text = activeListing ? `${title} · ${formatPrice(activeListing)} · ${activeListing.location.display}` : 'Browse Italian Castles for Sale';
     if (navigator.share) {
         try { await navigator.share({ title, text, url }); } catch {}
     } else {
