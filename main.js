@@ -461,7 +461,9 @@ function renderWindow(centerIndex) {
             const div = document.createElement('div');
             div.innerHTML = buildSpread(displayedListings[i], i, total);
             magazine.appendChild(div.firstElementChild);
-            hydrateGooglePlacePhoto(magazine.querySelector(`.spread[data-index="${i}"]`), displayedListings[i]);
+            const spread = magazine.querySelector(`.spread[data-index="${i}"]`);
+            hydrateGooglePlacePhoto(spread, displayedListings[i]);
+            hydrateGoogleTravelAccess(spread, displayedListings[i]);
         }
     }
 
@@ -471,6 +473,54 @@ function renderWindow(centerIndex) {
     syncNavigationPlacement(activeEl);
     wireListingButtons();
     updateUrl();
+}
+
+async function hydrateGoogleTravelAccess(spread, listing) {
+    const panel = spread?.querySelector('.travel-access');
+    if (!panel || panel.dataset.googleTravelState) return;
+    panel.dataset.googleTravelState = 'loading';
+
+    try {
+        const response = await fetch(`/api/travel-access?listingId=${encodeURIComponent(listing.id)}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error('Google Maps travel lookup unavailable');
+        const travel = await response.json();
+
+        for (const kind of ['trainStation', 'airport']) {
+            const facility = travel[kind];
+            const item = panel.querySelector(`[data-travel-kind="${kind}"]`);
+            if (!facility || !item) continue;
+            const detail = document.createElement('strong');
+            detail.textContent = `${facility.name} · ${facility.distanceKm} km`;
+            const mapLink = document.createElement('a');
+            mapLink.href = facility.googleMapsUri;
+            mapLink.target = '_blank';
+            mapLink.rel = 'noopener';
+            mapLink.textContent = 'Open in Google Maps';
+            const checked = document.createElement('span');
+            checked.textContent = 'Nearest Google Maps match';
+            item.querySelector('dd').replaceChildren(detail, mapLink, checked);
+            item.querySelector('p').textContent = `${facility.address || facility.name} · Straight-line distance from the property’s Google location.`;
+        }
+
+        const uberItem = panel.querySelector('[data-travel-kind="uber"]');
+        if (travel.uber?.url && uberItem) {
+            const detail = document.createElement('strong');
+            detail.textContent = travel.uber.label;
+            const uberLink = document.createElement('a');
+            uberLink.href = travel.uber.url;
+            uberLink.target = '_blank';
+            uberLink.rel = 'noopener';
+            uberLink.textContent = 'Open Uber with this pickup location';
+            const checked = document.createElement('span');
+            checked.textContent = 'Exact Google Maps coordinates supplied';
+            uberItem.querySelector('dd').replaceChildren(detail, uberLink, checked);
+            uberItem.querySelector('p').textContent = 'Uber will show live product and driver availability for the property’s exact location and selected time.';
+        }
+
+        panel.dataset.googleTravelState = 'loaded';
+    } catch {
+        panel.dataset.googleTravelState = 'fallback';
+    }
 }
 
 async function hydrateGooglePlacePhoto(spread, listing) {

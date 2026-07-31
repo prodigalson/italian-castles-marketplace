@@ -173,15 +173,15 @@ a {
 .cover-overlay {
     position: relative;
     z-index: 2;
-    display: flex;
+    display: grid;
     min-height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
+    grid-template-rows: minmax(0, 1fr) auto minmax(0, 1fr);
     padding: clamp(1.25rem, 4vw, 3rem);
     color: #fff;
 }
 
 .cover-center {
+    grid-row: 2;
     width: min(920px, 92vw);
     margin: 0 auto;
     text-align: center;
@@ -237,6 +237,8 @@ a {
 
 .cover-bottom {
     display: flex;
+    grid-row: 3;
+    align-self: end;
     justify-content: center;
 }
 
