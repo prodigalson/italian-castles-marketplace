@@ -726,7 +726,17 @@ function updateSectionChrome() {
     document.querySelectorAll('[data-section-copy="title"]').forEach(el => { el.textContent = section.title; });
     document.querySelectorAll('[data-section-copy="description"]').forEach(el => { el.textContent = section.description; });
     document.querySelectorAll('.cover-bg [data-section-cover]').forEach(img => {
-        img.classList.toggle('is-active', img.dataset.sectionCover === section.key);
+        const active = img.dataset.sectionCover === section.key;
+        if (!active) {
+            img.classList.remove('is-active');
+            return;
+        }
+        // Fading in before the bitmap has painted shows an empty black cover, which is what
+        // a cold /?section=masserias load used to do while its image was still arriving.
+        if (img.complete && img.naturalWidth > 0) img.classList.add('is-active');
+        else img.addEventListener('load', () => {
+            if (img.dataset.sectionCover === activeSection().key) img.classList.add('is-active');
+        }, { once: true });
     });
     // The castle credit is the unmarked default; every other section marks its own.
     document.querySelectorAll('.cover-image-credit').forEach(credit => {
