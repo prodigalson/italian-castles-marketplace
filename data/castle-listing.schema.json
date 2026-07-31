@@ -11,6 +11,7 @@
     "asset_class",
     "property_type",
     "location",
+    "travel_access",
     "pricing",
     "sources",
     "provenance",
@@ -146,6 +147,66 @@
         }
       }
     },
+    "travel_access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["train_station", "airport", "uber"],
+      "properties": {
+        "train_station": {
+          "$ref": "#/$defs/travelFacility"
+        },
+        "airport": {
+          "$ref": "#/$defs/travelFacility"
+        },
+        "uber": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "source_name", "source_url", "last_checked_at", "note"],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["available", "limited_varies", "not_available", "check_app", "unknown_not_verified"]
+            },
+            "source_name": {
+              "type": ["string", "null"]
+            },
+            "source_url": {
+              "type": ["string", "null"],
+              "format": "uri",
+              "pattern": "^https?://"
+            },
+            "last_checked_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": { "status": { "const": "unknown_not_verified" } },
+                "required": ["status"]
+              },
+              "then": {
+                "properties": {
+                  "source_name": { "const": null },
+                  "source_url": { "const": null }
+                }
+              },
+              "else": {
+                "properties": {
+                  "source_name": { "type": "string", "minLength": 1 },
+                  "source_url": { "type": "string", "pattern": "^https?://" }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
     "bedrooms": {
       "type": ["integer", "null"],
       "minimum": 0
@@ -196,7 +257,7 @@
         "properties": {
           "url": {
             "type": "string",
-            "format": "uri"
+            "format": "uri-reference"
           },
           "alt": {
             "type": "string"
@@ -356,7 +417,167 @@
       }
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "location": {
+            "properties": {
+              "precision": { "enum": ["municipality", "province", "region", "country", "unknown"] }
+            },
+            "required": ["precision"]
+          }
+        },
+        "required": ["location"]
+      },
+      "then": {
+        "properties": {
+          "travel_access": {
+            "properties": {
+              "train_station": {
+                "properties": {
+                  "status": { "const": "unknown_not_verified" },
+                  "distance_km": { "const": null },
+                  "travel_time_minutes": { "const": null },
+                  "estimate_method": { "const": null },
+                  "estimate_source_url": { "const": null }
+                }
+              },
+              "airport": {
+                "properties": {
+                  "status": { "const": "unknown_not_verified" },
+                  "distance_km": { "const": null },
+                  "travel_time_minutes": { "const": null },
+                  "estimate_method": { "const": null },
+                  "estimate_source_url": { "const": null }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
   "$defs": {
+    "travelFacility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "facility_name", "distance_km", "travel_time_minutes", "source_name", "source_url", "nearest_selection_method", "nearest_selection_source_url", "estimate_method", "estimate_source_url", "last_checked_at", "record_generated_at", "note"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["verified_facility", "unknown_not_verified"]
+        },
+        "facility_name": {
+          "type": ["string", "null"]
+        },
+        "distance_km": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "travel_time_minutes": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "source_name": {
+          "type": ["string", "null"]
+        },
+        "source_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "nearest_selection_method": {
+          "type": ["string", "null"]
+        },
+        "nearest_selection_source_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "estimate_method": {
+          "type": ["string", "null"]
+        },
+        "estimate_source_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "last_checked_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        },
+        "record_generated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "unknown_not_verified" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "facility_name": { "const": null },
+              "distance_km": { "const": null },
+              "travel_time_minutes": { "const": null },
+              "source_name": { "const": null },
+              "source_url": { "const": null },
+              "nearest_selection_method": { "const": null },
+              "nearest_selection_source_url": { "const": null },
+              "estimate_method": { "const": null },
+              "estimate_source_url": { "const": null },
+              "last_checked_at": { "const": null }
+            }
+          },
+          "else": {
+            "properties": {
+              "facility_name": { "type": "string", "minLength": 1 },
+              "source_name": { "type": "string", "minLength": 1 },
+              "source_url": { "type": "string", "pattern": "^https?://" },
+              "nearest_selection_method": { "type": "string", "minLength": 1 },
+              "nearest_selection_source_url": { "type": "string", "pattern": "^https?://" },
+              "last_checked_at": { "type": "string", "format": "date-time" }
+            }
+          }
+        },
+        {
+          "not": {
+            "properties": {
+              "distance_km": { "type": "number" },
+              "travel_time_minutes": { "type": "integer" }
+            },
+            "required": ["distance_km", "travel_time_minutes"]
+          }
+        },
+        {
+          "if": {
+            "anyOf": [
+              { "properties": { "distance_km": { "type": "number" } }, "required": ["distance_km"] },
+              { "properties": { "travel_time_minutes": { "type": "integer" } }, "required": ["travel_time_minutes"] }
+            ]
+          },
+          "then": {
+            "properties": {
+              "estimate_method": { "type": "string", "minLength": 1 },
+              "estimate_source_url": { "type": "string", "pattern": "^https?://" }
+            }
+          },
+          "else": {
+            "properties": {
+              "estimate_method": { "const": null },
+              "estimate_source_url": { "const": null }
+            }
+          }
+        }
+      ]
+    },
     "measurement": {
       "type": ["object", "null"],
       "additionalProperties": false,
