@@ -23,7 +23,9 @@ export default async function handler(req, res) {
     const placeConfig = googlePlacesByListingId[listingId];
     if (!placeConfig) return res.status(404).json({ error: 'No verified Google Place is configured for this listing.' });
 
-    const apiKey = process.env.GOOGLE_MAPS_API_KEY || process.env.VITE_GOOGLE_MAPS_API;
+    const apiKey = process.env.GOOGLE_MAPS_API_KEY
+        || process.env.VITE_GOOGLE_MAPS_API_KEY
+        || process.env.VITE_GOOGLE_MAPS_API;
     if (!apiKey) return res.status(503).json({ error: 'Google Places photos are not configured.' });
 
     try {

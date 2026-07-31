@@ -17,7 +17,9 @@ const [apiSource, mainSource, terms, privacy] = await Promise.all([
     readFile('privacy.html', 'utf8'),
 ]);
 
-if (!apiSource.includes('GOOGLE_MAPS_API_KEY') || !apiSource.includes('VITE_GOOGLE_MAPS_API')) {
+if (!apiSource.includes('GOOGLE_MAPS_API_KEY')
+    || !apiSource.includes('VITE_GOOGLE_MAPS_API_KEY')
+    || !apiSource.includes('VITE_GOOGLE_MAPS_API')) {
     throw new Error('Supported Places API environment variables are not kept server-side.');
 }
 if (!apiSource.includes('Cache-Control') || !apiSource.includes('no-store')) throw new Error('Places responses must not be cached.');
