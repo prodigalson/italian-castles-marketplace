@@ -23,9 +23,12 @@ if (!apiSource.includes('GOOGLE_MAPS_API_KEY')
     throw new Error('Supported Places API environment variables are not kept server-side.');
 }
 if (!apiSource.includes('Cache-Control') || !apiSource.includes('no-store')) throw new Error('Places responses must not be cached.');
+if (!apiSource.includes('placeConfigForListing') || !apiSource.includes('castle-listings.json')) {
+    throw new Error('Google Places photo lookup must cover every inventory listing.');
+}
 if (!mainSource.includes("textContent = 'Google Maps'")) throw new Error('Google Maps attribution is missing.');
 if (!terms.includes('Google Maps Platform Terms of Service')) throw new Error('Terms do not incorporate Google Maps terms.');
 if (!privacy.includes('Google Privacy Policy')) throw new Error('Privacy page does not reference Google privacy terms.');
 if (!mainSource.includes("title: googlePlace?.expectedName")) throw new Error('Verified Google Place name is not used as the listing title.');
 
-console.log(`Google Places configuration passed for ${Object.keys(googlePlacesByListingId).length} verified listing.`);
+console.log(`Google Places configuration passed for all ${listings.length} listings (${Object.keys(googlePlacesByListingId).length} explicitly verified mapping).`);

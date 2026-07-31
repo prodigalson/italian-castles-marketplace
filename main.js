@@ -114,13 +114,19 @@ function buildFilterOptions(items) {
 function normalizeListing(listing) {
     const mapContext = listing.location.map_context || {};
     const mapQuery = encodeURIComponent(listing.location.display);
-    const googlePlace = googlePlacesByListingId[listing.id] || null;
+    const verifiedGooglePlace = googlePlacesByListingId[listing.id] || null;
+    const googlePlace = verifiedGooglePlace || {
+        expectedName: listing.canonical_title,
+        mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${listing.canonical_title}, ${listing.location.display}, Italy`)}`,
+        verified: false,
+    };
+    const summary = listing.summary || '';
 
     return {
         id: listing.id,
         status: listing.status,
         title: googlePlace?.expectedName || listing.canonical_title,
-        summary: listing.summary || '',
+        summary: summary.startsWith("Manual memory import from Ava's previously shared") ? '' : summary,
         assetClass: listing.asset_class || 'castle',
         propertyType: listing.property_type,
         condition: listing.condition || 'unknown',
@@ -153,7 +159,7 @@ function normalizeListing(listing) {
             rightsBasis: displayText(image.rights_basis || 'unknown'),
             rightsNote: image.rights_note || 'Image rights not documented.',
         })),
-        mapUrl: googlePlace?.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
+        mapUrl: googlePlace.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
         sources: listing.sources.map(source => ({
             sourceKey: source.source_key,
             sourceName: source.source_name,
@@ -352,15 +358,12 @@ function buildSpread(listing, index, total) {
         </button>
     `).join('');
     const titleClass = listing.title.length > 38 ? ' t-tight' : '';
-    const sourceLinks = listing.sources.map(item => `
-        <a href="${item.sourceUrl}" target="_blank" rel="noopener">
-            <strong>${item.sourceName}</strong>
-            <span>${displayText(item.sourceStatus)} · ${displayText(item.licenseBasis)}</span>
-        </a>
-    `).join('');
     const sourceSummary = listing.sources.length > 1
         ? `${listing.sources.length} retained source links`
         : source.attributionLabel;
+    const originalListingUrl = listing.sources.find(item => item.sourceUrl)?.sourceUrl
+        || listing.inquiryActions.find(action => action.url)?.url
+        || null;
 
     return `
     <article class="spread" data-index="${index}" id="${listing.id}" aria-label="${listing.title}">
@@ -385,7 +388,7 @@ function buildSpread(listing, index, total) {
                     ${listing.title}
                     <span>${listing.location.display}</span>
                 </h2>
-                <p class="destination-description">${listing.summary}</p>
+                ${listing.summary ? `<p class="destination-description">${listing.summary}</p>` : ''}
 
                 <div class="status-row">
                     <span class="price-label ${priceClass}">${formatPrice(listing)}</span>
@@ -425,21 +428,16 @@ function buildSpread(listing, index, total) {
                             <div>
                                 <h3>Map Context</h3>
                                 <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
-                                <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">${listing.googlePlace ? 'Open verified Google place' : 'Open approximate map'}</a>
+                                <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open in Google Maps</a>
                             </div>
                             <div>
                                 <h3>Provenance</h3>
                                 <p>${sourceSummary}. Last checked ${formatDate(listing.provenance.lastCheckedAt)}. ${listing.provenance.notes}</p>
-                                <a class="text-link" href="${source.sourceUrl}" target="_blank" rel="noopener">Original listing</a>
                             </div>
                         </div>
 
-                        <div class="source-box">
-                            ${sourceLinks}
-                        </div>
-
                         <div class="action-row">
-                            ${listing.inquiryActions.map(action => `<a class="action-btn" href="${action.url}" target="_blank" rel="noopener">${action.label}</a>`).join('')}
+                            ${originalListingUrl ? `<a class="action-btn" href="${originalListingUrl}" target="_blank" rel="noopener">Original listing</a>` : ''}
                             <button class="action-btn secondary share-dest-btn" type="button" data-dest-index="${index}">Share</button>
                         </div>
                     </div>
@@ -545,7 +543,6 @@ async function hydrateGooglePlacePhoto(spread, listing) {
         }
 
         const note = document.createElement('span');
-        note.append(document.createTextNode('Live Places API image · Not stored in this catalogue · '));
         for (const [index, legal] of [['Terms', '/terms.html'], ['Privacy', '/privacy.html']].entries()) {
             if (index) note.append(document.createTextNode(' · '));
             const legalLink = document.createElement('a');
