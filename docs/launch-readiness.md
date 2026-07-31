@@ -6,7 +6,7 @@ Scope: Italian Castles for Sale marketplace MVP at `/`.
 
 ## Summary
 
-Status: pass.
+Status: release candidate passed locally; production rollout awaits merge of PER-149.
 
 The marketplace is expected to launch as a static Vite build with manual/link-only castle inventory, visible source attribution, source availability notes, stale/removed labels, last-checked timestamps, provenance notes, and source inquiry links.
 
@@ -14,6 +14,7 @@ The marketplace is expected to launch as a static Vite build with manual/link-on
 
 ```bash
 npm run inventory:refresh
+npm run qa:launch
 npm run build
 npm audit --omit=dev
 npm audit
@@ -22,6 +23,7 @@ npm audit
 Results on 2026-07-31:
 
 - `npm run inventory:refresh` passed and wrote 108 canonical listings from 121 source records, including 104 active castle listings after dedupe.
+- `npm run qa:launch` passed the inventory threshold, uniqueness, source/provenance, Masserias-source, image-rights, exact placeholder-label, and canonical-domain checks.
 - `npm run build` passed with Vite 8.2.0 and generated `dist/index.html`, `dist/admin.html`, and the city HTML copies.
 - `npm audit --omit=dev` passed with 0 vulnerabilities.
 - `npm audit` passed with 0 vulnerabilities after the compatible Vite/PostCSS lockfile update.
@@ -33,6 +35,20 @@ Built size evidence:
 - Main CSS bundle: 16 KB on disk, 12.95 KB build output, 3.39 KB gzip.
 - Main JS bundle: 36 KB on disk, 36.83 KB build output, 9.53 KB gzip.
 - `public/og/cover.jpg`: 172 KB.
+
+## PER-149 Final QA Evidence
+
+- Repository separation: Git remote is `https://github.com/prodigalson/italian-castles-marketplace`; no Amo Dove Andiamo files or deployment settings were changed.
+- Vercel separation: project `prodigalsons-projects/italian-castles-marketplace` (`prj_YZLhXSa3aXrqJTl8b87bnV6xzbt8`) owns `castle.chingularity.com`. The latest pre-PER-149 production deployment observed was `dpl_387wFAkQmmmyn8BqpkB9nHurJoCr`, status Ready, with the castle custom domain and project aliases attached.
+- Domain health: `https://castle.chingularity.com/` returned HTTP 200 with successful TLS verification and no redirect. It served the castle marketplace, and a deep link to `salento-masseria-retreat` loaded the Masserias detail flow without console errors.
+- Amo preservation: `https://amo.chingularity.com/` returned HTTP 200 with successful TLS verification and served `Amo Dove Andiamo? | Milan Date Spots`, confirming it remains the original separate project. Its existing missing `/favicon.ico` request returns 404; this repo does not own that asset and the application/API requests tested returned 200.
+- Local production preview passed at `375x812`, `768x1024`, and `1280x720` with no horizontal overflow or console errors. The first castle, the 100th active expanded-inventory castle, and a Masserias deep link all rendered source links, provenance, and the exact placeholder label.
+- Inventory verification: 108 unique canonical listings, including 104 active castles after dedupe and 2 active Puglia masserias. All listing source URLs, attribution, raw payload references, last-checked values, provenance notes, and inquiry actions passed validation.
+- Source transparency: all 17 source status records passed validation, including all 10 required Masserias sources. Permission, terms, robots, and fallback evidence remains visible for unavailable sources.
+- Image verification: no current source record grants copied property-photo display rights. All 108 listings therefore use owned local editorial illustrations, not remote stock or source photos. Every image records `editorial_placeholder`, credit, owned rights basis, and a rights note, and the UI visibly renders exactly `Editorial placeholder images.`
+- SEO/social verification: canonical, Open Graph URL/image, Twitter image, and JSON-LD production URLs now use `https://castle.chingularity.com/`; the legacy Vercel URL is rejected by `npm run qa:launch`.
+
+The live production deployment observed during QA still contained the previous singular placeholder wording and legacy canonical metadata. Those two findings are fixed in PER-149 and must be verified again on `castle.chingularity.com` after this change is reviewed, merged, and Vercel promotes the new production deployment.
 
 ## QA Evidence
 
@@ -74,4 +90,4 @@ Trust and source transparency:
 - Inventory is not a live broker feed. It is a compliant link-only/manual fixture.
 - JamesEdition card-snapshot records link back to original listing pages, preserve high-level card facts only, and retain `raw_payload_ref` pointers into the committed manual-review snapshot; richer detail-page ingestion still needs partner/API or source-specific permission review.
 - Castleist, ImmobiliareItaliano, Italy Luxury Property for Sale, Tranio, Sotheby's Italy, and Le Figaro Properties require written permission, a partner feed, or additional source review before richer ingestion.
-- Placeholder editorial images are not copied from listing sources and should be replaced only with licensed media.
+- No actual-property photos are displayed because the current link-only sources do not grant reuse rights. Owned editorial substitutes are explicitly labelled; replace them only with actual-property media carrying documented partner, source, or owned display rights.

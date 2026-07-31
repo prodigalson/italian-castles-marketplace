@@ -76,6 +76,7 @@ Transparent fallback remains in place for sources where richer ingestion is unav
 - `pricing.display` must be `asking_price`, `price_on_request`, `range`, `unknown`, or `sold_removed`. If a source says "price on request", keep `amount` null and set `price_on_request` true.
 - Location may be approximate. Store the source's precision in `location.precision` and do not increase precision beyond what the source published or licensed.
 - Images require explicit `rights_basis`. If rights are unclear, keep only source-page thumbnails where linking/display is permitted or omit images and rely on click-through.
+- Images also require a `depiction_type`. Use `actual_property` only with documented display rights. Otherwise use owned editorial artwork with `depiction_type: editorial_placeholder`, a rights note, and the exact visible label `Editorial placeholder images.` Never imply that stock, unrelated, representative, or generated artwork depicts the listed property.
 - Inquiry actions can be `source_link`, `agent_email`, `agent_phone`, `contact_form`, or `partner_inquiry`. Do not expose scraped private contact data unless licensed and intentionally published for that purpose.
 
 ## Deterministic Deduplication

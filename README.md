@@ -72,6 +72,7 @@ Launch-readiness evidence is tracked in `docs/launch-readiness.md`. Before launc
 
 ```bash
 npm run inventory:refresh
+npm run qa:launch
 npm run build
 ```
 
@@ -81,3 +82,7 @@ Then verify the built app in desktop and mobile widths, including:
 - Source attribution, stale/removed labels, last-checked time, provenance text, and inquiry actions.
 - SEO metadata, canonical URL, Open Graph/Twitter preview tags, `robots.txt`, and structured data.
 - Keyboard navigation, focus states, form labels, responsive layout, and reduced-motion behavior.
+
+## Property Image Policy
+
+An image may be presented as the listed property only when its record identifies it as `actual_property` and documents partner, source, or owned display rights. The current link-only inventory does not have those permissions, so every listing uses owned local editorial artwork instead of copied or hotlinked listing photos. Each substitute is visibly labelled exactly `Editorial placeholder images.` and records its credit, rights basis, and rights note. Run `npm run qa:launch` to enforce this contract across the generated inventory.
