@@ -228,10 +228,6 @@ function formatPrice(listing) {
     }).format(listing.pricing.amount).replace('EUR', 'EUR ');
 }
 
-function formatDate(value) {
-    return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(new Date(value));
-}
-
 function displayText(value) {
     return String(value).replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
 }
@@ -348,7 +344,6 @@ function buildSourceCoverage() {
 
 function buildSpread(listing, index, total) {
     const section = sections[listing.assetClass] || activeSection();
-    const source = primarySource(listing);
     const statusClass = listing.status === 'active' ? 'status-active' : listing.status === 'stale' ? 'status-stale' : 'status-removed';
     const priceClass = listing.pricing.priceOnRequest ? 'price-request' : 'price-asking';
     const images = listing.images.slice(0, 3);
@@ -358,9 +353,6 @@ function buildSpread(listing, index, total) {
         </button>
     `).join('');
     const titleClass = listing.title.length > 38 ? ' t-tight' : '';
-    const sourceSummary = listing.sources.length > 1
-        ? `${listing.sources.length} retained source links`
-        : source.attributionLabel;
     const originalListingUrl = listing.sources.find(item => item.sourceUrl)?.sourceUrl
         || listing.inquiryActions.find(action => action.url)?.url
         || null;
@@ -429,10 +421,6 @@ function buildSpread(listing, index, total) {
                                 <h3>Map Context</h3>
                                 <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
                                 <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open in Google Maps</a>
-                            </div>
-                            <div>
-                                <h3>Provenance</h3>
-                                <p>${sourceSummary}. Last checked ${formatDate(listing.provenance.lastCheckedAt)}. ${listing.provenance.notes}</p>
                             </div>
                         </div>
 
