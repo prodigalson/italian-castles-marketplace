@@ -7,14 +7,14 @@ import { containsSourceBrand, customerFacingTitle } from './customer-facing-titl
 const REQUIRED_PLACEHOLDER_LABEL = 'Editorial placeholder images.';
 const CANONICAL_URL = 'https://castle.chingularity.com/';
 
-const [listings, sources, siteImages, masseriaReview, html, mainSource, socialSource, socialOutput] = await Promise.all([
+const [listings, sources, siteImages, masseriaReview, html, mainSource, socialGenerator, socialOutput] = await Promise.all([
     readJson('data/castle-listings.json'),
     readJson('data/castle-source-status.json'),
     readJson('data/site-image-assets.json'),
     readJson('data/manual-review/jamesedition/masseria-property-url-review.json'),
     readFile('index.html', 'utf8'),
     readFile('main.js', 'utf8'),
-    readFile('assets/site-social-preview.svg', 'utf8'),
+    readFile('scripts/generate-site-images.mjs', 'utf8'),
     readFile('public/og/cover.png'),
 ]);
 const socialMetadata = await sharp(socialOutput).metadata();
@@ -171,15 +171,19 @@ const masseriaCoverMetadata = siteSourceMetadata[siteImages.indexOf(masseriaCove
 check(`${masseriaCoverMetadata?.width}x${masseriaCoverMetadata?.height}` === masseriaCoverImage?.delivered_dimensions, 'Masseria cover dimensions do not match recorded provenance.');
 check(masseriaCoverMetadata?.width >= 2560, 'Masseria cover must be delivered at 2560px or wider.');
 check(mainSource.includes('data-section-cover') && html.includes('data-section-cover="masseria"'), 'The cover hero does not swap with the selected section.');
-check(socialImage?.depiction_type === 'editorial_placeholder', 'Social preview must remain an explicit editorial placeholder.');
-check(socialImage?.display_label === REQUIRED_PLACEHOLDER_LABEL, `Social preview label must be exactly “${REQUIRED_PLACEHOLDER_LABEL}”`);
-check(socialImage?.rights_basis === 'owned', 'Social preview must retain owned rights provenance.');
-const socialSourceContent = siteSourceContents[siteImages.indexOf(socialImage)].toString('utf8');
-check(socialSourceContent.includes('<svg') && !socialSourceContent.includes('Amo Dove Andiamo'), 'Social source is not verified castle-marketplace vector artwork.');
+
+check(socialImage?.depiction_type === 'editorial_landmark', 'Social preview must be registered as an editorial landmark photograph.');
+check(socialImage?.display_label === 'Editorial hero, not a listed property.', 'Social preview must explicitly state that it is not a listed property.');
+check(socialImage?.rights_basis === 'CC BY-SA 4.0' && isHttpUrl(socialImage?.license_url), 'Social preview must record its reusable license.');
+check(socialImage?.source_asset === coverImage?.source_asset, 'Social preview must be generated from the registered marketplace cover photograph.');
+check(isHttpUrl(socialImage?.source_page_url) && isHttpUrl(socialImage?.source_download_url), 'Social preview must record source-page and download provenance.');
 check(html.includes(`${CANONICAL_URL.slice(0, -1)}${socialImage?.url}`), 'Social metadata does not use its registered marketplace asset.');
 check(html.includes('<meta property="og:image:type" content="image/png">'), 'Social preview MIME metadata does not match the PNG asset.');
-check(socialSource.includes('Browse Italian Castles for Sale') && socialSource.includes(`>${REQUIRED_PLACEHOLDER_LABEL}</text>`), 'Social preview source must visibly render the exact placeholder label.');
-check(!socialSource.includes('Amo Dove Andiamo'), 'Social preview source contains unrelated Amo branding.');
+// The card composites text over a BY-SA photograph, so it is an adaptation: the credit and
+// license have to be legible in the image itself, not only on the page that links to it.
+check(socialGenerator.includes(socialImage?.credit) && socialGenerator.includes(socialImage?.rights_basis) && socialGenerator.includes('Not a listed property.'),
+    'The share card must render its photographer credit, license and not-a-listed-property notice into the image.');
+check(!socialGenerator.includes('@font-face'), 'The share card must use pre-converted title outlines, not a runtime font lookup.');
 check(socialMetadata.width === 1200 && socialMetadata.height === 630 && socialMetadata.format === 'png', 'Generated social preview must be a 1200x630 PNG.');
 check(sha256(socialOutput) === socialImage?.generated_sha256, 'Generated social preview does not match its recorded provenance hash.');
 
