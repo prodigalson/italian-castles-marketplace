@@ -725,6 +725,15 @@ function updateSectionChrome() {
     document.body.dataset.section = section.key;
     document.querySelectorAll('[data-section-copy="title"]').forEach(el => { el.textContent = section.title; });
     document.querySelectorAll('[data-section-copy="description"]').forEach(el => { el.textContent = section.description; });
+    document.querySelectorAll('.cover-bg [data-section-cover]').forEach(img => {
+        img.classList.toggle('is-active', img.dataset.sectionCover === section.key);
+    });
+    // The castle credit is the unmarked default; every other section marks its own.
+    document.querySelectorAll('.cover-image-credit').forEach(credit => {
+        const creditSection = credit.dataset.sectionCredit || 'castle';
+        credit.hidden = creditSection !== section.key;
+        if (credit.hidden) credit.open = false;
+    });
     document.querySelectorAll('[data-section-button]').forEach(btn => {
         const active = btn.dataset.sectionButton === section.key;
         btn.classList.toggle('active', active);

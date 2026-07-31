@@ -18,6 +18,24 @@
     "rights_note": "The copyright holder published the photograph under CC BY-SA 4.0. The marketplace serves a local 3840×2560 Wikimedia derivative and applies a tonal overlay and responsive CSS crop; attribution and license links are displayed with the image. This landmark photograph is not represented as a listed property."
   },
   {
+    "id": "masseria-cover",
+    "usage": "masseria_cover",
+    "url": "/images/masseria-spina-hero.jpg",
+    "source_asset": "public/images/masseria-spina-hero.jpg",
+    "source_sha256": "e19d5f40a3102761d7251003468660a600c830ea93c60ffa41acc87954cf228c",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Monopoli_-_Masseria_Spina_-_2023-09-24_14-31-05_008.jpg",
+    "source_download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Monopoli%20-%20Masseria%20Spina%20-%202023-09-24%2014-31-05%20008.jpg",
+    "source_original_dimensions": "2946x1959",
+    "delivered_dimensions": "2946x1959",
+    "depiction_type": "editorial_landmark",
+    "depicts": "Masseria Spina, Monopoli, Puglia, Italy",
+    "display_label": "Editorial hero, not a listed property.",
+    "credit": "Acquario51",
+    "rights_basis": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rights_note": "The copyright holder published the photograph under CC BY-SA 4.0. The marketplace serves the unmodified Wikimedia original and applies a tonal overlay and responsive CSS crop; attribution and license links are displayed with the image. This landmark masseria is not represented as a listed property."
+  },
+  {
     "id": "marketplace-social-preview",
     "usage": "social_preview",
     "url": "/og/cover.png",
