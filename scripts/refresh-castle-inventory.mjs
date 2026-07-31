@@ -210,25 +210,6 @@ const SOURCES = {
 const JAMESEDITION_CARD_LAST_CHECKED_AT = '2026-07-31T00:00:00.000Z';
 const JAMESEDITION_SNAPSHOT_REF = 'data/manual-review/jamesedition/castle-card-snapshot.json';
 
-const TRAVEL_ACCESS_PROFILES = {
-    'chianti-castle-estate': {
-        train_station: verifiedFacility('Siena railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni/siena.html'),
-        airport: verifiedFacility('Florence Airport (Amerigo Vespucci)', 'Toscana Aeroporti', 'https://www.aeroporto.firenze.it/en/'),
-    },
-    'piedmont-vineyard-castello': {
-        train_station: verifiedFacility('Cuneo railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni.html'),
-        airport: verifiedFacility('Cuneo International Airport', 'Aeroporto di Cuneo', 'https://www.aeroporto.cuneo.it/'),
-    },
-    'valle-itria-masseria-estate': {
-        train_station: verifiedFacility('Ostuni railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni.html'),
-        airport: verifiedFacility('Brindisi Airport (Aeroporto del Salento)', 'Aeroporti di Puglia', 'https://www.aeroportidipuglia.it/brindisi/'),
-    },
-    'salento-masseria-retreat': {
-        train_station: verifiedFacility('Lecce railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni/lecce.html'),
-        airport: verifiedFacility('Brindisi Airport (Aeroporto del Salento)', 'Aeroporti di Puglia', 'https://www.aeroportidipuglia.it/brindisi/'),
-    },
-};
-
 const jamesEditionSnapshot = JSON.parse(await readFile(JAMESEDITION_SNAPSHOT_REF, 'utf8'));
 const JAMESEDITION_CASTLE_CARD_RECORDS = buildJamesEditionCastleCards(jamesEditionSnapshot.records);
 
@@ -656,19 +637,6 @@ function mapContext(record) {
     };
 }
 
-function verifiedFacility(name, sourceName, sourceUrl) {
-    return {
-        status: 'verified_facility',
-        facility_name: name,
-        distance_km: null,
-        travel_time_minutes: null,
-        source_name: sourceName,
-        source_url: sourceUrl,
-        last_checked_at: '2026-07-31T00:00:00.000Z',
-        note: 'Facility name verified from the official operator. Distance and travel time are withheld because the listing location is approximate.',
-    };
-}
-
 function unknownFacility() {
     return {
         status: 'unknown_not_verified',
@@ -677,16 +645,17 @@ function unknownFacility() {
         travel_time_minutes: null,
         source_name: null,
         source_url: null,
+        estimate_method: null,
+        estimate_source_url: null,
         last_checked_at: REFRESHED_AT,
         note: 'No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address.',
     };
 }
 
-function travelAccess(record) {
-    const profile = TRAVEL_ACCESS_PROFILES[record.canonical_group] || {};
+function travelAccess() {
     return {
-        train_station: profile.train_station || unknownFacility(),
-        airport: profile.airport || unknownFacility(),
+        train_station: unknownFacility(),
+        airport: unknownFacility(),
         uber: {
             status: 'check_app',
             source_name: 'Uber city availability directory',
@@ -810,9 +779,48 @@ function validateListing(listing) {
     if (!listing.sources.length) throw new Error(`${listing.id} has no sources`);
     if (!listing.inquiry_actions.length) throw new Error(`${listing.id} has no inquiry actions`);
     if (!listing.travel_access?.train_station || !listing.travel_access?.airport || !listing.travel_access?.uber) throw new Error(`${listing.id} has incomplete travel access data`);
+    validateTravelAccess(listing);
     for (const source of listing.sources) {
         if (!SOURCES[source.source_key]) throw new Error(`${listing.id} unknown source ${source.source_key}`);
         if (!source.source_url.startsWith('http')) throw new Error(`${listing.id} invalid source URL`);
+    }
+}
+
+function isHttpUrl(value) {
+    try {
+        return ['http:', 'https:'].includes(new URL(value).protocol);
+    } catch {
+        return false;
+    }
+}
+
+function validateTravelAccess(listing) {
+    const approximateLocation = !['exact', 'street'].includes(listing.location.precision);
+    for (const [kind, facility] of Object.entries({ train_station: listing.travel_access.train_station, airport: listing.travel_access.airport })) {
+        if (!facility.last_checked_at || !facility.note) throw new Error(`${listing.id} ${kind} lacks check metadata`);
+        const hasEstimate = facility.distance_km !== null || facility.travel_time_minutes !== null;
+        if (facility.distance_km !== null && facility.travel_time_minutes !== null) throw new Error(`${listing.id} ${kind} mixes distance and travel-time estimates`);
+        if (approximateLocation && hasEstimate) throw new Error(`${listing.id} ${kind} estimates require exact or street-level location precision`);
+
+        if (facility.status === 'unknown_not_verified') {
+            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'estimate_method', 'estimate_source_url'];
+            if (factualFields.some(field => facility[field] !== null)) throw new Error(`${listing.id} unknown ${kind} contains inferred facts`);
+        } else if (facility.status === 'verified_facility') {
+            if (!facility.facility_name || !facility.source_name || !isHttpUrl(facility.source_url)) throw new Error(`${listing.id} verified ${kind} lacks HTTP(S) source metadata`);
+            if (hasEstimate && (!facility.estimate_method || !isHttpUrl(facility.estimate_source_url))) throw new Error(`${listing.id} ${kind} estimate lacks method or HTTP(S) evidence`);
+            if (!hasEstimate && (facility.estimate_method !== null || facility.estimate_source_url !== null)) throw new Error(`${listing.id} ${kind} has estimate evidence without an estimate`);
+        } else {
+            throw new Error(`${listing.id} has unsupported ${kind} status`);
+        }
+    }
+
+    const uber = listing.travel_access.uber;
+    const uberStatuses = ['available', 'limited_varies', 'not_available', 'check_app', 'unknown_not_verified'];
+    if (!uberStatuses.includes(uber.status) || !uber.last_checked_at || !uber.note) throw new Error(`${listing.id} has invalid Uber metadata`);
+    if (uber.status === 'unknown_not_verified') {
+        if (uber.source_name !== null || uber.source_url !== null) throw new Error(`${listing.id} unknown Uber status contains sourced claims`);
+    } else if (!uber.source_name || !isHttpUrl(uber.source_url)) {
+        throw new Error(`${listing.id} Uber status lacks HTTP(S) source metadata`);
     }
 }
 

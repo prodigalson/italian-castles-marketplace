@@ -172,7 +172,8 @@
             },
             "source_url": {
               "type": ["string", "null"],
-              "format": "uri"
+              "format": "uri",
+              "pattern": "^https?://"
             },
             "last_checked_at": {
               "type": "string",
@@ -182,7 +183,27 @@
               "type": "string",
               "minLength": 1
             }
-          }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": { "status": { "const": "unknown_not_verified" } },
+                "required": ["status"]
+              },
+              "then": {
+                "properties": {
+                  "source_name": { "const": null },
+                  "source_url": { "const": null }
+                }
+              },
+              "else": {
+                "properties": {
+                  "source_name": { "type": "string", "minLength": 1 },
+                  "source_url": { "type": "string", "pattern": "^https?://" }
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -396,11 +417,50 @@
       }
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "location": {
+            "properties": {
+              "precision": { "enum": ["municipality", "province", "region", "country", "unknown"] }
+            },
+            "required": ["precision"]
+          }
+        },
+        "required": ["location"]
+      },
+      "then": {
+        "properties": {
+          "travel_access": {
+            "properties": {
+              "train_station": {
+                "properties": {
+                  "distance_km": { "const": null },
+                  "travel_time_minutes": { "const": null },
+                  "estimate_method": { "const": null },
+                  "estimate_source_url": { "const": null }
+                }
+              },
+              "airport": {
+                "properties": {
+                  "distance_km": { "const": null },
+                  "travel_time_minutes": { "const": null },
+                  "estimate_method": { "const": null },
+                  "estimate_source_url": { "const": null }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
   "$defs": {
     "travelFacility": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "facility_name", "distance_km", "travel_time_minutes", "source_name", "source_url", "last_checked_at", "note"],
+      "required": ["status", "facility_name", "distance_km", "travel_time_minutes", "source_name", "source_url", "estimate_method", "estimate_source_url", "last_checked_at", "note"],
       "properties": {
         "status": {
           "type": "string",
@@ -422,7 +482,16 @@
         },
         "source_url": {
           "type": ["string", "null"],
-          "format": "uri"
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "estimate_method": {
+          "type": ["string", "null"]
+        },
+        "estimate_source_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "pattern": "^https?://"
         },
         "last_checked_at": {
           "type": "string",
@@ -432,7 +501,62 @@
           "type": "string",
           "minLength": 1
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "unknown_not_verified" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "facility_name": { "const": null },
+              "distance_km": { "const": null },
+              "travel_time_minutes": { "const": null },
+              "source_name": { "const": null },
+              "source_url": { "const": null },
+              "estimate_method": { "const": null },
+              "estimate_source_url": { "const": null }
+            }
+          },
+          "else": {
+            "properties": {
+              "facility_name": { "type": "string", "minLength": 1 },
+              "source_name": { "type": "string", "minLength": 1 },
+              "source_url": { "type": "string", "pattern": "^https?://" }
+            }
+          }
+        },
+        {
+          "not": {
+            "properties": {
+              "distance_km": { "type": "number" },
+              "travel_time_minutes": { "type": "integer" }
+            },
+            "required": ["distance_km", "travel_time_minutes"]
+          }
+        },
+        {
+          "if": {
+            "anyOf": [
+              { "properties": { "distance_km": { "type": "number" } }, "required": ["distance_km"] },
+              { "properties": { "travel_time_minutes": { "type": "integer" } }, "required": ["travel_time_minutes"] }
+            ]
+          },
+          "then": {
+            "properties": {
+              "estimate_method": { "type": "string", "minLength": 1 },
+              "estimate_source_url": { "type": "string", "pattern": "^https?://" }
+            }
+          },
+          "else": {
+            "properties": {
+              "estimate_method": { "const": null },
+              "estimate_source_url": { "const": null }
+            }
+          }
+        }
+      ]
     },
     "measurement": {
       "type": ["object", "null"],

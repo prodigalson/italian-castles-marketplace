@@ -6,7 +6,7 @@
     "dev": "vite",
     "assets:generate": "node scripts/generate-site-images.mjs",
     "inventory:refresh": "node scripts/refresh-castle-inventory.mjs",
-    "qa:launch": "node scripts/verify-launch.mjs",
+    "qa:launch": "node scripts/verify-launch.mjs && node scripts/verify-travel-access.mjs",
     "qa:dist": "node scripts/verify-dist.mjs",
     "build": "vite build && npm run qa:dist",
     "preview": "vite preview"

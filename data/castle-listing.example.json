@@ -38,6 +38,8 @@
       "travel_time_minutes": null,
       "source_name": null,
       "source_url": null,
+      "estimate_method": null,
+      "estimate_source_url": null,
       "last_checked_at": "2026-07-31T00:00:00Z",
       "note": "No compliant, property-specific facility match has been verified."
     },
@@ -48,6 +50,8 @@
       "travel_time_minutes": null,
       "source_name": null,
       "source_url": null,
+      "estimate_method": null,
+      "estimate_source_url": null,
       "last_checked_at": "2026-07-31T00:00:00Z",
       "note": "No compliant, property-specific facility match has been verified."
     },

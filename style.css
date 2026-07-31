@@ -1102,8 +1102,12 @@ a {
         padding: 1rem;
     }
 
-    .nav-arrow.visible {
-        display: none;
+    .page-left > .nav-arrow {
+        position: absolute;
+        top: 50%;
+        bottom: auto;
+        display: flex;
+        transform: translateY(-50%);
     }
 
     .info-layout {

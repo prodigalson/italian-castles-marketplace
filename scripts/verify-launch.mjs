@@ -36,19 +36,36 @@ for (const listing of listings) {
     for (const [kind, facility] of Object.entries({ train_station: listing.travel_access?.train_station, airport: listing.travel_access?.airport })) {
         if (!facility) continue;
         check(Boolean(facility.last_checked_at && facility.note), `${listing.id}: ${kind} lacks check date or verification note.`);
+        const hasDistance = facility.distance_km !== null;
+        const hasTravelTime = facility.travel_time_minutes !== null;
+        const hasEstimate = hasDistance || hasTravelTime;
+        const approximateLocation = !['exact', 'street'].includes(listing.location.precision);
+
+        check(!(hasDistance && hasTravelTime), `${listing.id}: ${kind} mixes distance and travel-time estimates.`);
+        check(!(approximateLocation && hasEstimate), `${listing.id}: ${kind} estimate requires exact or street-level location precision.`);
         if (facility.status === 'verified_facility') {
             check(Boolean(facility.facility_name && facility.source_name && isHttpUrl(facility.source_url)), `${listing.id}: verified ${kind} lacks a facility name or source.`);
+            if (hasEstimate) {
+                check(Boolean(facility.estimate_method && isHttpUrl(facility.estimate_source_url)), `${listing.id}: ${kind} estimate lacks method or HTTP(S) evidence.`);
+            } else {
+                check(facility.estimate_method === null && facility.estimate_source_url === null, `${listing.id}: ${kind} carries estimate evidence without an estimate.`);
+            }
         } else {
             check(facility.status === 'unknown_not_verified', `${listing.id}: unsupported ${kind} verification status.`);
-            check(facility.facility_name === null && facility.distance_km === null && facility.travel_time_minutes === null, `${listing.id}: unverified ${kind} contains inferred facts.`);
+            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'estimate_method', 'estimate_source_url'];
+            check(factualFields.every(field => facility[field] === null), `${listing.id}: unverified ${kind} contains inferred facts.`);
         }
-        check(facility.distance_km === null || facility.travel_time_minutes === null, `${listing.id}: ${kind} should not mix distance and travel-time estimates.`);
     }
 
     const uber = listing.travel_access?.uber;
     if (uber) {
         check(['available', 'limited_varies', 'not_available', 'check_app', 'unknown_not_verified'].includes(uber.status), `${listing.id}: unsupported Uber status.`);
         check(Boolean(uber.last_checked_at && uber.note), `${listing.id}: Uber status lacks check date or caveat.`);
+        if (uber.status === 'unknown_not_verified') {
+            check(uber.source_name === null && uber.source_url === null, `${listing.id}: unknown Uber status contains sourced claims.`);
+        } else {
+            check(Boolean(uber.source_name && isHttpUrl(uber.source_url)), `${listing.id}: Uber status lacks HTTP(S) source metadata.`);
+        }
     }
 
     for (const source of listing.sources || []) {

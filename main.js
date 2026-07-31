@@ -1,5 +1,6 @@
 import canonicalListings from './data/castle-listings.json';
 import sourceStatuses from './data/castle-source-status.json';
+import { escapeHtml, safeHttpUrl } from './travel-access.js';
 
 const listings = canonicalListings.map(normalizeListing);
 
@@ -239,9 +240,10 @@ function facilityDetail(facility) {
 }
 
 function accessMeta(item) {
-    const checked = item.lastCheckedAt ? `Checked ${formatDate(item.lastCheckedAt)}` : 'Check date unavailable';
-    if (!item.sourceName || !item.sourceUrl) return `<span>${checked} · No verified source</span>`;
-    return `<a href="${item.sourceUrl}" target="_blank" rel="noopener">${item.sourceName}</a><span>${checked}</span>`;
+    const checked = escapeHtml(item.lastCheckedAt ? `Checked ${formatDate(item.lastCheckedAt)}` : 'Check date unavailable');
+    const sourceUrl = safeHttpUrl(item.sourceUrl);
+    if (!item.sourceName || !sourceUrl) return `<span>${checked} · No verified source</span>`;
+    return `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(item.sourceName)}</a><span>${checked}</span>`;
 }
 
 function uberStatusLabel(status) {
@@ -256,27 +258,28 @@ function uberStatusLabel(status) {
 
 function buildTravelAccess(listing) {
     const access = listing.travelAccess;
+    const panelId = `travel-access-${escapeHtml(listing.id)}`;
     return `
-        <aside class="travel-access" aria-labelledby="travel-access-${listing.id}">
+        <aside class="travel-access" aria-labelledby="${panelId}">
             <div class="travel-access-heading">
                 <p>Getting there</p>
-                <h3 id="travel-access-${listing.id}">Travel &amp; access</h3>
+                <h3 id="${panelId}">Travel &amp; access</h3>
             </div>
             <dl class="travel-access-list">
                 <div class="travel-access-item">
                     <dt>Closest train station</dt>
-                    <dd><strong>${facilityDetail(access.trainStation)}</strong>${accessMeta(access.trainStation)}</dd>
-                    <p>${access.trainStation.note}</p>
+                    <dd><strong>${escapeHtml(facilityDetail(access.trainStation))}</strong>${accessMeta(access.trainStation)}</dd>
+                    <p>${escapeHtml(access.trainStation.note)}</p>
                 </div>
                 <div class="travel-access-item">
                     <dt>Closest airport</dt>
-                    <dd><strong>${facilityDetail(access.airport)}</strong>${accessMeta(access.airport)}</dd>
-                    <p>${access.airport.note}</p>
+                    <dd><strong>${escapeHtml(facilityDetail(access.airport))}</strong>${accessMeta(access.airport)}</dd>
+                    <p>${escapeHtml(access.airport.note)}</p>
                 </div>
                 <div class="travel-access-item">
                     <dt>Uber</dt>
-                    <dd><strong>${uberStatusLabel(access.uber.status)}</strong>${accessMeta(access.uber)}</dd>
-                    <p>${access.uber.note}</p>
+                    <dd><strong>${escapeHtml(uberStatusLabel(access.uber.status))}</strong>${accessMeta(access.uber)}</dd>
+                    <p>${escapeHtml(access.uber.note)}</p>
                 </div>
             </dl>
         </aside>`;
@@ -527,8 +530,18 @@ function renderWindow(centerIndex) {
     magazine.querySelectorAll('.spread').forEach(el => el.classList.remove('active'));
     const activeEl = magazine.querySelector(`.spread[data-index="${centerIndex}"]`);
     if (activeEl) activeEl.classList.add('active');
+    syncNavigationPlacement(activeEl);
     wireListingButtons();
     updateUrl();
+}
+
+function syncNavigationPlacement(activeSpread = magazine.querySelector('.spread.active')) {
+    const pageLeft = activeSpread?.querySelector('.page-left');
+    if (window.matchMedia('(max-width: 720px)').matches && pageLeft) {
+        pageLeft.append(navPrev, navNext);
+    } else {
+        document.querySelector('main').append(navPrev, navNext);
+    }
 }
 
 function renderMagazine(list) {
@@ -877,6 +890,7 @@ function init() {
     enterBtn.addEventListener('click', openMagazine);
     navPrev.addEventListener('click', goPrev);
     navNext.addEventListener('click', goNext);
+    window.addEventListener('resize', () => syncNavigationPlacement());
     document.getElementById('share-btn').addEventListener('click', () => shareListing());
     document.addEventListener('keydown', handleKey);
     document.addEventListener('wheel', handleWheel, { passive: false });
