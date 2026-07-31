@@ -2,10 +2,9 @@
 
 ## Reference Format Dependency
 
-The marketplace implementation now lives in this repository. The original
-`https://github.com/prodigalson/amodoveandiamo` project is only a historical
-format reference and must remain dedicated to the Amo Dove Andiamo date-spots
-site.
+The marketplace implementation now lives in this repository. The earlier
+date-spots app is only a historical format reference and must remain separate
+from this deployable source.
 
 Runtime access to the historical reference was verified on 2026-07-31 with
 `git ls-remote`; `main` resolved to
