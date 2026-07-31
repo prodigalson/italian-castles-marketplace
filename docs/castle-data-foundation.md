@@ -62,6 +62,12 @@ Every source adapter must emit raw source records into a staging area before nor
 
 Normalize source records into the canonical schema in `data/castle-listing.schema.json`. The schema includes `asset_class` (`castle` or `masseria`) so masserias and castles can coexist while retaining specific `property_type` values such as `castle`, `masseria`, `trullo`, or `farmhouse`. Validation failures must park the record for review; they must not silently drop unknown values or guess required fields.
 
+## Current Manual Inventory Snapshot
+
+The 2026-07-31 castle expansion uses the committed manual-review snapshot in `data/manual-review/jamesedition/castle-card-snapshot.json` as a JamesEdition category-card source fixture. JamesEdition exposed 229 Italy castle results in the reviewed category pages, and 104 snapshot rows retain stable original JamesEdition listing URLs. The refresh counts only rows with `original_listing_url`, which is sufficient to meet the 100-listing threshold without using blocked or permission-gated sources. The refresh keeps only high-level card facts needed for discovery and filtering: location, bedrooms, bathrooms, living area, broad asset type, source attribution, source status, last-checked time, and a JamesEdition listing link. Every generated JamesEdition card row keeps a `raw_payload_ref` back to its snapshot ID so provenance is auditable from the repo. It does not copy listing photos, long descriptions, seller contact data, hidden map endpoints, AJAX/feed responses, or inquiry flows.
+
+Transparent fallback remains in place for sources where richer ingestion is unavailable or non-compliant: those sources stay represented in `data/castle-source-status.json` as permission, terms, robots, or partner-feed gaps until authorized access is granted.
+
 ## Canonical Listing Rules
 
 - One canonical listing can have many `sources`. Source links are never collapsed or overwritten.

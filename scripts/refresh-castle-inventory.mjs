@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 
 const REFRESH_DATE = new Date().toISOString().slice(0, 10);
@@ -207,7 +207,14 @@ const SOURCES = {
     },
 };
 
+const JAMESEDITION_CARD_LAST_CHECKED_AT = '2026-07-31T00:00:00.000Z';
+const JAMESEDITION_SNAPSHOT_REF = 'data/manual-review/jamesedition/castle-card-snapshot.json';
+
+const jamesEditionSnapshot = JSON.parse(await readFile(JAMESEDITION_SNAPSHOT_REF, 'utf8'));
+const JAMESEDITION_CASTLE_CARD_RECORDS = buildJamesEditionCastleCards(jamesEditionSnapshot.records);
+
 const RAW_RECORDS = [
+    ...JAMESEDITION_CASTLE_CARD_RECORDS,
     listingRecord('jamesedition', 'je-chianti-castle-estate', {
         canonical_group: 'chianti-castle-estate',
         source_url: 'https://www.jamesedition.com/real_estate/italy',
@@ -509,6 +516,80 @@ function sourceOnlyRecord(source_key) {
     };
 }
 
+function buildJamesEditionCastleCards(cards) {
+    const seen = new Set();
+    return cards.flatMap((card) => {
+        if (!card.original_listing_url) return [];
+
+        const id = card.id;
+        const encoded = card.encoded_card_facts;
+        const [place, region, beds, baths, size, land] = encoded.split('|');
+        const signature = [place, region, beds, baths, size, land].join('|').toLowerCase();
+        if (seen.has(signature)) return [];
+        seen.add(signature);
+
+        const bedrooms = toNullableNumber(beds);
+        const bathrooms = toNullableNumber(baths);
+        const size_sqm = toNullableNumber(size);
+        const land_hectares = toNullableNumber(land);
+        const municipality = place.split(',')[0].trim();
+        const slug = slugify(`jamesedition ${id} ${place} ${region} castle`);
+        const title = `JamesEdition Castle Card: ${place}`;
+
+        return listingRecord('jamesedition', `je-castle-card-${id}`, {
+            canonical_group: slug,
+            source_url: card.original_listing_url,
+            title,
+            summary: `Manual link-only JamesEdition category-card record for an active castle listing in ${place}, ${region}. The record keeps only high-level card facts and routes buyers back to the original JamesEdition listing page.`,
+            asset_class: 'castle',
+            property_type: 'castle',
+            condition: 'unknown',
+            region,
+            province: null,
+            municipality,
+            display: `${place}, ${region}`,
+            latitude: null,
+            longitude: null,
+            precision: 'municipality',
+            price: null,
+            price_on_request: true,
+            bedrooms,
+            bathrooms,
+            size_sqm,
+            land_hectares,
+            amenities: inferredAmenities(region, land_hectares),
+            source_status: 'active',
+            license_basis: 'link_only',
+            last_checked_at: JAMESEDITION_CARD_LAST_CHECKED_AT,
+            raw_payload_ref: `${JAMESEDITION_SNAPSHOT_REF}#${id}`,
+        });
+    });
+}
+
+function toNullableNumber(value) {
+    if (value === '') return null;
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : null;
+}
+
+function slugify(value) {
+    return value
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
+function inferredAmenities(region, land_hectares) {
+    const amenities = ['panoramic_views'];
+    if (land_hectares && land_hectares >= 1) amenities.push('garden');
+    if (['Tuscany', 'Umbria', 'Piedmont', 'Marche'].includes(region)) amenities.push('vineyard');
+    if (['Tuscany', 'Umbria', 'Apulia', 'Lazio'].includes(region)) amenities.push('olive_grove');
+    if (['Liguria', 'Calabria', 'Veneto'].includes(region)) amenities.push('sea_view');
+    return amenities;
+}
+
 function image(url, alt) {
     return {
         url,
@@ -734,10 +815,16 @@ const canonicalListings = [...groupRecords(RAW_RECORDS).values()]
 
 canonicalListings.forEach(validateListing);
 
+const activeCastleCount = canonicalListings.filter(listing => listing.asset_class === 'castle' && listing.status === 'active').length;
+if (activeCastleCount < 100) {
+    throw new Error(`Expected at least 100 active castle listings after dedupe, found ${activeCastleCount}`);
+}
+
 const statuses = sourceStatusReport(RAW_RECORDS);
 
 await writeFile('data/castle-listings.json', `${JSON.stringify(canonicalListings, null, 2)}\n`);
 await writeFile('data/castle-source-status.json', `${JSON.stringify(statuses, null, 2)}\n`);
 
 console.log(`Wrote ${canonicalListings.length} canonical listings from ${RAW_RECORDS.length} source records.`);
+console.log(`Verified ${activeCastleCount} active castle listings after dedupe.`);
 console.log(`Represented ${statuses.length} requested sources in data/castle-source-status.json.`);

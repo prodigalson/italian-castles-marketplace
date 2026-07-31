@@ -1,0 +1,1163 @@
+{
+  "source_key": "jamesedition",
+  "source_name": "JamesEdition",
+  "reviewed_at": "2026-07-31T00:00:00.000Z",
+  "category_url": "https://www.jamesedition.com/real_estate/castle-italy",
+  "listing_count_seen": 229,
+  "compliance_basis": "manual/link-only high-level category-card facts with stable original JamesEdition listing URLs for counted rows; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied",
+  "records": [
+    {
+      "id": "p1-001",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/marsciano-italy/the-feudal-residence-with-vineyards-and-casale-perugia-umbria-17128301",
+      "encoded_card_facts": "Marsciano|Umbria|9|11|1575|76.6",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-002",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/salo-italy/villa-versine-historic-estate-on-lake-garda-with-an-olive-grove-and-development-potential-18399856",
+      "encoded_card_facts": "Salo|Lombardy|6|6|732|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-003",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/medieval-heritage-palazzo-with-tower-and-park-gaiole-in-chianti-tuscany-17713851",
+      "encoded_card_facts": "Gaiole in Chianti|Tuscany|7|9|798|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-004",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/pieve-santo-stefano-italy/prestigious-castle-with-a-private-hamlet-and-church-in-the-heart-of-tuscany-17682437",
+      "encoded_card_facts": "Pieve Santo Stefano|Tuscany|14|18|812|0.2175",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-005",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montalcino-italy/wonderful-castle-for-sale-in-montalcino-18432951",
+      "encoded_card_facts": "Montalcino|Tuscany|46|50|9500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-006",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montalto-dora-italy/medieval-castle-with-park-overlooking-canavese-lakes-17698652",
+      "encoded_card_facts": "Montalto Dora|Piedmont|11|13|2525|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-007",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/bollengo-italy/maestoso-castello-da-riscrivere-sulla-via-francigena-18390984",
+      "encoded_card_facts": "Bollengo|Piedmont||20|12388|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-008",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/firenze-italy/extraordinary-castle-with-a-view-of-florence-for-sale-in-tuscany-18432564",
+      "encoded_card_facts": "Settignano, Florence|Tuscany|21|24|3665|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-009",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montespertoli-italy/brunelleschi-castle-for-sale-near-florence-17775311",
+      "encoded_card_facts": "Montalbino, Montespertoli|Tuscany|15|20|35000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-010",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/talla-italy/borgo-dei-bizantini-17980316",
+      "encoded_card_facts": "Talla|Tuscany|25|25|2200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-011",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montespertoli-italy/period-castle-with-park-and-pool-in-chianti-south-of-florence-18355834",
+      "encoded_card_facts": "Montagnana - Baccaiano - Anselmo, Montespertoli|Tuscany|84|70|7000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-012",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/caselette-italy/historic-castle-with-monumental-park-on-the-outskirts-of-turin-18529554",
+      "encoded_card_facts": "Caselette|Piedmont|40|40|4000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-013",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castelnuovo-berardenga-italy/historic-102-1-hectare-wine-estate-with-villa-winery-and-restoration-potential-in-chianti-17285266",
+      "encoded_card_facts": "Castelnuovo Berardenga|Tuscany|5|5|4500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-014",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/spoleto-italy/medieval-castle-in-spoleto-17870567",
+      "encoded_card_facts": "Spoleto|Umbria|12|12|970|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-015",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/venezia-italy/private-octagon-in-the-venice-lagoon-18058792",
+      "encoded_card_facts": "Malamocco - Alberoni, Venice|Veneto|4|4|2450|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-016",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/barberino-di-mugello-italy/62-ha-estate-with-medieval-castle-for-sale-in-mugello-tuscany-18421489",
+      "encoded_card_facts": "Barberino di Mugello|Tuscany|60|40|5314|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-017",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/radda-in-chianti-italy/enchanting-castle-in-the-heart-of-chianti-18317109",
+      "encoded_card_facts": "Montefioralle, Greve in Chianti|Tuscany|||708|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-018",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/balzola-italy/designer-castle-overlooking-the-hills-of-monferrato-18185317",
+      "encoded_card_facts": "Balzola|Piedmont|7|6|662|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-019",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castelfiorentino-italy/castello-molineto-a-landmark-tuscan-castle-estate-dimore-by-camisa-17047119",
+      "encoded_card_facts": "Center, Castelfiorentino|Tuscany|52|45|34082|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-020",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/monguzzo-italy/unique-historic-residence-castle-with-120-000-sqm-park-and-breathtaking-views-17538796",
+      "encoded_card_facts": "Monguzzo|Lombardy|20|20|5000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-021",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/medieval-castle-in-the-heart-of-chianti-classico-with-pool-and-guesthouses-17562689",
+      "encoded_card_facts": "Gaiole in Chianti|Tuscany|8|10|1400|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-022",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/impruneta-italy/noble-castle-with-broad-park-near-florence-18188823",
+      "encoded_card_facts": "Center, Impruneta|Tuscany|15|12|1600|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-023",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castrocaro-terme-e-terra-del-sole-italy/old-castle-for-sale-on-emilia-romagna-s-hills-18432959",
+      "encoded_card_facts": "Terra del Sole|Emilia-Romagna|7|12|3300|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-024",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/mercenasco-italy/17th-century-castle-with-stables-for-sale-in-ivrea-in-piedmont-17361925",
+      "encoded_card_facts": "Mercenasco|Piedmont|5|5|2964|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-025",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/monteriggioni-italy/hamlet-for-sale-in-monteriggioni-17990100",
+      "encoded_card_facts": "Monteriggioni|Tuscany|11|12|854|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-026",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montemale-di-cuneo-italy/medieval-castle-with-centuries-old-park-on-cuneo-s-alps-18087474",
+      "encoded_card_facts": "Montemale di Cuneo|Piedmont|27|11|2700|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-027",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/monteriggioni-italy/prestigious-hamlet-for-sale-near-siena-18432406",
+      "encoded_card_facts": "Monteriggioni|Tuscany|39|30|4185|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-028",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/asciano-italy/castello-in-vendita-a-asciano-17848588",
+      "encoded_card_facts": "Asciano|Tuscany|22|25|2500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-029",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/campiglia-marittima-italy/castle-with-spa-vineyards-and-sea-view-for-sale-in-the-hills-of-the-etruscan-coast-17665535",
+      "encoded_card_facts": "Venturina Terme, Campiglia Marittima|Tuscany|20|20|3600|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-030",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/buronzo-italy/castello-in-vendita-a-buronzo-17488935",
+      "encoded_card_facts": "Buronzo|Piedmont|10|2|900|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-031",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/moncrivello-italy/castello-in-vendita-a-moncrivello-18303285",
+      "encoded_card_facts": "Moncrivello|Piedmont|28|7|1850|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p1-032",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castel-de-britti-italy/a-castle-on-the-hills-overlooking-bologna-18394277",
+      "encoded_card_facts": "San Lazzaro|Emilia-Romagna|4||800|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-001",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/lucca-italy/edificio-storico-in-vendita-a-lucca-composto-da-25vani-13628921",
+      "encoded_card_facts": "Historic Center, Lucca|Tuscany|6|8|818|0.1",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-002",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": null,
+      "encoded_card_facts": "Calenzano|Tuscany|17|17|2500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-003",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/pontebosio-italy/seventeenth-century-architecture-between-history-and-wellness-in-pontebosio-tuscany-17759518",
+      "encoded_card_facts": "Licciana Nardi|Tuscany|14|18|2000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-004",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castello-cabiaglio-italy/elegant-historic-palace-with-portico-and-views-of-the-surrounding-hills-18298093",
+      "encoded_card_facts": "Castello Cabiaglio|Lombardy|4|3|556|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-005",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montegioco-italy/stunning-castle-for-sale-on-tortona-s-hills-18432913",
+      "encoded_card_facts": "Palazzo|Piedmont|24|13|4000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-006",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/sinalunga-italy/immobili-di-prestigio-in-vendita-a-sinalunga-17941670",
+      "encoded_card_facts": "Sinalunga|Tuscany|4|4|600|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-007",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/tavoleto-italy/13th-century-castle-for-sale-in-marche-30-from-the-sea-17134443",
+      "encoded_card_facts": "Tavoleto|Marche|7|12|2100|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-008",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/marsciano-italy/charming-medieval-castle-with-tower-in-nestore-valley-sant-apollinare-17090485",
+      "encoded_card_facts": "Marsciano|Umbria|57||1575|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-009",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/serra-ricco-italy/castle-of-san-cipriano-with-park-18108277",
+      "encoded_card_facts": "Serra Ricco|Liguria|||839|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-010",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/majano-italy/prestigious-historical-castle-for-sale-near-udine-17361920",
+      "encoded_card_facts": "Majano|Friuli-Venezia Giulia|4|6|2700|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-011",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/amelia-italy/luxury-historical-property-for-sale-amelia-umbria-17510022",
+      "encoded_card_facts": "Amelia|Umbria|14|9|1883|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-012",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/radda-in-chianti-italy/tuscany-chianti-castle-for-sale-in-chianti-17674803",
+      "encoded_card_facts": "Radda in Chianti|Tuscany|8|9|1300|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-013",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/umbertide-italy/borgo-in-vendita-a-umbertide-comunaglia-16323504",
+      "encoded_card_facts": "Umbertide|Umbria|45|50|4500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-014",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": null,
+      "encoded_card_facts": "Falerna|Calabria|4|2|200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-015",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/poggio-corese-italy/historic-castle-with-private-spa-panoramic-tower-boutique-hospitality-potential-near-rome-17002359",
+      "encoded_card_facts": "Scandriglia|Lazio|7|8|900|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-016",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/balzola-italy/neo-gothic-castle-nestled-within-the-unesco-world-heritage-area-of-monferrato-18508294",
+      "encoded_card_facts": "Balzola|Piedmont|7|6|660|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-017",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/marano-ticino-italy/medieval-castle-with-grand-private-park-in-the-novara-area-18529583",
+      "encoded_card_facts": "Marano Ticino|Piedmont|10|5|1621|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-018",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/acquapendente-italy/impressive-18th-century-castle-near-rome-16991176",
+      "encoded_card_facts": "Acquapendente|Lazio|25|15|5000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-019",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/rivarolo-canavese-italy/prestigious-medieval-castle-near-turin-17023309",
+      "encoded_card_facts": "San Giorgio Canavese|Piedmont|10|11|7540|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-020",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/majestic-castle-with-pool-in-the-heart-of-tuscany-18154060",
+      "encoded_card_facts": "Gaiole in Chianti|Tuscany|8|8|1490|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-021",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/san-damiano-d-asti-italy/magnificent-castle-located-between-langa-and-monferrato-16846236",
+      "encoded_card_facts": "San Damiano d Asti|Piedmont|10|10|2426|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-022",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/licciana-nardi-italy/licci-castle-a-private-hidden-tuscan-ancient-castle-by-dimore-camisa-16928111",
+      "encoded_card_facts": "Licciana Nardi|Tuscany|27|16|1800|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-023",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/finale-ligure-italy/forte-tortagna-a-historic-fortress-reborn-as-an-exclusive-residence-16276613",
+      "encoded_card_facts": "Finale Pia - Calvisio, Finale Ligure|Liguria|5|3|865|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-024",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/livorno-italy/historic-castle-with-vineyard-and-sea-views-in-tuscany-17060375",
+      "encoded_card_facts": "Filzi - Shangay, Livorno|Tuscany|19|25|2200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-025",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gavi-piedmont-italy/medieval-castle-s-countryard-with-real-estate-development-project-16615980",
+      "encoded_card_facts": "Gavi|Piedmont|20|20|3670|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-026",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/medieval-castle-in-the-heart-of-chianti-classico-18396677",
+      "encoded_card_facts": "Gaiole in Chianti|Tuscany|7|9|1300|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-027",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/marzana-italy/prestigious-historic-residence-with-chapel-and-private-estate-in-san-miniato-16672481",
+      "encoded_card_facts": "San Miniato|Tuscany|9|6|528|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-028",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/incisa-in-val-d-arno-italy/a-tuscan-legacy-reborn-17428569",
+      "encoded_card_facts": "Poggio alla Croce, Figline e Incisa Valdarno|Tuscany|||3500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-029",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/villafranca-in-lunigiana-italy/wine-estate-with-castle-for-sale-in-lunigiana-tuscany-18429882",
+      "encoded_card_facts": "Villafranca in Lunigiana|Tuscany|10|12|1382|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-030",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/bubbio-italy/castello-in-vendita-a-bubbio-localita-piana-16652879",
+      "encoded_card_facts": "Bubbio|Piedmont|12|14|2200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-031",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/nerola-italy/medieval-11th-century-castle-5-hotel-near-rome-16551755",
+      "encoded_card_facts": "Nerola|Lazio|51|51|4314|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p2-032",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=2",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/todi-italy/splendid-abbey-and-stone-house-with-580-acres-woods-and-meadows-16135812",
+      "encoded_card_facts": "Todi|Umbria|4|3|350|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-001",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": null,
+      "encoded_card_facts": "Historic Center, Lucca|Tuscany|6|8|818|0.1",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-002",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/lecce-italy/historic-16th-century-palazzo-in-the-heart-of-lecce-puglia-s-baroque-pearl-16707442",
+      "encoded_card_facts": "Historic Center, Lecce|Apulia|10|10|1500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-003",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/reggello-italy/castello-in-vendita-a-reggello-san-clemente-16610043",
+      "encoded_card_facts": "Leccio - Sant Ellero - San Clemente, Reggello|Tuscany|16|15|2450|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-004",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/todi-italy/borgo-in-vendita-a-todi-16081369",
+      "encoded_card_facts": "Todi|Umbria|10|6|700|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-005",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/mozzanica-italy/mozzanica-castle-17064735",
+      "encoded_card_facts": "Mozzanica|Lombardy|||1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-006",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/cavallirio-italy/historic-castle-with-17-rooms-in-cavallirio-16392144",
+      "encoded_card_facts": "Cavallirio|Piedmont|||540|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-007",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/todi-italy/castello-in-vendita-a-todi-16725175",
+      "encoded_card_facts": "Todi|Umbria|12|10|1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-008",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/arezzo-italy/millennial-castle-in-the-hills-of-arezzo-16277709",
+      "encoded_card_facts": "Rigutino - Frassineto, Arezzo|Tuscany|40||3500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-009",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/asti-italy/restored-medieval-castle-for-sale-in-monferrato-one-hour-from-asti-16545304",
+      "encoded_card_facts": "Center, Asti|Piedmont|23|23|4229|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-010",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/agazzano-italy/medieval-castle-with-pool-spa-and-olive-grove-in-piacenza-16105552",
+      "encoded_card_facts": "Agazzano|Emilia-Romagna|16||4000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-011",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castello-di-querceto-italy/rustic-for-sale-in-castello-di-querceto-17925375",
+      "encoded_card_facts": "Lucolena in Chianti, Greve in Chianti|Tuscany|3|1|580|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-012",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/gaiole-in-chianti-medieval-tower-with-private-pool-16575409",
+      "encoded_card_facts": "Gaiole in Chianti|Tuscany|5|4|508|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-013",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/spina-italy/farm-estate-with-xi-century-castle-for-sale-in-umbria-16046987",
+      "encoded_card_facts": "Marsciano|Umbria|8|6|1575|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-014",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montalto-dora-italy/historical-castle-in-a-dominant-position-with-panoramic-view-montalto-dora-16188836",
+      "encoded_card_facts": "Montalto Dora|Piedmont|11|13|2525|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-015",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/milano-italy/milan-piazza-castello-16650938",
+      "encoded_card_facts": "Historic Center, Milan|Lombardy|3|3|180|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-016",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/bargino-italy/tailor-made-tuscan-castle-a-private-fortress-where-history-meets-elegance-and-modern-living-15750097",
+      "encoded_card_facts": "Montefiridolfi, San Casciano in Val di Pesa|Tuscany|8|7|700|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-017",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/mercatello-sul-metauro-italy/restored-castle-luxury-boutique-hotel-for-sale-in-marche-16317385",
+      "encoded_card_facts": "Mercatello sul Metauro|Marche|10|10|1221|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-018",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/san-gemini-italy/villa-mattina-15989136",
+      "encoded_card_facts": "San Gemini|Umbria|24|16|1666|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-019",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/monsummano-terme-italy/borgo-in-vendita-a-monsummano-terme-16329942",
+      "encoded_card_facts": "The Houses - Grotta Giusti - Virgin of the Pines, Monsummano Terme|Tuscany|30|33|6500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-020",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/nerola-italy/an-iconic-castle-retreat-in-the-roman-countryside-nerola-italy-15931079",
+      "encoded_card_facts": "Nerola|Lazio|51|51|4314|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-021",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/gattico-veruno-italy/revislate-castle-historic-residence-in-gattico-veruno-16297076",
+      "encoded_card_facts": "Gattico|Piedmont|||1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-022",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/fabro-italy/millennial-castle-in-umbria-15940704",
+      "encoded_card_facts": "Fabro|Umbria|11|8|3500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-023",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/torre-alfina-italy/the-castle-of-torre-alfina-medieval-masterpiece-18547711",
+      "encoded_card_facts": "Acquapendente|Lazio|||4890|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-024",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/riomaggiore-italy/riomaggiore-castle-residence-cod-521-16607727",
+      "encoded_card_facts": "Riomaggiore|Liguria|2|2||",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-025",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/bucine-italy/ancient-castle-with-pool-on-the-hills-of-arezzo-15965479",
+      "encoded_card_facts": "Bucine|Tuscany|10|11|1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-026",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/imola-italy/exclusive-hotel-for-sale-in-bologna-s-countryside-16487658",
+      "encoded_card_facts": "Sesto Imolese - Sasso Morelli, Imola|Emilia-Romagna|38|48|4200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-027",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/lugo-italy/charming-frescoed-castle-for-sale-near-ravenna-15901679",
+      "encoded_card_facts": "Lugo|Emilia-Romagna|30|30|3000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-028",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/citta-di-castello-italy/a-jewel-of-the-past-finely-restored-14th-century-hamlet-with-unique-panoramic-views-15808604",
+      "encoded_card_facts": "Citta di Castello|Umbria|14|18|1200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-029",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/cortona-italy/borgo-in-vendita-a-cortona-15761782",
+      "encoded_card_facts": "Center, Cortona|Tuscany|20|18|3200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-030",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/montemale-di-cuneo-italy/montemale-s-castle-15899602",
+      "encoded_card_facts": "Montemale di Cuneo|Piedmont|27|11|2325|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-031",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/campello-sul-clitunno-collinare-italy/characteristic-castle-with-large-land-and-outbuildings-in-campello-sul-clitunno-16623787",
+      "encoded_card_facts": "Campello sul Clitunno|Umbria||||",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-032",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/incisa-scapaccino-italy/castle-with-three-hectares-of-land-15623824",
+      "encoded_card_facts": "Incisa Scapaccino|Piedmont|6|2|1244|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p3-033",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=3",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/san-damiano-d-asti-italy/castle-on-sale-piemonte-italia-15539406",
+      "encoded_card_facts": "San Damiano d Asti|Piedmont|12|10|13690|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-001",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/lesa-italy/historic-castle-on-lake-maggiore-lesa-15957532",
+      "encoded_card_facts": "Lesa|Piedmont|10|8|1300|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-002",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/cingoli-italy/the-pink-village-borgo-in-marche-region-16194774",
+      "encoded_card_facts": "Cingoli|Marche|30|15|5500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-003",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/rapolano-terme-italy/800-ha-estate-with-castle-and-hunting-reserve-for-sale-in-tuscany-15663441",
+      "encoded_card_facts": "Rapolano Terme|Tuscany|70|60|15770|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-004",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/campiglia-marittima-italy/chateau-for-sale-in-campiglia-marittima-15929689",
+      "encoded_card_facts": "Center, Campiglia Marittima|Tuscany|19||3600|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-005",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/impruneta-italy/art-nouveau-tower-to-be-restored-for-sale-in-tuscany-impruneta-15666393",
+      "encoded_card_facts": "Center, Impruneta|Tuscany|6|4|400|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-006",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/siena-italy/the-oak-palace-with-chianti-vineyards-and-olive-grove-siena-toscana-15987390",
+      "encoded_card_facts": "Scacciapensieri - Vico Alto, Siena|Tuscany|10|10||",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-007",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/arezzo-italy/medieval-castle-to-be-restored-for-sale-in-arezzo-tuscany-16069590",
+      "encoded_card_facts": "Center, Arezzo|Tuscany|20|20|1458|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-008",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/castiglioncello-italy/little-castle-by-the-sea-with-panoramic-views-and-private-park-15922330",
+      "encoded_card_facts": "Castiglioncello, Rosignano Marittimo|Tuscany|8|6|400|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-009",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/cagli-italy/castle-luxury-boutique-hotel-for-sale-in-marche-15665888",
+      "encoded_card_facts": "Cagli|Marche|8|12|1115|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-010",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/bagno-a-ripoli-italy/castle-with-views-of-the-historic-center-of-florence-for-sale-15665927",
+      "encoded_card_facts": "Bagno A Ripoli|Tuscany|18|21|2095|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-011",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Penna in Teverina|Umbria|20|18|3036|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-012",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Montalcino|Tuscany|25|25|3729|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-013",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Casciana Terme Lari|Tuscany|40|45|4000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-014",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "San Miniato|Tuscany|||6300|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-015",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Scarperia e San Piero|Tuscany|10|6|1200|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-016",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Calenzano|Tuscany|12|9|1500|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-017",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Casalfiumanese|Emilia-Romagna|7|7|125|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-018",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Castiglione d Orcia|Tuscany|37|21|4123|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-019",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Masio|Piedmont|14|10|1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-020",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Celleno|Lazio|34|20|5000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-021",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Vellezzo Bellini|Lombardy|10|8|2800|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-022",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Center, Montespertoli|Tuscany|71|55|7350|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-023",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Ivrea|Piedmont|22|22|2100|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-024",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Center, Cremona|Lombardy|20|15|2956|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-025",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Oviglio|Piedmont|10|14|2150|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-026",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Bucine|Tuscany|12|12|1038|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-027",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Poets - Musicians - Fornaci, Loano|Liguria|20|20|1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-028",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Montaldo Torinese|Piedmont|50|50|10000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-029",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Monte Morello-Cercina, Municipality of Sesto Fiorentino|Tuscany|21|25|3630|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-030",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Todi|Umbria|8|11|1000|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    },
+    {
+      "id": "p4-031",
+      "source_name": "JamesEdition",
+      "source_card_page_url": "https://www.jamesedition.com/real_estate/castle-italy?page=4",
+      "original_listing_url": null,
+      "encoded_card_facts": "Siena|Tuscany|7|6|804|",
+      "observed_at": "2026-07-31T00:00:00.000Z",
+      "review_method": "manual link-only category-card review; no source photos, long descriptions, hidden contacts, AJAX/feed endpoints, or inquiry flows copied"
+    }
+  ],
+  "original_listing_url_count": 104
+}
