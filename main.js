@@ -9,6 +9,7 @@ let magazineOpen = false;
 let displayedListings = [];
 
 const state = {
+    section: 'castle',
     search: '',
     sort: 'featured',
     filters: {
@@ -24,17 +25,36 @@ const state = {
     },
 };
 
-const filterOptions = {
-    region: ['any', ...unique(listings.map(item => item.location.region))],
-    province: ['any', ...unique(listings.map(item => item.location.province))],
-    propertyType: ['any', ...unique(listings.map(item => item.propertyType))],
-    price: ['any', 'under-5m', '5m-10m', '10m-plus', 'request'],
-    bedrooms: ['any', '5-plus', '10-plus', 'unknown'],
-    size: ['any', '1000-plus', '3000-plus', 'unknown'],
-    land: ['any', '5-plus', '25-plus', 'unknown'],
-    condition: ['any', ...unique(listings.map(item => item.condition))],
-    amenity: ['any', ...unique(listings.flatMap(item => item.amenities))],
+const sections = {
+    castle: {
+        key: 'castle',
+        query: 'castles',
+        assetClass: 'castle',
+        navLabel: 'Castles',
+        coverKicker: 'Castelli Italiani',
+        title: 'Browse Italian Castles for Sale',
+        description: 'Fortresses, castles, towers, and palazzi with source links, provenance, and buyer inquiry routes.',
+        detailKicker: 'Italian Castle Marketplace',
+        detailFooter: 'Link-only castle fixture data for buyer discovery',
+        noResults: 'No castle listings match these filters.',
+        sourceScope: 'italian_castles',
+    },
+    masseria: {
+        key: 'masseria',
+        query: 'masserias',
+        assetClass: 'masseria',
+        navLabel: 'Masserias',
+        coverKicker: 'Masserie di Puglia',
+        title: 'Browse Puglia Masserias for Sale',
+        description: 'Dedicated Puglia masseria inventory with hospitality, olive-grove, garden, pool, and restoration context.',
+        detailKicker: 'Puglia Masseria Marketplace',
+        detailFooter: 'Link-only masseria fixture data for buyer discovery',
+        noResults: 'No masseria listings match these filters.',
+        sourceScope: 'puglia_masserias',
+    },
 };
+
+let filterOptions = buildFilterOptions(sectionListings());
 
 const filterLabels = {
     any: 'Any',
@@ -59,11 +79,34 @@ const enterBtn = document.getElementById('enter-btn');
 const kbHint = document.getElementById('kb-hint');
 const toolbar = document.getElementById('toolbar');
 const noResults = document.getElementById('no-results');
+const noResultsText = document.getElementById('no-results-text');
 const searchInput = document.getElementById('search-input');
 const sortSelect = document.getElementById('sort-select');
 
 function unique(values) {
     return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
+function activeSection() {
+    return sections[state.section] || sections.castle;
+}
+
+function sectionListings() {
+    return listings.filter(listing => listing.assetClass === activeSection().assetClass);
+}
+
+function buildFilterOptions(items) {
+    return {
+        region: ['any', ...unique(items.map(item => item.location.region))],
+        province: ['any', ...unique(items.map(item => item.location.province))],
+        propertyType: ['any', ...unique(items.map(item => item.propertyType))],
+        price: ['any', 'under-5m', '5m-10m', '10m-plus', 'request'],
+        bedrooms: ['any', '5-plus', '10-plus', 'unknown'],
+        size: ['any', '1000-plus', '3000-plus', 'unknown'],
+        land: ['any', '5-plus', '25-plus', 'unknown'],
+        condition: ['any', ...unique(items.map(item => item.condition))],
+        amenity: ['any', ...unique(items.flatMap(item => item.amenities))],
+    };
 }
 
 function normalizeListing(listing) {
@@ -180,7 +223,7 @@ function matchesThreshold(actual, value, thresholds) {
 
 function applyFilters() {
     const query = state.search.trim().toLowerCase();
-    const filtered = listings.filter(listing => {
+    const filtered = sectionListings().filter(listing => {
         const source = primarySource(listing);
         const haystack = [
             listing.title,
@@ -223,11 +266,12 @@ function sortListings(items) {
 }
 
 function buildPills() {
+    filterOptions = buildFilterOptions(sectionListings());
     Object.entries(filterOptions).forEach(([key, values]) => {
         const row = document.querySelector(`.pill-row[data-filter="${key}"]`);
         if (!row) return;
         row.innerHTML = values.map(value => `
-            <button class="pill${value === 'any' ? ' active' : ''}" data-value="${value}" type="button">${filterLabels[value] || displayText(value)}</button>
+            <button class="pill${value === state.filters[key] ? ' active' : ''}" data-value="${value}" type="button">${filterLabels[value] || displayText(value)}</button>
         `).join('');
     });
 }
@@ -237,11 +281,13 @@ function buildSourceCoverage() {
     const summary = document.getElementById('source-coverage-summary');
     if (!list || !summary) return;
 
-    const representedListings = sourceStatuses.filter(source => source.represented_as === 'listing_record').length;
-    const unavailable = sourceStatuses.filter(source => source.adapter_status === 'blocked' || source.represented_as === 'source_status').length;
-    summary.textContent = `${representedListings} sources currently provide link-only listing coverage. ${unavailable} requested sources are shown as permission, terms, or robots gaps until authorized access is available.`;
+    const scope = activeSection().sourceScope;
+    const relevantSources = sourceStatuses.filter(source => source.inventory_scope.split(',').includes(scope));
+    const representedListings = relevantSources.filter(source => source.represented_as === 'listing_record').length;
+    const unavailable = relevantSources.filter(source => source.adapter_status === 'blocked' || source.represented_as === 'source_status').length;
+    summary.textContent = `${representedListings} ${activeSection().navLabel.toLowerCase()} source records currently provide link-only listing coverage. ${unavailable} requested sources are shown as permission, terms, or robots gaps until authorized access is available.`;
 
-    list.innerHTML = sourceStatuses.map(source => {
+    list.innerHTML = relevantSources.map(source => {
         const tone = statusTone(source.compliance_status);
         const label = source.represented_as === 'listing_record'
             ? `${source.record_count} listing ${source.record_count === 1 ? 'record' : 'records'}`
@@ -259,6 +305,7 @@ function buildSourceCoverage() {
 }
 
 function buildSpread(listing, index, total) {
+    const section = sections[listing.assetClass] || activeSection();
     const source = primarySource(listing);
     const statusClass = listing.status === 'active' ? 'status-active' : listing.status === 'stale' ? 'status-stale' : 'status-removed';
     const priceClass = listing.pricing.priceOnRequest ? 'price-request' : 'price-asking';
@@ -282,17 +329,18 @@ function buildSpread(listing, index, total) {
     return `
     <article class="spread" data-index="${index}" id="${listing.id}" aria-label="${listing.title}">
         <div class="page-left">
-            <img class="hero-image" src="${images[0].url}" alt="${images[0].alt}" loading="lazy" decoding="async">
+            <img class="hero-image" src="${images[0].url}" alt="${images[0].alt}" loading="eager" fetchpriority="high" decoding="async">
             <div class="image-rights">${images[0].credit} · ${images[0].rightsBasis}</div>
             <div class="gallery-strip" aria-label="Image gallery">${gallery}</div>
         </div>
         <div class="page-right">
             <header class="folio">
-                <span>Browse Italian Historic Estates</span>
+                <span>${section.detailKicker}</span>
                 <span>${index + 1} / ${total}</span>
             </header>
             <div class="info-layout">
                 <div class="eyebrow-row">
+                    <span>${section.navLabel}</span>
                     <span>${displayText(listing.propertyType)}</span>
                     <span>${listing.location.region}</span>
                 </div>
@@ -357,7 +405,7 @@ function buildSpread(listing, index, total) {
                 </div>
             </div>
             <footer class="folio folio-footer">
-                <span>Link-only fixture data for buyer discovery</span>
+                <span>${section.detailFooter}</span>
             </footer>
         </div>
     </article>`;
@@ -398,11 +446,12 @@ function renderWindow(centerIndex) {
 }
 
 function renderMagazine(list) {
+    updateSectionChrome();
     displayedListings = list;
     currentSpread = 0;
     isTransitioning = false;
     magazine.innerHTML = '';
-    document.getElementById('cover-count').textContent = `${listings.length} vetted listings`;
+    document.getElementById('cover-count').textContent = `${sectionListings().length} vetted ${activeSection().navLabel.toLowerCase()}`;
     if (list.length === 0) {
         noResults.classList.add('visible');
         return;
@@ -432,6 +481,7 @@ function updateUrl() {
     const listing = displayedListings[currentSpread];
     const params = new URLSearchParams(window.location.search);
     params.set('listing', listing.id);
+    params.set('section', activeSection().query);
     if (state.search) params.set('q', state.search);
     else params.delete('q');
     history.replaceState(null, '', `?${params.toString()}`);
@@ -440,7 +490,8 @@ function updateUrl() {
 async function shareListing(listing) {
     const activeListing = listing || displayedListings[currentSpread];
     const title = activeListing ? activeListing.title : 'Browse Italian Historic Estates';
-    const url = activeListing ? `${window.location.origin}${window.location.pathname}?listing=${activeListing.id}` : window.location.href;
+    const section = activeListing ? sections[activeListing.assetClass] || activeSection() : activeSection();
+    const url = activeListing ? `${window.location.origin}${window.location.pathname}?section=${section.query}&listing=${activeListing.id}` : window.location.href;
     const text = activeListing ? `${title} · ${formatPrice(activeListing)} · ${activeListing.location.display}` : 'Browse Italian Historic Estates';
     if (navigator.share) {
         try { await navigator.share({ title, text, url }); } catch {}
@@ -497,12 +548,17 @@ function initFilters() {
     [resetBtn, clearBtn, noResultsReset].forEach(btn => btn.addEventListener('click', resetFilters));
 }
 
-function resetFilters() {
+function resetFilterState() {
     state.search = '';
     state.sort = 'featured';
     Object.keys(state.filters).forEach(key => { state.filters[key] = 'any'; });
     searchInput.value = '';
     sortSelect.value = 'featured';
+}
+
+function resetFilters() {
+    resetFilterState();
+    buildPills();
     document.querySelectorAll('.pill-row').forEach(row => {
         row.querySelectorAll('.pill').forEach(item => item.classList.remove('active'));
         const any = row.querySelector('[data-value="any"]');
@@ -516,6 +572,50 @@ function updateFilterIndicator() {
     const btn = document.getElementById('menu-toggle');
     const hasFilter = state.search || state.sort !== 'featured' || Object.values(state.filters).some(value => value !== 'any');
     btn.classList.toggle('has-filter', Boolean(hasFilter));
+}
+
+function updateSectionChrome() {
+    const section = activeSection();
+    document.body.dataset.section = section.key;
+    document.querySelectorAll('[data-section-copy="cover-kicker"]').forEach(el => { el.textContent = section.coverKicker; });
+    document.querySelectorAll('[data-section-copy="title"]').forEach(el => { el.textContent = section.title; });
+    document.querySelectorAll('[data-section-copy="description"]').forEach(el => { el.textContent = section.description; });
+    document.querySelectorAll('[data-section-button]').forEach(btn => {
+        const active = btn.dataset.sectionButton === section.key;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-pressed', String(active));
+    });
+    if (noResultsText) noResultsText.textContent = section.noResults;
+    document.title = section.title;
+    const description = document.querySelector('meta[name="description"]');
+    if (description) description.setAttribute('content', section.description);
+    document.querySelectorAll('meta[property="og:title"], meta[name="twitter:title"]').forEach(meta => {
+        meta.setAttribute('content', section.title);
+    });
+    document.querySelectorAll('meta[property="og:description"], meta[name="twitter:description"]').forEach(meta => {
+        meta.setAttribute('content', section.description);
+    });
+    document.querySelectorAll('meta[property="og:site_name"], meta[property="og:image:alt"]').forEach(meta => {
+        meta.setAttribute('content', section.title);
+    });
+}
+
+function setSection(sectionKey, options = {}) {
+    if (!sections[sectionKey]) return;
+    const changed = state.section !== sectionKey;
+    state.section = sectionKey;
+    if (changed || options.resetFilters) resetFilterState();
+    buildPills();
+    buildSourceCoverage();
+    renderMagazine(applyFilters());
+    updateFilterIndicator();
+    if (options.open) openMagazine();
+}
+
+function initSectionControls() {
+    document.querySelectorAll('[data-section-button]').forEach(btn => {
+        btn.addEventListener('click', () => setSection(btn.dataset.sectionButton, { resetFilters: true }));
+    });
 }
 
 function initMenu() {
@@ -554,7 +654,9 @@ function closeMagazine() {
     navNext.classList.remove('visible');
     toolbar.classList.remove('visible');
     kbHint.classList.remove('visible');
-    history.replaceState(null, '', window.location.pathname);
+    const params = new URLSearchParams();
+    params.set('section', activeSection().query);
+    history.replaceState(null, '', `?${params.toString()}`);
 }
 
 function isInteractiveTarget(target) {
@@ -615,13 +717,24 @@ function goPrev() {
 
 function initDeepLink() {
     const params = new URLSearchParams(window.location.search);
+    const sectionParam = params.get('section');
+    if (sectionParam === 'masserias' || sectionParam === 'masseria') state.section = 'masseria';
+    if (sectionParam === 'castles' || sectionParam === 'castle') state.section = 'castle';
+
+    const listingId = params.get('listing');
+    if (listingId) {
+        const deepLinkedListing = listings.find(item => item.id === listingId || slugify(item.title) === listingId);
+        if (deepLinkedListing?.assetClass && sections[deepLinkedListing.assetClass]) state.section = deepLinkedListing.assetClass;
+    }
+
     const query = params.get('q');
     if (query) {
         state.search = query;
         searchInput.value = query;
     }
+    buildPills();
+    buildSourceCoverage();
     renderMagazine(applyFilters());
-    const listingId = params.get('listing');
     if (listingId) {
         const index = displayedListings.findIndex(item => item.id === listingId || slugify(item.title) === listingId);
         if (index >= 0) {
@@ -669,8 +782,7 @@ function initTouch() {
 }
 
 function init() {
-    buildPills();
-    buildSourceCoverage();
+    initSectionControls();
     initDeepLink();
     initLoader();
     initMenu();
