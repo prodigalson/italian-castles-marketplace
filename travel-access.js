@@ -59,17 +59,17 @@ export function buildTravelAccess(listing) {
                 <h3 id="${panelId}">Travel &amp; access</h3>
             </div>
             <dl class="travel-access-list">
-                <div class="travel-access-item">
+                <div class="travel-access-item" data-travel-kind="trainStation">
                     <dt>Closest train station</dt>
                     <dd><strong>${escapeHtml(facilityDetail(access.trainStation))}</strong>${accessMeta(access.trainStation)}</dd>
                     <p>${escapeHtml(access.trainStation.note)}</p>
                 </div>
-                <div class="travel-access-item">
+                <div class="travel-access-item" data-travel-kind="airport">
                     <dt>Closest airport</dt>
                     <dd><strong>${escapeHtml(facilityDetail(access.airport))}</strong>${accessMeta(access.airport)}</dd>
                     <p>${escapeHtml(access.airport.note)}</p>
                 </div>
-                <div class="travel-access-item">
+                <div class="travel-access-item" data-travel-kind="uber">
                     <dt>Uber</dt>
                     <dd><strong>${escapeHtml(uberStatusLabel(access.uber.status))}</strong>${accessMeta(access.uber)}</dd>
                     <p>${escapeHtml(access.uber.note)}</p>

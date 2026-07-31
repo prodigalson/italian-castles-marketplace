@@ -1,3 +1,4 @@
+import { readFile } from 'node:fs/promises';
 import { buildTravelAccess, escapeHtml, safeHttpUrl } from '../travel-access.js';
 
 const maliciousText = `<img src=x onerror="alert('travel')">`;
@@ -32,7 +33,17 @@ check(!rendered.includes('<img'), 'Integrated travel renderer emitted sourced ma
 check(!rendered.includes('href="javascript:'), 'Integrated travel renderer emitted an unsafe sourced link.');
 check(rendered.includes('&lt;img') && rendered.includes('Record refreshed Jul 31, 2026 · No verified source'), 'Integrated travel renderer did not safely render the malicious fixture.');
 
-console.log('Travel rendering safety passed: the integrated panel escapes sourced text and accepts only HTTP(S) links.');
+const [apiSource, mainSource] = await Promise.all([
+    readFile('api/travel-access.js', 'utf8'),
+    readFile('main.js', 'utf8'),
+]);
+check(apiSource.includes("includedType: type") && apiSource.includes("rankPreference: 'DISTANCE'"), 'Google travel lookup must rank typed facilities by distance.');
+check(apiSource.includes("'train_station'") && apiSource.includes("'airport'"), 'Google travel lookup must request train stations and airports.');
+check(apiSource.includes('distanceKm(origin, place.location)'), 'Google travel lookup must calculate property-specific distance.');
+check(apiSource.includes('m.uber.com/looking?pickup='), 'Uber link must receive the property pickup coordinates.');
+check(mainSource.includes('hydrateGoogleTravelAccess(spread, displayedListings[i])'), 'Rendered listings must hydrate Google travel information.');
+
+console.log('Travel access passed: safe fallback rendering plus Google location-based train, airport, and Uber hydration.');
 
 function check(condition, message) {
     if (!condition) throw new Error(message);
