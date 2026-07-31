@@ -223,6 +223,17 @@
           },
           "rights_note": {
             "type": "string"
+          },
+          "source_listing_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "selection_reviewed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "selection_note": {
+            "type": "string"
           }
         }
       }

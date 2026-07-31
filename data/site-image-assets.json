@@ -2,14 +2,20 @@
   {
     "id": "marketplace-cover",
     "usage": "marketplace_cover",
-    "url": "/images/editorial-marketplace-cover.svg",
-    "source_asset": "public/images/editorial-marketplace-cover.svg",
-    "source_sha256": "930105b0b68873e0af2d1f07dd8c5a497b6715adf60b65f614b9f6e9db6ddfff",
-    "depiction_type": "editorial_placeholder",
-    "display_label": "Editorial placeholder images.",
-    "credit": "Italian Castles Marketplace original artwork",
-    "rights_basis": "owned",
-    "rights_note": "Original editorial illustration owned by the marketplace; it does not depict a listed property."
+    "url": "/images/rocca-calascio-hero.jpg",
+    "source_asset": "public/images/rocca-calascio-hero.jpg",
+    "source_sha256": "c7dca5206702878a6aa846e5e0a7a66015b87c2899bedd71dd9e3426edc0ebcf",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Castello_di_Rocca_Calascio.jpg",
+    "source_download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Castello%20di%20Rocca%20Calascio.jpg?width=2560",
+    "source_original_dimensions": "6708x4472",
+    "delivered_dimensions": "3840x2560",
+    "depiction_type": "editorial_landmark",
+    "depicts": "Rocca Calascio, Abruzzo, Italy",
+    "display_label": "Editorial hero, not a listed property.",
+    "credit": "Marcotigretti",
+    "rights_basis": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rights_note": "The copyright holder published the photograph under CC BY-SA 4.0. The marketplace serves a local 3840×2560 Wikimedia derivative and applies a tonal overlay and responsive CSS crop; attribution and license links are displayed with the image. This landmark photograph is not represented as a listed property."
   },
   {
     "id": "marketplace-social-preview",

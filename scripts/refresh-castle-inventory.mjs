@@ -557,7 +557,7 @@ function inferredAmenities(region, land_hectares) {
     return amenities;
 }
 
-function editorialPlaceholder(assetClass) {
+function editorialPlaceholder(assetClass, sourceRecord) {
     const label = 'Editorial placeholder images.';
     return {
         url: assetClass === 'masseria'
@@ -570,6 +570,9 @@ function editorialPlaceholder(assetClass) {
         display_label: label,
         rights_basis: 'owned',
         rights_note: 'Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.',
+        source_listing_url: sourceRecord.source_url,
+        selection_reviewed_at: REFRESHED_AT,
+        selection_note: `The original listing link is preserved, but its ${sourceRecord.license_basis} source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.`,
     };
 }
 
@@ -698,7 +701,7 @@ function toCanonical(records) {
         size: toMeasurement(primary.size_sqm ?? null, 'sqm'),
         land_area: toMeasurement(primary.land_hectares ?? null, 'hectare'),
         amenities: unique(sorted.flatMap(record => record.amenities || [])),
-        images: [{ ...editorialPlaceholder(primary.asset_class), source_key: primary.source_key }],
+        images: [{ ...editorialPlaceholder(primary.asset_class, primary), source_key: primary.source_key }],
         sources: sourceLinks,
         dedupe: {
             match_confidence: confidence,

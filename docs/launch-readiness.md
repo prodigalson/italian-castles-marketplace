@@ -10,6 +10,14 @@ Status: release candidate passed locally; production rollout awaits merge of PER
 
 The marketplace is expected to launch as a static Vite build with manual/link-only castle inventory, visible source attribution, source availability notes, stale/removed labels, last-checked timestamps, provenance notes, and source inquiry links.
 
+## PER-153 Homepage And Image Evidence
+
+- The cover now uses a locally served 3840×2560 photograph of Rocca Calascio in Abruzzo by Marcotigretti. Wikimedia Commons records the 6708×4472 original and the copyright holder's CC BY-SA 4.0 license. `data/site-image-assets.json` preserves the source page, download URL, original and delivered dimensions, local SHA-256, credit, license URL, responsive display treatment, and explicit non-listing status.
+- The visible cover attribution links the creator/source page and license, and labels the photograph `Editorial hero, not a listed property.` The prior owned-artwork cover sentence is absent.
+- The castle and Masserias headings and supporting copy match PER-153 exactly in the initial HTML and the interactive section model.
+- All 108 listing records retain their original source links. Their current source records are link-only and do not document property-photo display permission, so no listing photo was copied or hotlinked. Each record now stores the reviewed source URL, review timestamp, no-copy/no-hotlink decision, owned fallback rights, and the visible exact label `Editorial placeholder images.`
+- Launch QA rejects unregistered hero bytes, insufficient hero resolution, missing hero attribution/license/non-listing disclosure, missing exact copy, missing listing fallback reviews, remote fallback imagery, or fallback records that do not preserve an original listing link.
+
 ## Command Evidence
 
 ```bash
