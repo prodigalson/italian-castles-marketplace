@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://italian-castles-marketplace.vercel.app/schemas/castle-listing.schema.json",
+  "$id": "https://castle.chingularity.com/schemas/castle-listing.schema.json",
   "title": "Italian Historic Estate Listing",
   "type": "object",
   "additionalProperties": false,
@@ -192,7 +192,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["url", "alt", "rights_basis"],
+        "required": ["url", "alt", "depiction_type", "rights_basis", "rights_note"],
         "properties": {
           "url": {
             "type": "string",
@@ -207,12 +207,22 @@
           "credit": {
             "type": "string"
           },
+          "depiction_type": {
+            "type": "string",
+            "enum": ["actual_property", "editorial_placeholder"]
+          },
+          "display_label": {
+            "type": "string"
+          },
           "source_key": {
             "$ref": "#/$defs/sourceKey"
           },
           "rights_basis": {
             "type": "string",
             "enum": ["partner_license", "source_permission", "public_link_only", "owned", "unknown"]
+          },
+          "rights_note": {
+            "type": "string"
           }
         }
       }

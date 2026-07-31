@@ -456,39 +456,6 @@ const RAW_RECORDS = [
     sourceOnlyRecord('apulia_exclusive_houses'),
 ];
 
-const PLACEHOLDER_IMAGES = {
-    'chianti-castle-estate': [
-        image('https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1800&q=82', 'Tuscan stone estate with cypress trees'),
-        image('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=82', 'Restored historic interior salon'),
-        image('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=82', 'Tuscan landscape at sunset'),
-    ],
-    'piedmont-vineyard-castello': [
-        image('https://images.unsplash.com/photo-1470158499416-75be9aa0c4db?auto=format&fit=crop&w=1800&q=82', 'Vineyard landscape with old estate'),
-        image('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1800&q=82', 'Historic stone home exterior'),
-        image('https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1800&q=82', 'Wine cellar with barrels'),
-    ],
-    'umbria-fortified-borgo': [
-        image('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=82', 'Italian countryside with old stone buildings'),
-        image('https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=1800&q=82', 'Historic stone courtyard'),
-        image('https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1800&q=82', 'Italian hill town near a valley'),
-    ],
-    'sicilian-coastal-watchtower': [
-        image('https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1800&q=82', 'Sicilian coastline and historic stone buildings'),
-        image('https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1800&q=82', 'Stone tower silhouette near coast'),
-        image('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=82', 'Mediterranean sea and shore'),
-    ],
-    'valle-itria-masseria-estate': [
-        image('https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1800&q=82', 'Whitewashed Mediterranean courtyard with plants'),
-        image('https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1800&q=82', 'Stone country house with pool and garden'),
-        image('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=82', 'Rural estate landscape with fields'),
-    ],
-    'salento-masseria-retreat': [
-        image('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82', 'Luxury villa courtyard and pool'),
-        image('https://images.unsplash.com/photo-1597211833712-5e41faa202ea?auto=format&fit=crop&w=1800&q=82', 'Mediterranean garden path'),
-        image('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=82', 'Vaulted stone interior room'),
-    ],
-};
-
 function listingRecord(source_key, source_listing_id, data) {
     return {
         kind: 'listing',
@@ -590,13 +557,19 @@ function inferredAmenities(region, land_hectares) {
     return amenities;
 }
 
-function image(url, alt) {
+function editorialPlaceholder(assetClass) {
+    const label = 'Editorial placeholder images.';
     return {
-        url,
-        alt,
-        caption: 'Editorial placeholder image, not copied from the listing source.',
-        credit: 'Editorial placeholder image',
-        rights_basis: 'public_link_only',
+        url: assetClass === 'masseria'
+            ? '/images/editorial-masseria-placeholder.svg'
+            : '/images/editorial-castle-placeholder.svg',
+        alt: `${label} This illustration does not depict the listed property.`,
+        caption: label,
+        credit: 'Italian Castles Marketplace editorial artwork',
+        depiction_type: 'editorial_placeholder',
+        display_label: label,
+        rights_basis: 'owned',
+        rights_note: 'Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.',
     };
 }
 
@@ -725,7 +698,7 @@ function toCanonical(records) {
         size: toMeasurement(primary.size_sqm ?? null, 'sqm'),
         land_area: toMeasurement(primary.land_hectares ?? null, 'hectare'),
         amenities: unique(sorted.flatMap(record => record.amenities || [])),
-        images: (PLACEHOLDER_IMAGES[primary.canonical_group] || []).map(item => ({ ...item, source_key: primary.source_key })),
+        images: [{ ...editorialPlaceholder(primary.asset_class), source_key: primary.source_key }],
         sources: sourceLinks,
         dedupe: {
             match_confidence: confidence,

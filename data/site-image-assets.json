@@ -1,0 +1,26 @@
+[
+  {
+    "id": "marketplace-cover",
+    "usage": "marketplace_cover",
+    "url": "/images/editorial-marketplace-cover.svg",
+    "source_asset": "public/images/editorial-marketplace-cover.svg",
+    "depiction_type": "editorial_placeholder",
+    "display_label": "Editorial placeholder images.",
+    "credit": "Italian Castles Marketplace original artwork",
+    "rights_basis": "owned",
+    "rights_note": "Original editorial illustration owned by the marketplace; it does not depict a listed property."
+  },
+  {
+    "id": "marketplace-social-preview",
+    "usage": "social_preview",
+    "url": "/og/cover.png",
+    "source_asset": "assets/site-social-preview.svg",
+    "generated_asset": "public/og/cover.png",
+    "generated_sha256": "ea9570a163a38d7f6f8f4ab71560d4b6601106ed4f18c7dd183fb2d7c904c1d2",
+    "depiction_type": "editorial_placeholder",
+    "display_label": "Editorial placeholder images.",
+    "credit": "Italian Castles Marketplace original artwork",
+    "rights_basis": "owned",
+    "rights_note": "Original editorial illustration owned by the marketplace; it does not depict a listed property."
+  }
+]

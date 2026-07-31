@@ -133,6 +133,22 @@ a {
     filter: brightness(0.38) contrast(1.05) saturate(0.78);
 }
 
+.cover-image-provenance {
+    position: absolute;
+    left: clamp(1rem, 2.5vw, 2.5rem);
+    bottom: clamp(1rem, 2.5vw, 2rem);
+    z-index: 2;
+    max-width: min(24rem, calc(50% - 7rem));
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+}
+
+.cover-image-provenance strong {
+    color: #fff;
+}
+
 .cover-overlay {
     position: relative;
     z-index: 2;
@@ -292,6 +308,26 @@ a {
     background: rgba(0, 0, 0, 0.5);
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.66rem;
+}
+
+.image-rights span {
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.image-placeholder-label {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    padding: 0.55rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(20, 25, 22, 0.88);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .gallery-strip {
@@ -960,6 +996,13 @@ a {
 
     .cover-title {
         font-size: clamp(3.4rem, 18vw, 5.5rem);
+    }
+
+    .cover-image-provenance {
+        right: 1rem;
+        bottom: 5rem;
+        max-width: none;
+        text-align: center;
     }
 
     .spread {
