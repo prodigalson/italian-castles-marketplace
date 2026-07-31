@@ -54,6 +54,11 @@ const sections = {
     },
 };
 
+const hiddenSummaryPrefixes = [
+    "Manual memory import from Ava's previously shared",
+    'Manual link-only JamesEdition category-card record',
+];
+
 let filterOptions = buildFilterOptions(sectionListings());
 
 const filterLabels = {
@@ -124,7 +129,7 @@ function normalizeListing(listing) {
         id: listing.id,
         status: listing.status,
         title: googlePlace?.expectedName || listing.canonical_title,
-        summary: summary.startsWith("Manual memory import from Ava's previously shared") ? '' : summary,
+        summary: hiddenSummaryPrefixes.some(prefix => summary.startsWith(prefix)) ? '' : summary,
         assetClass: listing.asset_class || 'castle',
         propertyType: listing.property_type,
         condition: listing.condition || 'unknown',
