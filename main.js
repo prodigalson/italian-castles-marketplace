@@ -329,7 +329,7 @@ function buildSpread(listing, index, total) {
     return `
     <article class="spread" data-index="${index}" id="${listing.id}" aria-label="${listing.title}">
         <div class="page-left">
-            <img class="hero-image" src="${images[0].url}" alt="${images[0].alt}" loading="lazy" decoding="async">
+            <img class="hero-image" src="${images[0].url}" alt="${images[0].alt}" loading="eager" fetchpriority="high" decoding="async">
             <div class="image-rights">${images[0].credit} · ${images[0].rightsBasis}</div>
             <div class="gallery-strip" aria-label="Image gallery">${gallery}</div>
         </div>
