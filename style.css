@@ -173,6 +173,38 @@ a {
     line-height: 1.7;
 }
 
+.section-switch {
+    display: inline-flex;
+    gap: 0.35rem;
+    padding: 0.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.cover-section-switch {
+    margin-top: 1.25rem;
+}
+
+.section-chip {
+    min-height: 36px;
+    padding: 0.52rem 0.78rem;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.section-chip.active,
+.section-chip:focus-visible {
+    border-color: rgba(255, 255, 255, 0.34);
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    outline: none;
+}
+
 .cover-bottom {
     display: flex;
     justify-content: center;
@@ -608,7 +640,7 @@ a {
     right: 0;
     top: 50px;
     display: none;
-    width: 176px;
+    width: 212px;
     padding: 0.35rem;
     border: 1px solid var(--color-line);
     background: rgba(248, 245, 237, 0.94);
@@ -639,6 +671,30 @@ a {
 .menu-item:focus-visible {
     background: rgba(35, 56, 47, 0.08);
     outline: none;
+}
+
+.menu-section-switch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+    margin-top: 0.35rem;
+    padding-top: 0.35rem;
+    border-top: 1px solid var(--color-line);
+}
+
+.menu-section-switch .section-chip {
+    min-height: 34px;
+    padding: 0.45rem 0.4rem;
+    border-color: var(--color-line);
+    color: var(--color-ink);
+    font-size: 0.62rem;
+}
+
+.menu-section-switch .section-chip.active,
+.menu-section-switch .section-chip:focus-visible {
+    border-color: var(--color-forest);
+    background: var(--color-forest);
+    color: #fff;
 }
 
 .kb-hint {
@@ -704,8 +760,9 @@ a {
 
 .panel-heading h2 {
     font-family: var(--font-display);
-    font-size: 2.2rem;
+    font-size: 1.85rem;
     font-weight: 400;
+    line-height: 1;
 }
 
 .field-label,
