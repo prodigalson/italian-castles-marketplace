@@ -132,6 +132,8 @@ check(html.includes('og:image') && html.includes('twitter:card') && html.include
 check(html.includes('Find your Castle to Buy'), 'Exact castle heading is missing.');
 check(html.includes('Browse Fortresses, castles, towers, and palazzi in Italy'), 'Exact castle supporting copy is missing.');
 check(!html.includes('Italian Castles Marketplace original artwork · Owned · Not a listed property.'), 'Removed homepage provenance copy remains in the page.');
+check(!html.includes('class="cover-image-provenance"'), 'The removed bottom-of-hero credit remains in the page.');
+check(html.includes('<details class="cover-image-credit">') && html.includes('<summary>Image credit</summary>'), 'The discreet hero image-credit disclosure is missing.');
 check([
     "title: 'Find your Castle to Buy'",
     "description: 'Browse Fortresses, castles, towers, and palazzi in Italy'",
@@ -155,7 +157,7 @@ check(isHttpUrl(coverImage?.source_page_url) && isHttpUrl(coverImage?.source_dow
 check(coverImage?.source_original_dimensions === '6708x4472' && coverImage?.delivered_dimensions === '3840x2560', 'Marketplace cover dimensions do not match recorded provenance.');
 check(siteSourceMetadata[siteImages.indexOf(coverImage)]?.width === 3840 && siteSourceMetadata[siteImages.indexOf(coverImage)]?.height === 2560, 'Marketplace cover is not the expected high-resolution 3840x2560 asset.');
 check(html.includes(coverImage?.source_page_url) && html.includes(coverImage?.license_url) && html.includes(coverImage?.credit), 'Marketplace cover lacks visible linked attribution and license provenance.');
-check(html.includes('Editorial hero, not a listed property.'), 'Marketplace cover could be mistaken for a listed property.');
+check(html.includes('Not a listed property.'), 'Marketplace cover could be mistaken for a listed property.');
 check(socialImage?.depiction_type === 'editorial_placeholder', 'Social preview must remain an explicit editorial placeholder.');
 check(socialImage?.display_label === REQUIRED_PLACEHOLDER_LABEL, `Social preview label must be exactly “${REQUIRED_PLACEHOLDER_LABEL}”`);
 check(socialImage?.rights_basis === 'owned', 'Social preview must retain owned rights provenance.');
