@@ -1,6 +1,24 @@
 import { googlePlacesByListingId } from '../data/google-places.js';
+import listings from '../data/castle-listings.json' with { type: 'json' };
 
 const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
+const listingsById = new Map(listings.map(listing => [listing.id, listing]));
+
+function placeConfigForListing(listingId) {
+    const verified = googlePlacesByListingId[listingId];
+    if (verified) return { ...verified, verified: true };
+
+    const listing = listingsById.get(listingId);
+    if (!listing) return null;
+
+    const query = [listing.canonical_title, listing.location?.display, 'Italy'].filter(Boolean).join(', ');
+    return {
+        query,
+        expectedName: listing.canonical_title,
+        mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`,
+        verified: false,
+    };
+}
 
 function choosePhoto(photos = []) {
     return photos.find(photo => photo.widthPx >= photo.heightPx) || photos[0];
@@ -20,8 +38,8 @@ export default async function handler(req, res) {
     }
 
     const listingId = Array.isArray(req.query.listingId) ? req.query.listingId[0] : req.query.listingId;
-    const placeConfig = googlePlacesByListingId[listingId];
-    if (!placeConfig) return res.status(404).json({ error: 'No verified Google Place is configured for this listing.' });
+    const placeConfig = placeConfigForListing(listingId);
+    if (!placeConfig) return res.status(404).json({ error: 'No inventory listing is configured for this request.' });
 
     const apiKey = process.env.GOOGLE_MAPS_API_KEY
         || process.env.VITE_GOOGLE_MAPS_API_KEY
@@ -44,8 +62,9 @@ export default async function handler(req, res) {
         }
 
         const searchPayload = await searchResponse.json();
-        const place = searchPayload.places?.find(candidate => candidate.displayName?.text === placeConfig.expectedName)
-            || searchPayload.places?.[0];
+        const place = placeConfig.verified
+            ? searchPayload.places?.find(candidate => candidate.displayName?.text === placeConfig.expectedName) || searchPayload.places?.[0]
+            : searchPayload.places?.[0];
         const photo = choosePhoto(place?.photos);
         if (!place || !photo) return res.status(404).json({ error: 'No Google Places photo is available for this place.' });
 
