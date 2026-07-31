@@ -1110,6 +1110,11 @@ a {
         transform: translateY(-50%);
     }
 
+    .page-left > .kb-hint {
+        position: absolute;
+        bottom: 0.75rem;
+    }
+
     .info-layout {
         padding: 1.2rem 0 5rem;
     }

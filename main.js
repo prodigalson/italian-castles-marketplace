@@ -538,9 +538,9 @@ function renderWindow(centerIndex) {
 function syncNavigationPlacement(activeSpread = magazine.querySelector('.spread.active')) {
     const pageLeft = activeSpread?.querySelector('.page-left');
     if (window.matchMedia('(max-width: 720px)').matches && pageLeft) {
-        pageLeft.append(navPrev, navNext);
+        pageLeft.append(navPrev, navNext, kbHint);
     } else {
-        document.querySelector('main').append(navPrev, navNext);
+        document.querySelector('main').append(navPrev, navNext, kbHint);
     }
 }
 
