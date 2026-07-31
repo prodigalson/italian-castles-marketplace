@@ -33,7 +33,6 @@ const sections = {
         query: 'castles',
         assetClass: 'castle',
         navLabel: 'Castles',
-        coverKicker: 'Castelli Italiani',
         title: 'Find your Castle to Buy',
         description: 'Browse Fortresses, castles, towers, and palazzi in Italy',
         detailKicker: 'Italian Castle Marketplace',
@@ -46,7 +45,6 @@ const sections = {
         query: 'masserias',
         assetClass: 'masseria',
         navLabel: 'Masserias',
-        coverKicker: 'Masserie di Puglia',
         title: 'Find your Masseria to Buy',
         description: 'Browse Masserias in Puglia that are for sale',
         detailKicker: 'Puglia Masseria Marketplace',
@@ -560,7 +558,6 @@ function renderMagazine(list) {
     currentSpread = 0;
     isTransitioning = false;
     magazine.innerHTML = '';
-    document.getElementById('cover-count').textContent = `${sectionListings().length} vetted ${activeSection().navLabel.toLowerCase()}`;
     if (list.length === 0) {
         noResults.classList.add('visible');
         return;
@@ -686,7 +683,6 @@ function updateFilterIndicator() {
 function updateSectionChrome() {
     const section = activeSection();
     document.body.dataset.section = section.key;
-    document.querySelectorAll('[data-section-copy="cover-kicker"]').forEach(el => { el.textContent = section.coverKicker; });
     document.querySelectorAll('[data-section-copy="title"]').forEach(el => { el.textContent = section.title; });
     document.querySelectorAll('[data-section-copy="description"]').forEach(el => { el.textContent = section.description; });
     document.querySelectorAll('[data-section-button]').forEach(btn => {
