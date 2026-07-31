@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Italian Castles Marketplace editorial cover</title>
+  <desc id="description">Editorial placeholder images. Original marketplace artwork that does not depict a listed property.</desc>
+  <rect width="1600" height="900" fill="#193129"/>
+  <circle cx="1280" cy="170" r="170" fill="#9b844c"/>
+  <path d="M0 780 330 560l250 125 390-275 300 190 330-180v480H0Z" fill="#10241d"/>
+  <path d="M350 760V330h150v-105h135v105h330v-105h135v105h150v430H350Z" fill="#d9d0bc"/>
+  <path d="M500 760V470h115v290m470 0V470h115v290M715 760V550h180v210" fill="#193129"/>
+  <path d="M350 330h150l-75-125Zm710 0h150l-75-125Z" fill="#a27e37"/>
+</svg>

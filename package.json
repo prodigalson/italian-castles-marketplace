@@ -4,9 +4,10 @@
   "description": "Italian castles for sale marketplace",
   "scripts": {
     "dev": "vite",
+    "assets:generate": "node scripts/generate-site-images.mjs",
     "inventory:refresh": "node scripts/refresh-castle-inventory.mjs",
     "qa:launch": "node scripts/verify-launch.mjs",
-    "build": "vite build",
+    "build": "npm run assets:generate && vite build",
     "preview": "vite preview"
   },
   "type": "module",

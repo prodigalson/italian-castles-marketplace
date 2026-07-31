@@ -34,7 +34,7 @@ Built size evidence:
 - `dist/index.html`: 12 KB on disk, 10.97 KB build output, 2.84 KB gzip.
 - Main CSS bundle: 16 KB on disk, 12.95 KB build output, 3.39 KB gzip.
 - Main JS bundle: 36 KB on disk, 36.83 KB build output, 9.53 KB gzip.
-- `public/og/cover.jpg`: 172 KB.
+- `public/og/cover.png`: 23 KB, generated from owned castle-marketplace vector artwork at 1200×630.
 
 ## PER-149 Final QA Evidence
 
@@ -45,7 +45,7 @@ Built size evidence:
 - Local production preview passed at `375x812`, `768x1024`, and `1280x720` with no horizontal overflow or console errors. The first castle, the 100th active expanded-inventory castle, and a Masserias deep link all rendered source links, provenance, and the exact placeholder label.
 - Inventory verification: 108 unique canonical listings, including 104 active castles after dedupe and 2 active Puglia masserias. All listing source URLs, attribution, raw payload references, last-checked values, provenance notes, and inquiry actions passed validation.
 - Source transparency: all 17 source status records passed validation, including all 10 required Masserias sources. Permission, terms, robots, and fallback evidence remains visible for unavailable sources.
-- Image verification: no current source record grants copied property-photo display rights. All 108 listings therefore use owned local editorial illustrations, not remote stock or source photos. Every image records `editorial_placeholder`, credit, owned rights basis, and a rights note, and the UI visibly renders exactly `Editorial placeholder images.`
+- Image verification: no current source record grants copied property-photo display rights. All 108 listings therefore use owned local editorial illustrations, not remote stock or source photos. Every listing image records `editorial_placeholder`, credit, owned rights basis, and a rights note, and the UI visibly renders exactly `Editorial placeholder images.` The marketplace cover and social preview are also registered in `data/site-image-assets.json`; the cover displays its rights text, the social preview contains only castle-marketplace branding, and launch QA verifies the generated PNG dimensions and provenance hash.
 - SEO/social verification: canonical, Open Graph URL/image, Twitter image, and JSON-LD production URLs now use `https://castle.chingularity.com/`; the legacy Vercel URL is rejected by `npm run qa:launch`.
 
 The live production deployment observed during QA still contained the previous singular placeholder wording and legacy canonical metadata. Those two findings are fixed in PER-149 and must be verified again on `castle.chingularity.com` after this change is reviewed, merged, and Vercel promotes the new production deployment.

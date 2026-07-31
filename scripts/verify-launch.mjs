@@ -1,13 +1,20 @@
 import { readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import sharp from 'sharp';
 
 const REQUIRED_PLACEHOLDER_LABEL = 'Editorial placeholder images.';
 const CANONICAL_URL = 'https://castle.chingularity.com/';
 
-const [listings, sources, html] = await Promise.all([
+const [listings, sources, siteImages, html, socialSource, socialOutput] = await Promise.all([
     readJson('data/castle-listings.json'),
     readJson('data/castle-source-status.json'),
+    readJson('data/site-image-assets.json'),
     readFile('index.html', 'utf8'),
+    readFile('assets/site-social-preview.svg', 'utf8'),
+    readFile('public/og/cover.png'),
 ]);
+const socialMetadata = await sharp(socialOutput).metadata();
+const siteSourceContents = await Promise.all(siteImages.map(image => readFile(image.source_asset, 'utf8')));
 
 const failures = [];
 const activeCastles = listings.filter(listing => listing.asset_class === 'castle' && listing.status === 'active');
@@ -51,6 +58,26 @@ check(html.includes(`<link rel="canonical" href="${CANONICAL_URL}">`), 'Canonica
 check(!html.includes('italian-castles-marketplace.vercel.app'), 'Legacy Vercel URL remains in SEO/social metadata.');
 check(html.includes('og:image') && html.includes('twitter:card') && html.includes('application/ld+json'), 'SEO/social metadata is incomplete.');
 
+const coverImage = siteImages.find(image => image.usage === 'marketplace_cover');
+const socialImage = siteImages.find(image => image.usage === 'social_preview');
+for (const [index, image] of siteImages.entries()) {
+    check(image.depiction_type === 'editorial_placeholder', `${image.id}: site image must be an explicit editorial placeholder.`);
+    check(image.display_label === REQUIRED_PLACEHOLDER_LABEL, `${image.id}: site image label must be exactly “${REQUIRED_PLACEHOLDER_LABEL}”`);
+    check(image.credit && image.rights_basis === 'owned' && image.rights_note, `${image.id}: incomplete owned image provenance.`);
+    check(!isHttpUrl(image.url), `${image.id}: site imagery must use an owned local asset.`);
+    check(siteSourceContents[index].includes('<svg') && !siteSourceContents[index].includes('Amo Dove Andiamo'), `${image.id}: source asset is not verified castle-marketplace vector artwork.`);
+}
+check(Boolean(coverImage && socialImage), 'Cover and social-preview provenance records are required.');
+check(html.includes(`<img src="${coverImage?.url}"`), 'Marketplace cover does not use its registered local asset.');
+check(html.includes(`class="cover-image-provenance"><strong>${REQUIRED_PLACEHOLDER_LABEL}</strong>`), 'Marketplace cover lacks visible rights/provenance text.');
+check(!html.includes('commons.wikimedia.org'), 'Unregistered third-party cover imagery remains in the page.');
+check(html.includes(`${CANONICAL_URL.slice(0, -1)}${socialImage?.url}`), 'Social metadata does not use its registered marketplace asset.');
+check(html.includes('<meta property="og:image:type" content="image/png">'), 'Social preview MIME metadata does not match the PNG asset.');
+check(socialSource.includes('Browse Italian Castles for Sale') && socialSource.includes(REQUIRED_PLACEHOLDER_LABEL.toUpperCase()), 'Social preview source is not identifiable as owned castle-marketplace editorial artwork.');
+check(!socialSource.includes('Amo Dove Andiamo'), 'Social preview source contains unrelated Amo branding.');
+check(socialMetadata.width === 1200 && socialMetadata.height === 630 && socialMetadata.format === 'png', 'Generated social preview must be a 1200x630 PNG.');
+check(sha256(socialOutput) === socialImage?.generated_sha256, 'Generated social preview does not match its recorded provenance hash.');
+
 if (failures.length) {
     console.error(`Launch QA failed with ${failures.length} finding(s):`);
     for (const failure of failures) console.error(`- ${failure}`);
@@ -58,6 +85,7 @@ if (failures.length) {
 } else {
     console.log(`Launch QA passed: ${activeCastles.length} active castles, ${activeMasserias.length} active masserias, ${listings.length} unique canonical listings.`);
     console.log(`Image provenance passed: ${listings.length} listings use explicit actual-property or exactly labelled editorial imagery.`);
+    console.log(`Site image provenance passed: ${siteImages.length} owned cover/social assets are registered and verified.`);
     console.log(`Source transparency passed: ${sources.length} source records, including all ${masseriaSources.length} required masseria sources.`);
     console.log(`Canonical metadata passed: ${CANONICAL_URL}`);
 }
@@ -76,4 +104,8 @@ function isHttpUrl(value) {
 
 async function readJson(path) {
     return JSON.parse(await readFile(path, 'utf8'));
+}
+
+function sha256(value) {
+    return createHash('sha256').update(value).digest('hex');
 }

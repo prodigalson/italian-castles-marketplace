@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Browse Italian Castles for Sale</title>
+  <desc id="description">Editorial placeholder images. Original marketplace artwork that does not depict a listed property.</desc>
+  <rect width="1200" height="630" fill="#193129"/>
+  <circle cx="1010" cy="125" r="105" fill="#a58a4b"/>
+  <path d="M0 520 250 385l200 80 265-170 230 135 255-125v325H0Z" fill="#10241d"/>
+  <path d="M675 500V225h86v-62h86v62h196v-62h86v62h71v275H675Z" fill="#dfd5bd"/>
+  <path d="M761 500V305h72v195m224 0V305h72v195M878 500V365h130v135" fill="#193129"/>
+  <path d="M675 225h86l-43-69Zm368 0h86l-43-69Z" fill="#a27e37"/>
+  <text x="72" y="118" fill="#b9a36b" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="5">CASTELLI ITALIANI</text>
+  <text x="68" y="218" fill="#f5f0e5" font-family="Georgia, serif" font-size="68">Browse Italian</text>
+  <text x="68" y="298" fill="#f5f0e5" font-family="Georgia, serif" font-size="68">Castles for Sale</text>
+  <text x="72" y="364" fill="#d9d0bc" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">CASTLES · MASSERIAS · HISTORIC ESTATES</text>
+  <rect x="72" y="440" width="352" height="54" rx="2" fill="#f5f0e5"/>
+  <text x="248" y="474" fill="#193129" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">EDITORIAL PLACEHOLDER IMAGES.</text>
+  <text x="72" y="550" fill="#afaa9d" font-family="Arial, sans-serif" font-size="15">Original marketplace artwork · Not a listed property</text>
+</svg>
