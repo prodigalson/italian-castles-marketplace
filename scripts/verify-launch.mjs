@@ -142,6 +142,7 @@ check([
 ].every(copy => mainSource.includes(copy)), 'Exact castle and masseria section copy is missing from main.js.');
 
 const coverImage = siteImages.find(image => image.usage === 'marketplace_cover');
+const masseriaCoverImage = siteImages.find(image => image.usage === 'masseria_cover');
 const socialImage = siteImages.find(image => image.usage === 'social_preview');
 for (const [index, image] of siteImages.entries()) {
     check(!isHttpUrl(image.url), `${image.id}: site imagery must use an owned local asset.`);
@@ -158,6 +159,18 @@ check(coverImage?.source_original_dimensions === '6708x4472' && coverImage?.deli
 check(siteSourceMetadata[siteImages.indexOf(coverImage)]?.width === 3840 && siteSourceMetadata[siteImages.indexOf(coverImage)]?.height === 2560, 'Marketplace cover is not the expected high-resolution 3840x2560 asset.');
 check(html.includes(coverImage?.source_page_url) && html.includes(coverImage?.license_url) && html.includes(coverImage?.credit), 'Marketplace cover lacks visible linked attribution and license provenance.');
 check(html.includes('Not a listed property.'), 'Marketplace cover could be mistaken for a listed property.');
+
+check(Boolean(masseriaCoverImage), 'The masseria section requires its own cover provenance record.');
+check(masseriaCoverImage?.depiction_type === 'editorial_landmark', 'Masseria cover must be registered as an editorial landmark photograph.');
+check(masseriaCoverImage?.display_label === 'Editorial hero, not a listed property.', 'Masseria cover must explicitly state that it is not a listed property.');
+check(masseriaCoverImage?.rights_basis === 'CC BY-SA 4.0' && isHttpUrl(masseriaCoverImage?.license_url), 'Masseria cover must record its reusable license.');
+check(isHttpUrl(masseriaCoverImage?.source_page_url) && isHttpUrl(masseriaCoverImage?.source_download_url), 'Masseria cover must record source-page and download provenance.');
+check(html.includes(`<img src="${masseriaCoverImage?.url}"`), 'Masseria cover does not use its registered local asset.');
+check(html.includes(masseriaCoverImage?.source_page_url) && html.includes(masseriaCoverImage?.license_url) && html.includes(masseriaCoverImage?.credit), 'Masseria cover lacks visible linked attribution and license provenance.');
+const masseriaCoverMetadata = siteSourceMetadata[siteImages.indexOf(masseriaCoverImage)];
+check(`${masseriaCoverMetadata?.width}x${masseriaCoverMetadata?.height}` === masseriaCoverImage?.delivered_dimensions, 'Masseria cover dimensions do not match recorded provenance.');
+check(masseriaCoverMetadata?.width >= 2560, 'Masseria cover must be delivered at 2560px or wider.');
+check(mainSource.includes('data-section-cover') && html.includes('data-section-cover="masseria"'), 'The cover hero does not swap with the selected section.');
 check(socialImage?.depiction_type === 'editorial_placeholder', 'Social preview must remain an explicit editorial placeholder.');
 check(socialImage?.display_label === REQUIRED_PLACEHOLDER_LABEL, `Social preview label must be exactly “${REQUIRED_PLACEHOLDER_LABEL}”`);
 check(socialImage?.rights_basis === 'owned', 'Social preview must retain owned rights provenance.');
