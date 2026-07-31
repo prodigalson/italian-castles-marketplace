@@ -10,7 +10,7 @@
     "cadence": "weekly manual review until feed permission is granted",
     "robots_terms_evidence": "2026-07-31 data-foundation review: terms/robots require source-specific positive review before automated reuse.",
     "fallback": "Link-only editorial fixture; no copied listing body or source media.",
-    "represented_as": "listing_record",
+    "represented_as": "source_status",
     "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
   },
@@ -25,7 +25,7 @@
     "cadence": "weekly manual review pending marketplace export",
     "robots_terms_evidence": "2026-07-31 data-foundation review: marketplace/partnership export preferred; downstream rights must be verified.",
     "fallback": "Normalize high-level facts and link users back to Castle Collector.",
-    "represented_as": "listing_record",
+    "represented_as": "source_status",
     "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
   },
@@ -85,7 +85,7 @@
     "cadence": "weekly manual review pending professional interface access",
     "robots_terms_evidence": "2026-07-31 data-foundation review: verify exact robots and terms before automated fetch; address precision requires care.",
     "fallback": "Manual listing fixture or source-level link-out.",
-    "represented_as": "listing_record",
+    "represented_as": "source_status",
     "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
   },
@@ -130,8 +130,8 @@
     "cadence": "weekly manual review pending professional data access",
     "robots_terms_evidence": "2026-07-31 data-foundation review: advertiser-owned content and commercial reuse limits require permission for copied descriptions/images.",
     "fallback": "Link-only cards or manual fixtures until permission is secured.",
-    "represented_as": "listing_record",
-    "record_count": 2,
+    "represented_as": "source_status",
+    "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
   },
   {
@@ -190,7 +190,7 @@
     "cadence": "weekly manual review pending portal feed or broker export",
     "robots_terms_evidence": "2026-07-31 masseria review: use only manually curated link-out records unless Gate-away grants feed/API or written reuse rights for commercial aggregation.",
     "fallback": "Normalize high-level manual facts and route buyers back to the original Gate-away listing.",
-    "represented_as": "listing_record",
+    "represented_as": "source_status",
     "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
   },
@@ -250,7 +250,7 @@
     "cadence": "weekly manual review pending agency export",
     "robots_terms_evidence": "2026-07-31 masseria review: public pages show Puglia inventory and references, but copied descriptions/media and automated collection need agency permission.",
     "fallback": "Manual link-only fixture with source URL, reference, high-level facts, and Oikos attribution.",
-    "represented_as": "listing_record",
+    "represented_as": "source_status",
     "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
   }

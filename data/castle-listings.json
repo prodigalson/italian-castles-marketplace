@@ -1,63 +1,61 @@
 [
   {
-    "id": "chianti-castle-estate",
+    "id": "jamesedition-historic-masseria-salve-18413842",
     "status": "active",
-    "canonical_title": "Restored Chianti Castle Estate",
-    "summary": "Manual link-only buyer-discovery record for a hilltop Tuscan castle estate with chapel, guest accommodation, olive groves, and vineyard-facing terraces.",
-    "asset_class": "castle",
-    "property_type": "castle",
-    "condition": "renovated",
+    "canonical_title": "Historic Masseria With Productive Estate In Salve",
+    "summary": "Manual link-only record for a historic Salento masseria with established hospitality use, olive groves, vineyards, and approximately forty hectares of land.",
+    "asset_class": "masseria",
+    "property_type": "masseria",
+    "condition": "habitable",
     "location": {
       "country_code": "IT",
-      "region": "Tuscany",
-      "province": "SI",
-      "municipality": "Siena",
-      "display": "Chianti, Siena, Tuscany",
-      "latitude": 43.3188,
-      "longitude": 11.3308,
+      "region": "Puglia",
+      "province": "LE",
+      "municipality": "Salve",
+      "display": "Salve, Lecce, Puglia",
+      "latitude": null,
+      "longitude": null,
       "precision": "municipality",
       "map_context": {
-        "show_map": true,
+        "show_map": false,
         "public_label": "Approximate municipality",
         "nearby_context": [
-          "Siena",
-          "SI",
-          "Tuscany"
+          "Salve",
+          "LE",
+          "Puglia"
         ]
       }
     },
     "pricing": {
       "display": "asking_price",
       "currency": "EUR",
-      "amount": 12500000,
+      "amount": 10000000,
       "range_min": null,
       "range_max": null,
       "price_on_request": false,
       "raw_text": null
     },
-    "bedrooms": 18,
-    "bathrooms": 16,
+    "bedrooms": 8,
+    "bathrooms": 8,
     "size": {
-      "value": 4200,
+      "value": null,
       "unit": "sqm",
-      "raw_text": "4200 sqm"
+      "raw_text": null
     },
     "land_area": {
-      "value": 38,
+      "value": 40,
       "unit": "hectare",
-      "raw_text": "38 hectare"
+      "raw_text": "40 hectare"
     },
     "amenities": [
-      "chapel",
-      "guest_house",
       "olive_grove",
       "panoramic_views",
-      "pool",
+      "tourism_business",
       "vineyard"
     ],
     "images": [
       {
-        "url": "/images/editorial-castle-placeholder.svg",
+        "url": "/images/editorial-masseria-placeholder.svg",
         "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
         "caption": "Editorial placeholder images.",
         "credit": "Italian Castles Marketplace editorial artwork",
@@ -65,7 +63,7 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_listing_url": "https://www.jamesedition.com/real_estate/italy",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
         "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
         "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
@@ -75,35 +73,21 @@
       {
         "source_key": "jamesedition",
         "source_name": "JamesEdition",
-        "source_listing_id": "je-chianti-castle-estate",
-        "source_url": "https://www.jamesedition.com/real_estate/italy",
+        "source_listing_id": "je-historic-masseria-salve-18413842",
+        "source_url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
         "source_status": "active",
         "last_checked_at": "2026-07-31T00:00:00.000Z",
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-chianti-castle-estate"
-      },
-      {
-        "source_key": "luxuryestate",
-        "source_name": "LuxuryEstate",
-        "source_listing_id": "le-chianti-castle-estate",
-        "source_url": "https://www.luxuryestate.com/italy",
-        "source_status": "active",
-        "last_checked_at": "2026-07-30T00:00:00.000Z",
-        "attribution_label": "Source: LuxuryEstate",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/luxuryestate/le-chianti-castle-estate"
+        "raw_payload_ref": "data/manual-review/jamesedition/masseria-property-url-review.json#18413842"
       }
     ],
     "dedupe": {
-      "match_confidence": "high",
+      "match_confidence": "single_source",
       "canonical_source_key": "jamesedition",
       "evidence": [
-        "Same canonical_group from manually reviewed source records.",
-        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
-        "Merged sources retained: JamesEdition, LuxuryEstate."
+        "Single source record from JamesEdition."
       ],
       "reviewed_by": "manual_editorial_fixture",
       "reviewed_at": "2026-07-31T00:00:00.000Z"
@@ -118,14 +102,116 @@
       {
         "type": "source_link",
         "label": "View on JamesEdition",
-        "url": "https://www.jamesedition.com/real_estate/italy",
+        "url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
         "source_key": "jamesedition"
-      },
+      }
+    ]
+  },
+  {
+    "id": "jamesedition-masseria-conversano-15074705",
+    "status": "active",
+    "canonical_title": "Restored Eighteenth-Century Masseria In Conversano",
+    "summary": "Manual link-only record for a restored eighteenth-century masseria near Conversano with traditional stonework, a private pool, and a one-hectare pine garden.",
+    "asset_class": "masseria",
+    "property_type": "masseria",
+    "condition": "renovated",
+    "location": {
+      "country_code": "IT",
+      "region": "Puglia",
+      "province": "BA",
+      "municipality": "Conversano",
+      "display": "Conversano, Bari, Puglia",
+      "latitude": null,
+      "longitude": null,
+      "precision": "municipality",
+      "map_context": {
+        "show_map": false,
+        "public_label": "Approximate municipality",
+        "nearby_context": [
+          "Conversano",
+          "BA",
+          "Puglia"
+        ]
+      }
+    },
+    "pricing": {
+      "display": "asking_price",
+      "currency": "EUR",
+      "amount": 1400000,
+      "range_min": null,
+      "range_max": null,
+      "price_on_request": false,
+      "raw_text": null
+    },
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "size": {
+      "value": 700,
+      "unit": "sqm",
+      "raw_text": "700 sqm"
+    },
+    "land_area": {
+      "value": 1,
+      "unit": "hectare",
+      "raw_text": "1 hectare"
+    },
+    "amenities": [
+      "garden",
+      "olive_grove",
+      "pool",
+      "tourism_business"
+    ],
+    "images": [
+      {
+        "url": "/images/editorial-masseria-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
+        "source_key": "jamesedition"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "jamesedition",
+        "source_name": "JamesEdition",
+        "source_listing_id": "je-masseria-conversano-15074705",
+        "source_url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+        "source_status": "active",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "attribution_label": "Source: JamesEdition",
+        "agent_or_broker": null,
+        "license_basis": "link_only",
+        "raw_payload_ref": "data/manual-review/jamesedition/masseria-property-url-review.json#15074705"
+      }
+    ],
+    "dedupe": {
+      "match_confidence": "single_source",
+      "canonical_source_key": "jamesedition",
+      "evidence": [
+        "Single source record from JamesEdition."
+      ],
+      "reviewed_by": "manual_editorial_fixture",
+      "reviewed_at": "2026-07-31T00:00:00.000Z"
+    },
+    "provenance": {
+      "created_at": "2026-07-31T00:00:00.000Z",
+      "updated_at": "2026-07-31T00:00:00.000Z",
+      "last_checked_at": "2026-07-31T00:00:00.000Z",
+      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
+    },
+    "inquiry_actions": [
       {
         "type": "source_link",
-        "label": "View on LuxuryEstate",
-        "url": "https://www.luxuryestate.com/italy",
-        "source_key": "luxuryestate"
+        "label": "View on JamesEdition",
+        "url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+        "source_key": "jamesedition"
       }
     ]
   },
@@ -10882,585 +10968,6 @@
         "label": "View on JamesEdition",
         "url": "https://www.jamesedition.com/real_estate/bagno-a-ripoli-italy/castle-with-views-of-the-historic-center-of-florence-for-sale-15665927",
         "source_key": "jamesedition"
-      }
-    ]
-  },
-  {
-    "id": "piedmont-vineyard-castello",
-    "status": "active",
-    "canonical_title": "Piedmont Vineyard Castello",
-    "summary": "Manual marketplace fixture for a Langhe-area castle with winery potential, vaulted cellars, restored owner quarters, and guest accommodation.",
-    "asset_class": "castle",
-    "property_type": "castle",
-    "condition": "habitable",
-    "location": {
-      "country_code": "IT",
-      "region": "Piedmont",
-      "province": "CN",
-      "municipality": "Cuneo",
-      "display": "Langhe, Cuneo, Piedmont",
-      "latitude": 44.608,
-      "longitude": 7.958,
-      "precision": "municipality",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Approximate municipality",
-        "nearby_context": [
-          "Cuneo",
-          "CN",
-          "Piedmont"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "asking_price",
-      "currency": "EUR",
-      "amount": 3900000,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": false,
-      "raw_text": null
-    },
-    "bedrooms": 9,
-    "bathrooms": 8,
-    "size": {
-      "value": 1850,
-      "unit": "sqm",
-      "raw_text": "1850 sqm"
-    },
-    "land_area": {
-      "value": 18,
-      "unit": "hectare",
-      "raw_text": "18 hectare"
-    },
-    "amenities": [
-      "guest_house",
-      "panoramic_views",
-      "vineyard",
-      "wine_cellar"
-    ],
-    "images": [
-      {
-        "url": "/images/editorial-castle-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_listing_url": "https://castle-collector.com/castles-for-sale/",
-        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
-        "selection_note": "The original listing link is preserved, but its manual_editorial source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
-        "source_key": "castle_collector"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "castle_collector",
-        "source_name": "Castle Collector",
-        "source_listing_id": "cc-piedmont-vineyard-castello",
-        "source_url": "https://castle-collector.com/castles-for-sale/",
-        "source_status": "active",
-        "last_checked_at": "2026-07-28T00:00:00.000Z",
-        "attribution_label": "Source: Castle Collector",
-        "agent_or_broker": null,
-        "license_basis": "manual_editorial",
-        "raw_payload_ref": "manual-review/castle_collector/cc-piedmont-vineyard-castello"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "single_source",
-      "canonical_source_key": "castle_collector",
-      "evidence": [
-        "Single source record from Castle Collector."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-28T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "View on Castle Collector",
-        "url": "https://castle-collector.com/castles-for-sale/",
-        "source_key": "castle_collector"
-      }
-    ]
-  },
-  {
-    "id": "salento-masseria-retreat",
-    "status": "active",
-    "canonical_title": "Salento Masseria Retreat",
-    "summary": "Manual link-only fixture for a Salento masseria retreat with vaulted stone rooms, pool, gardens, and short-stay hospitality potential.",
-    "asset_class": "masseria",
-    "property_type": "masseria",
-    "condition": "habitable",
-    "location": {
-      "country_code": "IT",
-      "region": "Puglia",
-      "province": "LE",
-      "municipality": "Lecce",
-      "display": "Salento, Lecce, Puglia",
-      "latitude": 40.3515,
-      "longitude": 18.175,
-      "precision": "municipality",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Approximate municipality",
-        "nearby_context": [
-          "Lecce",
-          "LE",
-          "Puglia"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "price_on_request",
-      "currency": null,
-      "amount": null,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": true,
-      "raw_text": "Price on request"
-    },
-    "bedrooms": 14,
-    "bathrooms": 12,
-    "size": {
-      "value": 1350,
-      "unit": "sqm",
-      "raw_text": "1350 sqm"
-    },
-    "land_area": {
-      "value": 9,
-      "unit": "hectare",
-      "raw_text": "9 hectare"
-    },
-    "amenities": [
-      "farm_buildings",
-      "garden",
-      "panoramic_views",
-      "pool",
-      "tourism_business"
-    ],
-    "images": [
-      {
-        "url": "/images/editorial-masseria-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_listing_url": "https://www.jamesedition.com/real_estate/puglia-italy",
-        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
-        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
-        "source_key": "jamesedition"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "jamesedition",
-        "source_name": "JamesEdition",
-        "source_listing_id": "je-salento-masseria-retreat",
-        "source_url": "https://www.jamesedition.com/real_estate/puglia-italy",
-        "source_status": "active",
-        "last_checked_at": "2026-07-30T00:00:00.000Z",
-        "attribution_label": "Source: JamesEdition",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-salento-masseria-retreat"
-      },
-      {
-        "source_key": "luxuryestate",
-        "source_name": "LuxuryEstate",
-        "source_listing_id": "le-salento-masseria-retreat",
-        "source_url": "https://www.luxuryestate.com/italy/puglia",
-        "source_status": "active",
-        "last_checked_at": "2026-07-29T00:00:00.000Z",
-        "attribution_label": "Source: LuxuryEstate",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/luxuryestate/le-salento-masseria-retreat"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "high",
-      "canonical_source_key": "jamesedition",
-      "evidence": [
-        "Same canonical_group from manually reviewed source records.",
-        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
-        "Merged sources retained: JamesEdition, LuxuryEstate."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-30T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "View on JamesEdition",
-        "url": "https://www.jamesedition.com/real_estate/puglia-italy",
-        "source_key": "jamesedition"
-      },
-      {
-        "type": "source_link",
-        "label": "View on LuxuryEstate",
-        "url": "https://www.luxuryestate.com/italy/puglia",
-        "source_key": "luxuryestate"
-      }
-    ]
-  },
-  {
-    "id": "valle-itria-masseria-estate",
-    "status": "active",
-    "canonical_title": "Restored Masseria Near Ostuni",
-    "summary": "Manual duplicate candidate for the same Valle d Itria masseria; retained to demonstrate cross-source dedupe while preserving Oikos attribution and source link.",
-    "asset_class": "masseria",
-    "property_type": "masseria",
-    "condition": "renovated",
-    "location": {
-      "country_code": "IT",
-      "region": "Puglia",
-      "province": "BR",
-      "municipality": "Ostuni",
-      "display": "Ostuni, Brindisi, Puglia",
-      "latitude": 40.73,
-      "longitude": 17.58,
-      "precision": "municipality",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Approximate municipality",
-        "nearby_context": [
-          "Ostuni",
-          "BR",
-          "Puglia"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "asking_price",
-      "currency": "EUR",
-      "amount": 2920000,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": false,
-      "raw_text": null
-    },
-    "bedrooms": 10,
-    "bathrooms": 9,
-    "size": {
-      "value": 900,
-      "unit": "sqm",
-      "raw_text": "900 sqm"
-    },
-    "land_area": {
-      "value": 6.4,
-      "unit": "hectare",
-      "raw_text": "6.4 hectare"
-    },
-    "amenities": [
-      "garden",
-      "guest_house",
-      "olive_grove",
-      "pool",
-      "tourism_business"
-    ],
-    "images": [
-      {
-        "url": "/images/editorial-masseria-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_listing_url": "https://oikosimmobiliare.biz/en/",
-        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
-        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
-        "source_key": "oikos_immobiliare"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "oikos_immobiliare",
-        "source_name": "Oikos Immobiliare",
-        "source_listing_id": "oi-valle-itria-masseria-estate",
-        "source_url": "https://oikosimmobiliare.biz/en/",
-        "source_status": "active",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "attribution_label": "Source: Oikos Immobiliare",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/oikos_immobiliare/oi-valle-itria-masseria-estate"
-      },
-      {
-        "source_key": "gate_away",
-        "source_name": "Gate-away",
-        "source_listing_id": "ga-valle-itria-masseria-estate",
-        "source_url": "https://www.gate-away.com/properties/puglia",
-        "source_status": "active",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "attribution_label": "Source: Gate-away",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/gate_away/ga-valle-itria-masseria-estate"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "high",
-      "canonical_source_key": "oikos_immobiliare",
-      "evidence": [
-        "Same canonical_group from manually reviewed source records.",
-        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
-        "Merged sources retained: Oikos Immobiliare, Gate-away."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-31T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "View on Oikos Immobiliare",
-        "url": "https://oikosimmobiliare.biz/en/",
-        "source_key": "oikos_immobiliare"
-      },
-      {
-        "type": "source_link",
-        "label": "View on Gate-away",
-        "url": "https://www.gate-away.com/properties/puglia",
-        "source_key": "gate_away"
-      }
-    ]
-  },
-  {
-    "id": "umbria-fortified-borgo",
-    "status": "stale",
-    "canonical_title": "Fortified Umbrian Borgo",
-    "summary": "Stale link-only fixture for a walled hamlet-style estate with central keep, restored apartments, event gardens, and valley views.",
-    "asset_class": "castle",
-    "property_type": "fortress",
-    "condition": "needs_work",
-    "location": {
-      "country_code": "IT",
-      "region": "Umbria",
-      "province": "PG",
-      "municipality": null,
-      "display": "Perugia province, Umbria",
-      "latitude": 43.1122,
-      "longitude": 12.3888,
-      "precision": "province",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Province only",
-        "nearby_context": [
-          "PG",
-          "Umbria"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "asking_price",
-      "currency": "EUR",
-      "amount": 6800000,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": false,
-      "raw_text": null
-    },
-    "bedrooms": 24,
-    "bathrooms": 21,
-    "size": {
-      "value": 5100,
-      "unit": "sqm",
-      "raw_text": "5100 sqm"
-    },
-    "land_area": {
-      "value": 62,
-      "unit": "hectare",
-      "raw_text": "62 hectare"
-    },
-    "amenities": [
-      "guest_house",
-      "olive_grove",
-      "panoramic_views",
-      "tourism_business"
-    ],
-    "images": [
-      {
-        "url": "/images/editorial-castle-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_listing_url": "https://www.realportico.com/property-search/italy",
-        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
-        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
-        "source_key": "realportico"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "realportico",
-        "source_name": "REALPORTICO",
-        "source_listing_id": "rp-umbria-fortified-borgo",
-        "source_url": "https://www.realportico.com/property-search/italy",
-        "source_status": "stale",
-        "last_checked_at": "2026-07-13T00:00:00.000Z",
-        "attribution_label": "Source: REALPORTICO",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/realportico/rp-umbria-fortified-borgo"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "single_source",
-      "canonical_source_key": "realportico",
-      "evidence": [
-        "Single source record from REALPORTICO."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-13T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "Check REALPORTICO status",
-        "url": "https://www.realportico.com/property-search/italy",
-        "source_key": "realportico"
-      }
-    ]
-  },
-  {
-    "id": "sicilian-coastal-watchtower",
-    "status": "removed",
-    "canonical_title": "Sicilian Coastal Watchtower Estate",
-    "summary": "Removed source-state fixture retained for audit visibility after the source record was marked removed.",
-    "asset_class": "castle",
-    "property_type": "tower",
-    "condition": "ruin",
-    "location": {
-      "country_code": "IT",
-      "region": "Sicily",
-      "province": "SR",
-      "municipality": null,
-      "display": "Siracusa province, Sicily",
-      "latitude": 36.998,
-      "longitude": 15.07,
-      "precision": "province",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Province only",
-        "nearby_context": [
-          "SR",
-          "Sicily"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "sold_removed",
-      "currency": null,
-      "amount": null,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": true,
-      "raw_text": "Price on request"
-    },
-    "bedrooms": null,
-    "bathrooms": null,
-    "size": {
-      "value": null,
-      "unit": "sqm",
-      "raw_text": null
-    },
-    "land_area": {
-      "value": 12,
-      "unit": "hectare",
-      "raw_text": "12 hectare"
-    },
-    "amenities": [
-      "panoramic_views",
-      "sea_view"
-    ],
-    "images": [
-      {
-        "url": "/images/editorial-castle-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_listing_url": "https://www.castleist.com/castles-for-sale/italy",
-        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
-        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
-        "source_key": "castleist"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "castleist",
-        "source_name": "Castleist",
-        "source_listing_id": "cl-sicilian-coastal-watchtower",
-        "source_url": "https://www.castleist.com/castles-for-sale/italy",
-        "source_status": "removed",
-        "last_checked_at": "2026-07-29T00:00:00.000Z",
-        "attribution_label": "Source: Castleist",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/castleist/cl-sicilian-coastal-watchtower",
-        "removed_at": "2026-07-29T00:00:00.000Z"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "single_source",
-      "canonical_source_key": "castleist",
-      "evidence": [
-        "Single source record from Castleist."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-29T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "Check Castleist status",
-        "url": "https://www.castleist.com/castles-for-sale/italy",
-        "source_key": "castleist"
       }
     ]
   }

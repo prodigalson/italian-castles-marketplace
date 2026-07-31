@@ -5,10 +5,11 @@ import sharp from 'sharp';
 const REQUIRED_PLACEHOLDER_LABEL = 'Editorial placeholder images.';
 const CANONICAL_URL = 'https://castle.chingularity.com/';
 
-const [listings, sources, siteImages, html, mainSource, socialSource, socialOutput] = await Promise.all([
+const [listings, sources, siteImages, masseriaReview, html, mainSource, socialSource, socialOutput] = await Promise.all([
     readJson('data/castle-listings.json'),
     readJson('data/castle-source-status.json'),
     readJson('data/site-image-assets.json'),
+    readJson('data/manual-review/jamesedition/masseria-property-url-review.json'),
     readFile('index.html', 'utf8'),
     readFile('main.js', 'utf8'),
     readFile('assets/site-social-preview.svg', 'utf8'),
@@ -22,10 +23,29 @@ const failures = [];
 const activeCastles = listings.filter(listing => listing.asset_class === 'castle' && listing.status === 'active');
 const activeMasserias = listings.filter(listing => listing.asset_class === 'masseria' && listing.status === 'active');
 const ids = new Set(listings.map(listing => listing.id));
+const rejectedLandingUrls = [
+    { source_key: 'jamesedition', source_url: 'https://www.jamesedition.com/real_estate/italy' },
+    { source_key: 'jamesedition', source_url: 'https://www.jamesedition.com/real_estate/puglia-italy' },
+    { source_key: 'luxuryestate', source_url: 'https://www.luxuryestate.com/italy' },
+    { source_key: 'castle_collector', source_url: 'https://castle-collector.com/castles-for-sale/' },
+    { source_key: 'realportico', source_url: 'https://www.realportico.com/property-search/italy' },
+    { source_key: 'castleist', source_url: 'https://www.castleist.com/castles-for-sale/italy' },
+    { source_key: 'gate_away', source_url: 'https://www.gate-away.com/properties/puglia' },
+    { source_key: 'oikos_immobiliare', source_url: 'https://oikosimmobiliare.biz/en/' },
+];
 
 check(activeCastles.length >= 100, `Expected at least 100 active castles, found ${activeCastles.length}.`);
 check(activeMasserias.length > 0, 'Expected active Puglia masseria inventory.');
 check(ids.size === listings.length, `Expected unique canonical IDs, found ${listings.length - ids.size} duplicates.`);
+check(rejectedLandingUrls.every(source => !isPropertyListingUrl(source)), 'Property-level URL validation accepted a known landing or category URL.');
+check(activeMasserias.every(listing => {
+    const sourceUrl = listing.sources[0]?.source_url;
+    const review = masseriaReview.records.find(record => record.original_listing_url === sourceUrl);
+    return review?.source_images_present
+        && review.source_image_count_observed > 0
+        && review.image_reuse_basis === 'link_only_no_display_permission'
+        && review.selected_image_policy.includes('no source image copied or hotlinked');
+}), 'Active masseria inventory lacks a property-level image-presence and permission review.');
 
 for (const listing of listings) {
     check(listing.sources?.length > 0, `${listing.id}: missing source attribution.`);
@@ -36,6 +56,7 @@ for (const listing of listings) {
 
     for (const source of listing.sources || []) {
         check(isHttpUrl(source.source_url), `${listing.id}: invalid original source URL.`);
+        check(isPropertyListingUrl(source), `${listing.id}: original source URL is not a supported property-level listing URL.`);
         check(Boolean(source.source_name && source.attribution_label), `${listing.id}: incomplete source attribution.`);
         check(Boolean(source.last_checked_at && source.raw_payload_ref), `${listing.id}: incomplete source provenance.`);
     }
@@ -123,6 +144,13 @@ function isHttpUrl(value) {
     } catch {
         return false;
     }
+}
+
+function isPropertyListingUrl(source) {
+    if (source.source_key === 'jamesedition') {
+        return /^https:\/\/www\.jamesedition\.com\/real_estate\/[^/]+\/[^/?#]+-\d{8}(?:[?#].*)?$/.test(source.source_url);
+    }
+    return false;
 }
 
 async function readJson(path) {
