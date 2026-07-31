@@ -1,6 +1,7 @@
 import canonicalListings from './data/castle-listings.json';
 import sourceStatuses from './data/castle-source-status.json';
 import { buildTravelAccess } from './travel-access.js';
+import { googlePlacesByListingId } from './data/google-places.js';
 
 const listings = canonicalListings.map(normalizeListing);
 
@@ -113,11 +114,12 @@ function buildFilterOptions(items) {
 function normalizeListing(listing) {
     const mapContext = listing.location.map_context || {};
     const mapQuery = encodeURIComponent(listing.location.display);
+    const googlePlace = googlePlacesByListingId[listing.id] || null;
 
     return {
         id: listing.id,
         status: listing.status,
-        title: listing.canonical_title,
+        title: googlePlace?.expectedName || listing.canonical_title,
         summary: listing.summary || '',
         assetClass: listing.asset_class || 'castle',
         propertyType: listing.property_type,
@@ -141,6 +143,7 @@ function normalizeListing(listing) {
         landHectares: listing.land_area?.value ?? null,
         amenities: listing.amenities || [],
         travelAccess: normalizeTravelAccess(listing.travel_access),
+        googlePlace,
         images: (listing.images || []).map(image => ({
             url: image.url,
             alt: image.alt,
@@ -150,7 +153,7 @@ function normalizeListing(listing) {
             rightsBasis: displayText(image.rights_basis || 'unknown'),
             rightsNote: image.rights_note || 'Image rights not documented.',
         })),
-        mapUrl: `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
+        mapUrl: googlePlace?.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
         sources: listing.sources.map(source => ({
             sourceKey: source.source_key,
             sourceName: source.source_name,
@@ -359,7 +362,7 @@ function buildSpread(listing, index, total) {
 
     return `
     <article class="spread" data-index="${index}" id="${listing.id}" aria-label="${listing.title}">
-        <div class="page-left">
+        <div class="page-left" data-listing-id="${listing.id}">
             <img class="hero-image" src="${images[0].url}" alt="${images[0].alt}" loading="eager" fetchpriority="high" decoding="async">
             ${images[0].displayLabel ? `<div class="image-placeholder-label">${images[0].displayLabel}</div>` : ''}
             <div class="image-rights">${images[0].credit} · ${images[0].rightsBasis}<span>${images[0].rightsNote}</span></div>
@@ -420,7 +423,7 @@ function buildSpread(listing, index, total) {
                             <div>
                                 <h3>Map Context</h3>
                                 <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
-                                <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open approximate map</a>
+                                <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">${listing.googlePlace ? 'Open verified Google place' : 'Open approximate map'}</a>
                             </div>
                             <div>
                                 <h3>Provenance</h3>
@@ -472,6 +475,7 @@ function renderWindow(centerIndex) {
             const div = document.createElement('div');
             div.innerHTML = buildSpread(displayedListings[i], i, total);
             magazine.appendChild(div.firstElementChild);
+            hydrateGooglePlacePhoto(magazine.querySelector(`.spread[data-index="${i}"]`), displayedListings[i]);
         }
     }
 
@@ -481,6 +485,77 @@ function renderWindow(centerIndex) {
     syncNavigationPlacement(activeEl);
     wireListingButtons();
     updateUrl();
+}
+
+async function hydrateGooglePlacePhoto(spread, listing) {
+    if (!spread || !listing.googlePlace || spread.dataset.googlePhotoState) return;
+    spread.dataset.googlePhotoState = 'loading';
+
+    try {
+        const response = await fetch(`/api/place-photo?listingId=${encodeURIComponent(listing.id)}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error('Google Places photo unavailable');
+        const placePhoto = await response.json();
+        if (!placePhoto.photoUrl) throw new Error('Google Places returned no photo URL');
+
+        const alt = `${placePhoto.placeName}, photographed by a Google Maps contributor.`;
+        const hero = spread.querySelector('.hero-image');
+        hero.src = placePhoto.photoUrl;
+        hero.alt = alt;
+
+        const firstThumb = spread.querySelector('.gallery-thumb');
+        if (firstThumb) {
+            firstThumb.dataset.image = placePhoto.photoUrl;
+            firstThumb.dataset.alt = alt;
+            firstThumb.setAttribute('aria-label', `View Google Places photo of ${placePhoto.placeName}`);
+            const thumbImage = firstThumb.querySelector('img');
+            if (thumbImage) thumbImage.src = placePhoto.photoUrl;
+        }
+
+        spread.querySelector('.image-placeholder-label')?.remove();
+        const rights = spread.querySelector('.image-rights');
+        rights.replaceChildren();
+
+        const mapsLink = document.createElement('a');
+        mapsLink.href = placePhoto.googleMapsUri || listing.googlePlace.mapsUrl;
+        mapsLink.target = '_blank';
+        mapsLink.rel = 'noopener';
+        mapsLink.translate = false;
+        mapsLink.textContent = 'Google Maps';
+        rights.append(mapsLink);
+
+        for (const attribution of placePhoto.authorAttributions || []) {
+            rights.append(document.createTextNode(' · Photo by '));
+            if (attribution.photoUri) {
+                const avatar = document.createElement('img');
+                avatar.className = 'place-author-avatar';
+                avatar.src = attribution.photoUri;
+                avatar.alt = '';
+                avatar.loading = 'lazy';
+                rights.append(avatar);
+                rights.append(document.createTextNode(' '));
+            }
+            const author = document.createElement('a');
+            author.href = attribution.uri || placePhoto.googleMapsUri || listing.googlePlace.mapsUrl;
+            author.target = '_blank';
+            author.rel = 'noopener';
+            author.textContent = attribution.displayName || 'contributor';
+            rights.append(author);
+        }
+
+        const note = document.createElement('span');
+        note.append(document.createTextNode('Live Places API image · Not stored in this catalogue · '));
+        for (const [index, legal] of [['Terms', '/terms.html'], ['Privacy', '/privacy.html']].entries()) {
+            if (index) note.append(document.createTextNode(' · '));
+            const legalLink = document.createElement('a');
+            legalLink.href = legal[1];
+            legalLink.textContent = legal[0];
+            note.append(legalLink);
+        }
+        rights.append(note);
+        spread.dataset.googlePhotoState = 'loaded';
+    } catch {
+        spread.dataset.googlePhotoState = 'fallback';
+    }
 }
 
 function syncNavigationPlacement(activeSpread = magazine.querySelector('.spread.active')) {
