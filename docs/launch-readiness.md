@@ -48,7 +48,7 @@ Built size evidence:
 - Image verification: no current source record grants copied property-photo display rights. All 108 listings therefore use owned local editorial illustrations, not remote stock or source photos. Every listing image records `editorial_placeholder`, credit, owned rights basis, and a rights note, and the UI visibly renders exactly `Editorial placeholder images.` The marketplace cover and social preview are also registered in `data/site-image-assets.json`; the cover displays its rights text, the social preview contains only castle-marketplace branding, and launch QA verifies the generated PNG dimensions and provenance hash.
 - SEO/social verification: canonical, Open Graph URL/image, Twitter image, and JSON-LD production URLs now use `https://castle.chingularity.com/`; the legacy Vercel URL is rejected by `npm run qa:launch`.
 
-The live production deployment observed during QA still contained the previous singular placeholder wording and legacy canonical metadata. Those two findings are fixed in PER-149 and must be verified again on `castle.chingularity.com` after this change is reviewed, merged, and Vercel promotes the new production deployment.
+Production deployment `dpl_9JrZ4vKjUs1sYkhxYWSe1RxMYiet` verified the corrected canonical metadata, exact labels, inventory, responsive flows, and domain separation. Its Sharp-generated PNG bytes differed from the committed provenance hash despite rendering the same artwork. The corrective build no longer regenerates social media during deployment: Vite copies the reviewed committed PNG, and `npm run qa:dist` fails unless the distribution copy is byte-for-byte identical to the registered asset. Source SVG hashes are also recorded and checked independently.
 
 ## QA Evidence
 
