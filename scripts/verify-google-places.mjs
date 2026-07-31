@@ -17,7 +17,9 @@ const [apiSource, mainSource, terms, privacy] = await Promise.all([
     readFile('privacy.html', 'utf8'),
 ]);
 
-if (!apiSource.includes('GOOGLE_MAPS_API_KEY')) throw new Error('Places API key is not server-side.');
+if (!apiSource.includes('GOOGLE_MAPS_API_KEY') || !apiSource.includes('VITE_GOOGLE_MAPS_API')) {
+    throw new Error('Supported Places API environment variables are not kept server-side.');
+}
 if (!apiSource.includes('Cache-Control') || !apiSource.includes('no-store')) throw new Error('Places responses must not be cached.');
 if (!mainSource.includes("textContent = 'Google Maps'")) throw new Error('Google Maps attribution is missing.');
 if (!terms.includes('Google Maps Platform Terms of Service')) throw new Error('Terms do not incorporate Google Maps terms.');
