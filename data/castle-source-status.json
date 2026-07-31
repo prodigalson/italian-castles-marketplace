@@ -253,5 +253,14 @@
     "represented_as": "source_status",
     "record_count": 1,
     "generated_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "source_key": "ava-memory",
+    "source_name": "Ava memory shortlist imports",
+    "inventory_family": "manual_memory",
+    "license_basis": "memory_link_only",
+    "access_status": "active",
+    "last_checked_at": "2026-07-31T20:06:35.000Z",
+    "notes": "High-level imports from previously shared castle and masseria shortlists. Original source listing URLs were not preserved in memory, so these records are placeholders pending source-link enrichment."
   }
 ]
