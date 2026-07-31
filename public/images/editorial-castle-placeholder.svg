@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title description">
+  <title id="title">Editorial placeholder images.</title>
+  <desc id="description">An original architectural illustration that does not depict the listed property.</desc>
+  <rect width="1600" height="1200" fill="#21362e"/>
+  <circle cx="1260" cy="250" r="150" fill="#bda66b" opacity=".65"/>
+  <path d="M0 900 320 690 610 805 980 570 1320 740 1600 610v590H0Z" fill="#172821"/>
+  <path d="M350 810V410h130v-90h125v90h390v-90h125v90h130v400H350Z" fill="#d8cfb8"/>
+  <path d="M480 810V520h110v290m420 0V520h110v290M680 810V610h240v200" fill="#21362e"/>
+  <path d="M350 410h130l-65-100Zm745 0h130l-65-100Z" fill="#9a7a3f"/>
+  <text x="800" y="1040" fill="#f8f5ed" font-family="Georgia, serif" font-size="54" text-anchor="middle">Editorial placeholder images.</text>
+</svg>

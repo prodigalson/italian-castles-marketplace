@@ -57,27 +57,14 @@
     ],
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Tuscan stone estate with cypress trees",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "jamesedition"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Restored historic interior salon",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "jamesedition"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Tuscan landscape at sunset",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
         "source_key": "jamesedition"
       }
     ],
@@ -192,7 +179,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -281,7 +280,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -372,7 +383,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -463,7 +486,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -554,7 +589,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -644,7 +691,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -734,7 +793,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -825,7 +896,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -916,7 +999,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1007,7 +1102,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1098,7 +1205,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1188,7 +1307,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1279,7 +1410,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1370,7 +1513,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1460,7 +1615,19 @@
       "panoramic_views",
       "sea_view"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1551,7 +1718,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1642,7 +1821,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1732,7 +1923,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1823,7 +2026,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -1912,7 +2127,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2003,7 +2230,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2094,7 +2333,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2183,7 +2434,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2273,7 +2536,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2364,7 +2639,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2454,7 +2741,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2545,7 +2844,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2636,7 +2947,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2727,7 +3050,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2817,7 +3152,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2907,7 +3254,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -2996,7 +3355,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3087,7 +3458,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3178,7 +3561,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3267,7 +3662,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3357,7 +3764,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3448,7 +3867,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3538,7 +3969,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3629,7 +4072,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3719,7 +4174,19 @@
       "panoramic_views",
       "sea_view"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3808,7 +4275,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3899,7 +4378,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -3990,7 +4481,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4081,7 +4584,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4171,7 +4686,19 @@
       "olive_grove",
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4261,7 +4788,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4351,7 +4890,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4441,7 +4992,19 @@
       "olive_grove",
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4531,7 +5094,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4622,7 +5197,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4712,7 +5299,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4803,7 +5402,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4893,7 +5504,19 @@
       "panoramic_views",
       "sea_view"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -4984,7 +5607,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5074,7 +5709,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5165,7 +5812,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5256,7 +5915,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5347,7 +6018,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5438,7 +6121,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5528,7 +6223,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5618,7 +6325,19 @@
       "olive_grove",
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5709,7 +6428,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5799,7 +6530,19 @@
       "olive_grove",
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5890,7 +6633,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -5981,7 +6736,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6070,7 +6837,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6160,7 +6939,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6251,7 +7042,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6342,7 +7145,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6432,7 +7247,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6521,7 +7348,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6612,7 +7451,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6703,7 +7554,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6794,7 +7657,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6883,7 +7758,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -6974,7 +7861,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7064,7 +7963,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7155,7 +8066,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7246,7 +8169,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7336,7 +8271,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7427,7 +8374,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7517,7 +8476,19 @@
       "olive_grove",
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7607,7 +8578,19 @@
       "panoramic_views",
       "sea_view"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7698,7 +8681,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7787,7 +8782,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7876,7 +8883,19 @@
     "amenities": [
       "panoramic_views"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -7967,7 +8986,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8058,7 +9089,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8148,7 +9191,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8239,7 +9294,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8329,7 +9396,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8419,7 +9498,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8509,7 +9600,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8599,7 +9702,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8690,7 +9805,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8781,7 +9908,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8872,7 +10011,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -8963,7 +10114,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -9054,7 +10217,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -9145,7 +10320,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -9235,7 +10422,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -9326,7 +10525,19 @@
       "panoramic_views",
       "vineyard"
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_key": "jamesedition"
+      }
+    ],
     "sources": [
       {
         "source_key": "jamesedition",
@@ -9421,27 +10632,14 @@
     ],
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1470158499416-75be9aa0c4db?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Vineyard landscape with old estate",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "castle_collector"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Historic stone home exterior",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "castle_collector"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Wine cellar with barrels",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
         "source_key": "castle_collector"
       }
     ],
@@ -9540,27 +10738,14 @@
     ],
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Luxury villa courtyard and pool",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "jamesedition"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1597211833712-5e41faa202ea?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Mediterranean garden path",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "jamesedition"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Vaulted stone interior room",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
+        "url": "/images/editorial-masseria-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
         "source_key": "jamesedition"
       }
     ],
@@ -9679,27 +10864,14 @@
     ],
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Whitewashed Mediterranean courtyard with plants",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "oikos_immobiliare"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Stone country house with pool and garden",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "oikos_immobiliare"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Rural estate landscape with fields",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
+        "url": "/images/editorial-masseria-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
         "source_key": "oikos_immobiliare"
       }
     ],
@@ -9816,27 +10988,14 @@
     ],
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Italian countryside with old stone buildings",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "realportico"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1598228723793-52759bba239c?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Historic stone courtyard",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "realportico"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Italian hill town near a valley",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
         "source_key": "realportico"
       }
     ],
@@ -9931,27 +11090,14 @@
     ],
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Sicilian coastline and historic stone buildings",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "castleist"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Stone tower silhouette near coast",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
-        "source_key": "castleist"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=82",
-        "alt": "Mediterranean sea and shore",
-        "caption": "Editorial placeholder image, not copied from the listing source.",
-        "credit": "Editorial placeholder image",
-        "rights_basis": "public_link_only",
+        "url": "/images/editorial-castle-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
         "source_key": "castleist"
       }
     ],

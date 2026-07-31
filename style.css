@@ -294,6 +294,26 @@ a {
     font-size: 0.66rem;
 }
 
+.image-rights span {
+    display: block;
+    margin-top: 0.2rem;
+}
+
+.image-placeholder-label {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    padding: 0.55rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(20, 25, 22, 0.88);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 .gallery-strip {
     position: absolute;
     right: 1rem;

@@ -143,7 +143,10 @@ function normalizeListing(listing) {
             url: image.url,
             alt: image.alt,
             credit: image.credit || image.caption || 'Image credit unavailable',
+            depictionType: image.depiction_type || 'editorial_placeholder',
+            displayLabel: image.display_label || (image.depiction_type === 'actual_property' ? '' : 'Editorial placeholder images.'),
             rightsBasis: displayText(image.rights_basis || 'unknown'),
+            rightsNote: image.rights_note || 'Image rights not documented.',
         })),
         mapUrl: `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
         sources: listing.sources.map(source => ({
@@ -311,7 +314,7 @@ function buildSpread(listing, index, total) {
     const priceClass = listing.pricing.priceOnRequest ? 'price-request' : 'price-asking';
     const images = listing.images.slice(0, 3);
     const gallery = images.map((image, galleryIndex) => `
-        <button class="gallery-thumb${galleryIndex === 0 ? ' active' : ''}" type="button" data-image="${image.url}" data-alt="${image.alt}">
+        <button class="gallery-thumb${galleryIndex === 0 ? ' active' : ''}" type="button" data-image="${image.url}" data-alt="${image.alt}" aria-label="View image ${galleryIndex + 1}: ${image.displayLabel || 'Actual property image'}">
             <img src="${image.url}" alt="" loading="lazy" decoding="async">
         </button>
     `).join('');
@@ -330,7 +333,8 @@ function buildSpread(listing, index, total) {
     <article class="spread" data-index="${index}" id="${listing.id}" aria-label="${listing.title}">
         <div class="page-left">
             <img class="hero-image" src="${images[0].url}" alt="${images[0].alt}" loading="eager" fetchpriority="high" decoding="async">
-            <div class="image-rights">${images[0].credit} · ${images[0].rightsBasis}</div>
+            ${images[0].displayLabel ? `<div class="image-placeholder-label">${images[0].displayLabel}</div>` : ''}
+            <div class="image-rights">${images[0].credit} · ${images[0].rightsBasis}<span>${images[0].rightsNote}</span></div>
             <div class="gallery-strip" aria-label="Image gallery">${gallery}</div>
         </div>
         <div class="page-right">
