@@ -1,5 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { assertListingSchema } from './listing-schema-validator.mjs';
 
 const REFRESH_DATE = new Date().toISOString().slice(0, 10);
 const REFRESHED_AT = process.env.INVENTORY_REFRESH_AT || `${REFRESH_DATE}T00:00:00.000Z`;
@@ -645,9 +646,12 @@ function unknownFacility() {
         travel_time_minutes: null,
         source_name: null,
         source_url: null,
+        nearest_selection_method: null,
+        nearest_selection_source_url: null,
         estimate_method: null,
         estimate_source_url: null,
-        last_checked_at: REFRESHED_AT,
+        last_checked_at: null,
+        record_generated_at: REFRESHED_AT,
         note: 'No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address.',
     };
 }
@@ -727,7 +731,7 @@ function toCanonical(records) {
         size: toMeasurement(primary.size_sqm ?? null, 'sqm'),
         land_area: toMeasurement(primary.land_hectares ?? null, 'hectare'),
         amenities: unique(sorted.flatMap(record => record.amenities || [])),
-        travel_access: travelAccess(primary),
+        travel_access: travelAccess(),
         images: [{ ...editorialPlaceholder(primary.asset_class), source_key: primary.source_key }],
         sources: sourceLinks,
         dedupe: {
@@ -797,16 +801,18 @@ function isHttpUrl(value) {
 function validateTravelAccess(listing) {
     const approximateLocation = !['exact', 'street'].includes(listing.location.precision);
     for (const [kind, facility] of Object.entries({ train_station: listing.travel_access.train_station, airport: listing.travel_access.airport })) {
-        if (!facility.last_checked_at || !facility.note) throw new Error(`${listing.id} ${kind} lacks check metadata`);
+        if (!facility.record_generated_at || !facility.note) throw new Error(`${listing.id} ${kind} lacks record metadata`);
         const hasEstimate = facility.distance_km !== null || facility.travel_time_minutes !== null;
         if (facility.distance_km !== null && facility.travel_time_minutes !== null) throw new Error(`${listing.id} ${kind} mixes distance and travel-time estimates`);
         if (approximateLocation && hasEstimate) throw new Error(`${listing.id} ${kind} estimates require exact or street-level location precision`);
+        if (approximateLocation && facility.status !== 'unknown_not_verified') throw new Error(`${listing.id} ${kind} nearest selection requires exact or street-level location precision`);
 
         if (facility.status === 'unknown_not_verified') {
-            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'estimate_method', 'estimate_source_url'];
+            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'nearest_selection_method', 'nearest_selection_source_url', 'estimate_method', 'estimate_source_url', 'last_checked_at'];
             if (factualFields.some(field => facility[field] !== null)) throw new Error(`${listing.id} unknown ${kind} contains inferred facts`);
         } else if (facility.status === 'verified_facility') {
-            if (!facility.facility_name || !facility.source_name || !isHttpUrl(facility.source_url)) throw new Error(`${listing.id} verified ${kind} lacks HTTP(S) source metadata`);
+            if (!facility.facility_name || !facility.source_name || !isHttpUrl(facility.source_url) || !facility.last_checked_at) throw new Error(`${listing.id} verified ${kind} lacks HTTP(S) source or check metadata`);
+            if (!facility.nearest_selection_method || !isHttpUrl(facility.nearest_selection_source_url)) throw new Error(`${listing.id} verified ${kind} lacks nearest-selection method or HTTP(S) evidence`);
             if (hasEstimate && (!facility.estimate_method || !isHttpUrl(facility.estimate_source_url))) throw new Error(`${listing.id} ${kind} estimate lacks method or HTTP(S) evidence`);
             if (!hasEstimate && (facility.estimate_method !== null || facility.estimate_source_url !== null)) throw new Error(`${listing.id} ${kind} has estimate evidence without an estimate`);
         } else {
@@ -857,6 +863,7 @@ const canonicalListings = [...groupRecords(RAW_RECORDS).values()]
     });
 
 canonicalListings.forEach(validateListing);
+canonicalListings.forEach(assertListingSchema);
 
 const activeCastleCount = canonicalListings.filter(listing => listing.asset_class === 'castle' && listing.status === 'active').length;
 if (activeCastleCount < 100) {

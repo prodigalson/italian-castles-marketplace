@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
+import { listingSchemaErrors } from './listing-schema-validator.mjs';
 
 const REQUIRED_PLACEHOLDER_LABEL = 'Editorial placeholder images.';
 const CANONICAL_URL = 'https://castle.chingularity.com/';
@@ -26,6 +27,7 @@ check(activeMasserias.length > 0, 'Expected active Puglia masseria inventory.');
 check(ids.size === listings.length, `Expected unique canonical IDs, found ${listings.length - ids.size} duplicates.`);
 
 for (const listing of listings) {
+    for (const error of listingSchemaErrors(listing)) check(false, `${listing.id}: canonical schema ${error}`);
     check(listing.sources?.length > 0, `${listing.id}: missing source attribution.`);
     check(Boolean(listing.provenance?.last_checked_at), `${listing.id}: missing provenance last_checked_at.`);
     check(Boolean(listing.provenance?.notes), `${listing.id}: missing provenance notes.`);
@@ -35,7 +37,7 @@ for (const listing of listings) {
 
     for (const [kind, facility] of Object.entries({ train_station: listing.travel_access?.train_station, airport: listing.travel_access?.airport })) {
         if (!facility) continue;
-        check(Boolean(facility.last_checked_at && facility.note), `${listing.id}: ${kind} lacks check date or verification note.`);
+        check(Boolean(facility.record_generated_at && facility.note), `${listing.id}: ${kind} lacks record date or verification note.`);
         const hasDistance = facility.distance_km !== null;
         const hasTravelTime = facility.travel_time_minutes !== null;
         const hasEstimate = hasDistance || hasTravelTime;
@@ -43,8 +45,10 @@ for (const listing of listings) {
 
         check(!(hasDistance && hasTravelTime), `${listing.id}: ${kind} mixes distance and travel-time estimates.`);
         check(!(approximateLocation && hasEstimate), `${listing.id}: ${kind} estimate requires exact or street-level location precision.`);
+        check(!(approximateLocation && facility.status !== 'unknown_not_verified'), `${listing.id}: ${kind} nearest selection requires exact or street-level location precision.`);
         if (facility.status === 'verified_facility') {
-            check(Boolean(facility.facility_name && facility.source_name && isHttpUrl(facility.source_url)), `${listing.id}: verified ${kind} lacks a facility name or source.`);
+            check(Boolean(facility.facility_name && facility.source_name && isHttpUrl(facility.source_url) && facility.last_checked_at), `${listing.id}: verified ${kind} lacks a facility name, source, or check timestamp.`);
+            check(Boolean(facility.nearest_selection_method && isHttpUrl(facility.nearest_selection_source_url)), `${listing.id}: verified ${kind} lacks nearest-selection method or HTTP(S) evidence.`);
             if (hasEstimate) {
                 check(Boolean(facility.estimate_method && isHttpUrl(facility.estimate_source_url)), `${listing.id}: ${kind} estimate lacks method or HTTP(S) evidence.`);
             } else {
@@ -52,7 +56,7 @@ for (const listing of listings) {
             }
         } else {
             check(facility.status === 'unknown_not_verified', `${listing.id}: unsupported ${kind} verification status.`);
-            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'estimate_method', 'estimate_source_url'];
+            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'nearest_selection_method', 'nearest_selection_source_url', 'estimate_method', 'estimate_source_url', 'last_checked_at'];
             check(factualFields.every(field => facility[field] === null), `${listing.id}: unverified ${kind} contains inferred facts.`);
         }
     }

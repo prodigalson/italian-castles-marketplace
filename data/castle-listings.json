@@ -63,9 +63,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -75,9 +78,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -220,9 +226,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -232,9 +241,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -354,9 +366,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -366,9 +381,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -490,9 +508,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -502,9 +523,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -626,9 +650,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -638,9 +665,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -762,9 +792,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -774,9 +807,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -897,9 +933,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -909,9 +948,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1032,9 +1074,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1044,9 +1089,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1168,9 +1216,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1180,9 +1231,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1304,9 +1358,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1316,9 +1373,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1440,9 +1500,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1452,9 +1515,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1576,9 +1642,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1588,9 +1657,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1711,9 +1783,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1723,9 +1798,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1847,9 +1925,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1859,9 +1940,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -1983,9 +2067,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -1995,9 +2082,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2118,9 +2208,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2130,9 +2223,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2254,9 +2350,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2266,9 +2365,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2390,9 +2492,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2402,9 +2507,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2525,9 +2633,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2537,9 +2648,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2661,9 +2775,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2673,9 +2790,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2795,9 +2915,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2807,9 +2930,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -2931,9 +3057,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -2943,9 +3072,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3067,9 +3199,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3079,9 +3214,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3201,9 +3339,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3213,9 +3354,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3336,9 +3480,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3348,9 +3495,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3472,9 +3622,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3484,9 +3637,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3607,9 +3763,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3619,9 +3778,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3743,9 +3905,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3755,9 +3920,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -3879,9 +4047,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -3891,9 +4062,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4015,9 +4189,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4027,9 +4204,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4150,9 +4330,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4162,9 +4345,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4285,9 +4471,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4297,9 +4486,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4419,9 +4611,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4431,9 +4626,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4555,9 +4753,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4567,9 +4768,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4691,9 +4895,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4703,9 +4910,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4825,9 +5035,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4837,9 +5050,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -4960,9 +5176,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -4972,9 +5191,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5096,9 +5318,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5108,9 +5333,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5231,9 +5459,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5243,9 +5474,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5367,9 +5601,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5379,9 +5616,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5502,9 +5742,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5514,9 +5757,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5636,9 +5882,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5648,9 +5897,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5772,9 +6024,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5784,9 +6039,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -5908,9 +6166,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -5920,9 +6181,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6044,9 +6308,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6056,9 +6323,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6179,9 +6449,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6191,9 +6464,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6314,9 +6590,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6326,9 +6605,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6449,9 +6731,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6461,9 +6746,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6584,9 +6872,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6596,9 +6887,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6719,9 +7013,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6731,9 +7028,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6855,9 +7155,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -6867,9 +7170,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -6990,9 +7296,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7002,9 +7311,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7126,9 +7438,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7138,9 +7453,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7261,9 +7579,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7273,9 +7594,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7397,9 +7721,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7409,9 +7736,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7532,9 +7862,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7544,9 +7877,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7668,9 +8004,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7680,9 +8019,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7804,9 +8146,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7816,9 +8161,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -7940,9 +8288,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -7952,9 +8303,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8076,9 +8430,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8088,9 +8445,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8211,9 +8571,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8223,9 +8586,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8346,9 +8712,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8358,9 +8727,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8482,9 +8854,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8494,9 +8869,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8617,9 +8995,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8629,9 +9010,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8753,9 +9137,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8765,9 +9152,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -8889,9 +9279,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -8901,9 +9294,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9023,9 +9419,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9035,9 +9434,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9158,9 +9560,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9170,9 +9575,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9294,9 +9702,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9306,9 +9717,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9430,9 +9844,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9442,9 +9859,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9565,9 +9985,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9577,9 +10000,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9699,9 +10125,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9711,9 +10140,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9835,9 +10267,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9847,9 +10282,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -9971,9 +10409,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -9983,9 +10424,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10107,9 +10551,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10119,9 +10566,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10241,9 +10691,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10253,9 +10706,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10377,9 +10833,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10389,9 +10848,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10512,9 +10974,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10524,9 +10989,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10648,9 +11116,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10660,9 +11131,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10784,9 +11258,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10796,9 +11273,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -10919,9 +11399,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -10931,9 +11414,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11055,9 +11541,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11067,9 +11556,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11190,9 +11682,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11202,9 +11697,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11325,9 +11823,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11337,9 +11838,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11461,9 +11965,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11473,9 +11980,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11595,9 +12105,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11607,9 +12120,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11729,9 +12245,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11741,9 +12260,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -11865,9 +12387,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -11877,9 +12402,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12001,9 +12529,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12013,9 +12544,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12136,9 +12670,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12148,9 +12685,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12272,9 +12812,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12284,9 +12827,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12407,9 +12953,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12419,9 +12968,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12542,9 +13094,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12554,9 +13109,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12677,9 +13235,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12689,9 +13250,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12812,9 +13376,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12824,9 +13391,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -12948,9 +13518,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -12960,9 +13533,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13084,9 +13660,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13096,9 +13675,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13220,9 +13802,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13232,9 +13817,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13356,9 +13944,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13368,9 +13959,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13492,9 +14086,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13504,9 +14101,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13628,9 +14228,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13640,9 +14243,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13763,9 +14369,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13775,9 +14384,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -13899,9 +14511,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -13911,9 +14526,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -14037,9 +14655,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -14049,9 +14670,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -14176,9 +14800,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -14188,9 +14815,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -14335,9 +14965,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -14347,9 +14980,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -14492,9 +15128,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -14504,9 +15143,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
@@ -14627,9 +15269,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "airport": {
@@ -14639,9 +15284,12 @@
         "travel_time_minutes": null,
         "source_name": null,
         "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
         "estimate_method": null,
         "estimate_source_url": null,
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
         "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
       "uber": {
