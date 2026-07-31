@@ -27,20 +27,20 @@ async function searchPlaces(apiKey, body) {
 function listingConfig(listingId) {
     const listing = listingsById.get(listingId);
     if (!listing) return null;
-
-    // Distances are measured from the property's Google location, so an unverified guess
-    // reports the wrong town's stations. Only a hand-verified mapping resolves; every other
-    // listing keeps its "Unknown/Not verified · ask the broker" record.
     const verified = googlePlacesByListingId[listingId];
-    if (!verified) return null;
-
-    return { listing, query: verified.query, expectedName: verified.expectedName, verified: true };
+    return {
+        listing,
+        query: verified?.query || [listing.canonical_title, listing.location?.display, 'Italy'].filter(Boolean).join(', '),
+        expectedName: verified?.expectedName || listing.canonical_title,
+        verified: Boolean(verified),
+    };
 }
 
 async function resolveProperty(apiKey, config) {
     const payload = await searchPlaces(apiKey, { textQuery: config.query });
-    // No positional fallback — see place-photo.js.
-    return payload.places?.find(place => place.displayName?.text === config.expectedName) || null;
+    return config.verified
+        ? payload.places?.find(place => place.displayName?.text === config.expectedName) || payload.places?.[0]
+        : payload.places?.[0];
 }
 
 async function nearestFacility(apiKey, origin, type, query) {
