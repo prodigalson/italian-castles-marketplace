@@ -75,7 +75,6 @@ a {
 
 .loader-subtitle,
 .cover-desc,
-.cover-top,
 .folio,
 .eyebrow-row,
 .info-card-label,
@@ -180,13 +179,6 @@ a {
     justify-content: space-between;
     padding: clamp(1.25rem, 4vw, 3rem);
     color: #fff;
-}
-
-.cover-top {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    color: rgba(255, 255, 255, 0.64);
 }
 
 .cover-center {
@@ -1108,10 +1100,6 @@ a {
 @media (max-width: 720px) {
     .cover-overlay {
         padding: 1rem;
-    }
-
-    .cover-top {
-        font-size: 0.6rem;
     }
 
     .cover-title {
