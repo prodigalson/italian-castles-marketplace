@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { listingSchemaErrors } from './listing-schema-validator.mjs';
+import { containsSourceBrand, customerFacingTitle } from './customer-facing-title.mjs';
 
 const REQUIRED_PLACEHOLDER_LABEL = 'Editorial placeholder images.';
 const CANONICAL_URL = 'https://castle.chingularity.com/';
@@ -38,6 +39,11 @@ const rejectedLandingUrls = [
 check(activeCastles.length >= 100, `Expected at least 100 active castles, found ${activeCastles.length}.`);
 check(activeMasserias.length > 0, 'Expected active Puglia masseria inventory.');
 check(ids.size === listings.length, `Expected unique canonical IDs, found ${listings.length - ids.size} duplicates.`);
+check(listings.every(listing => !containsSourceBrand(listing.canonical_title)), 'A customer-facing castle or Masseria title contains source branding.');
+check(customerFacingTitle('JamesEdition Castle Card: Montalcino', { assetClass: 'castle' }) === 'Castle in Montalcino', 'JamesEdition prefix normalization regressed.');
+check(customerFacingTitle('Historic Castle (LuxuryEstate)', { assetClass: 'castle' }) === 'Historic Castle', 'Parenthetical source-brand normalization regressed.');
+check(customerFacingTitle("Sotheby's: Historic Estate", { assetClass: 'castle' }) === 'Historic Estate', 'Source-brand prefix normalization regressed.');
+check(customerFacingTitle('Masseria San Giorgio | Idealista', { assetClass: 'masseria' }) === 'Masseria San Giorgio', 'Source-brand suffix normalization regressed.');
 check(rejectedLandingUrls.every(source => !isPropertyListingUrl(source)), 'Property-level URL validation accepted a known landing or category URL.');
 check(activeMasserias.every(listing => {
     const sourceUrl = listing.sources[0]?.source_url;
