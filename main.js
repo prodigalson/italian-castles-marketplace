@@ -316,7 +316,9 @@ function buildSourceCoverage() {
     if (!list || !summary) return;
 
     const scope = activeSection().sourceScope;
-    const relevantSources = sourceStatuses.filter(source => source.inventory_scope.split(',').includes(scope));
+    const relevantSources = sourceStatuses.filter(source =>
+        String(source?.inventory_scope || '').split(',').includes(scope)
+    );
     const representedListings = relevantSources.filter(source => source.represented_as === 'listing_record').length;
     const unavailable = relevantSources.filter(source => source.adapter_status === 'blocked' || source.represented_as === 'source_status').length;
     summary.textContent = `${representedListings} ${activeSection().navLabel.toLowerCase()} source records currently provide link-only listing coverage. ${unavailable} requested sources are shown as permission, terms, or robots gaps until authorized access is available.`;
