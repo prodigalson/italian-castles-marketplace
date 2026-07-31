@@ -66,6 +66,7 @@ for (const [index, image] of siteImages.entries()) {
     check(image.credit && image.rights_basis === 'owned' && image.rights_note, `${image.id}: incomplete owned image provenance.`);
     check(!isHttpUrl(image.url), `${image.id}: site imagery must use an owned local asset.`);
     check(siteSourceContents[index].includes('<svg') && !siteSourceContents[index].includes('Amo Dove Andiamo'), `${image.id}: source asset is not verified castle-marketplace vector artwork.`);
+    check(sha256(siteSourceContents[index]) === image.source_sha256, `${image.id}: source artwork does not match its recorded provenance hash.`);
 }
 check(Boolean(coverImage && socialImage), 'Cover and social-preview provenance records are required.');
 check(html.includes(`<img src="${coverImage?.url}"`), 'Marketplace cover does not use its registered local asset.');
