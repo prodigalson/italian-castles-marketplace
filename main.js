@@ -118,11 +118,15 @@ function normalizeListing(listing) {
     const mapContext = listing.location.map_context || {};
     const mapQuery = encodeURIComponent(listing.location.display);
     const verifiedGooglePlace = googlePlacesByListingId[listing.id] || null;
-    const googlePlace = verifiedGooglePlace || {
-        expectedName: listing.canonical_title,
-        mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${listing.canonical_title}, ${listing.location.display}, Italy`)}`,
-        verified: false,
-    };
+    // `verified` gates Google imagery and travel distances. Unverified listings still get a
+    // Maps *search* link, which is honest about being a guess, but never a resolved place.
+    const googlePlace = verifiedGooglePlace
+        ? { ...verifiedGooglePlace, verified: true }
+        : {
+            expectedName: listing.canonical_title,
+            mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${listing.canonical_title}, ${listing.location.display}, Italy`)}`,
+            verified: false,
+        };
     const summary = listing.summary || '';
 
     return {
@@ -482,7 +486,7 @@ function renderWindow(centerIndex) {
 
 async function hydrateGoogleTravelAccess(spread, listing) {
     const panel = spread?.querySelector('.travel-access');
-    if (!panel || panel.dataset.googleTravelState) return;
+    if (!panel || !listing.googlePlace?.verified || panel.dataset.googleTravelState) return;
     panel.dataset.googleTravelState = 'loading';
 
     try {
@@ -529,7 +533,7 @@ async function hydrateGoogleTravelAccess(spread, listing) {
 }
 
 async function hydrateGooglePlacePhoto(spread, listing) {
-    if (!spread || !listing.googlePlace || spread.dataset.googlePhotoState) return;
+    if (!spread || !listing.googlePlace?.verified || spread.dataset.googlePhotoState) return;
     spread.dataset.googlePhotoState = 'loading';
 
     try {
