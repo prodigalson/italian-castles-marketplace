@@ -11,6 +11,7 @@
     "asset_class",
     "property_type",
     "location",
+    "travel_access",
     "pricing",
     "sources",
     "provenance",
@@ -143,6 +144,45 @@
         },
         "raw_text": {
           "type": ["string", "null"]
+        }
+      }
+    },
+    "travel_access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["train_station", "airport", "uber"],
+      "properties": {
+        "train_station": {
+          "$ref": "#/$defs/travelFacility"
+        },
+        "airport": {
+          "$ref": "#/$defs/travelFacility"
+        },
+        "uber": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "source_name", "source_url", "last_checked_at", "note"],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["available", "limited_varies", "not_available", "check_app", "unknown_not_verified"]
+            },
+            "source_name": {
+              "type": ["string", "null"]
+            },
+            "source_url": {
+              "type": ["string", "null"],
+              "format": "uri"
+            },
+            "last_checked_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         }
       }
     },
@@ -357,6 +397,43 @@
     }
   },
   "$defs": {
+    "travelFacility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "facility_name", "distance_km", "travel_time_minutes", "source_name", "source_url", "last_checked_at", "note"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["verified_facility", "unknown_not_verified"]
+        },
+        "facility_name": {
+          "type": ["string", "null"]
+        },
+        "distance_km": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "travel_time_minutes": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "source_name": {
+          "type": ["string", "null"]
+        },
+        "source_url": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "last_checked_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
     "measurement": {
       "type": ["object", "null"],
       "additionalProperties": false,

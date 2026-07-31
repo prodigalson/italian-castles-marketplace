@@ -30,6 +30,35 @@
     "price_on_request": true,
     "raw_text": "Price on request"
   },
+  "travel_access": {
+    "train_station": {
+      "status": "unknown_not_verified",
+      "facility_name": null,
+      "distance_km": null,
+      "travel_time_minutes": null,
+      "source_name": null,
+      "source_url": null,
+      "last_checked_at": "2026-07-31T00:00:00Z",
+      "note": "No compliant, property-specific facility match has been verified."
+    },
+    "airport": {
+      "status": "unknown_not_verified",
+      "facility_name": null,
+      "distance_km": null,
+      "travel_time_minutes": null,
+      "source_name": null,
+      "source_url": null,
+      "last_checked_at": "2026-07-31T00:00:00Z",
+      "note": "No compliant, property-specific facility match has been verified."
+    },
+    "uber": {
+      "status": "check_app",
+      "source_name": "Uber city availability directory",
+      "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+      "last_checked_at": "2026-07-31T00:00:00Z",
+      "note": "Coverage and pickup availability vary; check the Uber app for the exact address and time."
+    }
+  },
   "bedrooms": null,
   "bathrooms": null,
   "size": {

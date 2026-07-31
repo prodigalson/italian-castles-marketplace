@@ -380,7 +380,7 @@ a {
 }
 
 .info-layout {
-    width: min(680px, 100%);
+    width: min(820px, 100%);
     margin: auto 0;
     padding: 2rem 0;
 }
@@ -525,6 +525,90 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1.2rem;
+}
+
+.lower-detail-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.72fr);
+    align-items: start;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.property-detail-stack .detail-grid,
+.property-detail-stack .source-box,
+.property-detail-stack .action-row {
+    margin-top: 0;
+}
+
+.property-detail-stack .source-box,
+.property-detail-stack .action-row {
+    margin-top: 1rem;
+}
+
+.travel-access {
+    padding: 1rem;
+    border: 1px solid var(--color-line);
+    background: rgba(35, 56, 47, 0.055);
+}
+
+.travel-access-heading p,
+.travel-access-item dt {
+    color: var(--color-gold);
+    font-size: 0.66rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.travel-access-heading h3 {
+    margin-top: 0.2rem;
+    font-family: var(--font-display);
+    font-size: 1.55rem;
+    font-weight: 400;
+}
+
+.travel-access-list {
+    margin-top: 0.7rem;
+}
+
+.travel-access-item {
+    padding: 0.7rem 0;
+    border-top: 1px solid var(--color-line);
+}
+
+.travel-access-item dd,
+.travel-access-item strong,
+.travel-access-item span {
+    display: block;
+}
+
+.travel-access-item dd {
+    margin-top: 0.25rem;
+}
+
+.travel-access-item strong {
+    color: var(--color-forest);
+    font-size: 0.86rem;
+    line-height: 1.35;
+}
+
+.travel-access-item a,
+.travel-access-item span,
+.travel-access-item p {
+    color: var(--color-muted);
+    font-size: 0.68rem;
+    line-height: 1.4;
+}
+
+.travel-access-item a {
+    margin-top: 0.3rem;
+    color: var(--color-wine);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.travel-access-item p {
+    margin-top: 0.35rem;
 }
 
 .detail-grid h3 {
@@ -1029,6 +1113,14 @@ a {
     .info-cards,
     .detail-grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .lower-detail-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .travel-access {
+        margin-top: 0.25rem;
     }
 
     .source-box {

@@ -139,6 +139,7 @@ function normalizeListing(listing) {
         sizeSqm: listing.size?.value ?? null,
         landHectares: listing.land_area?.value ?? null,
         amenities: listing.amenities || [],
+        travelAccess: normalizeTravelAccess(listing.travel_access),
         images: (listing.images || []).map(image => ({
             url: image.url,
             alt: image.alt,
@@ -169,6 +170,31 @@ function normalizeListing(listing) {
             sourceKey: action.source_key,
         })),
         dedupe: listing.dedupe,
+    };
+}
+
+function normalizeTravelAccess(access = {}) {
+    const normalizeFacility = facility => ({
+        status: facility?.status || 'unknown_not_verified',
+        name: facility?.facility_name || null,
+        distanceKm: facility?.distance_km ?? null,
+        travelTimeMinutes: facility?.travel_time_minutes ?? null,
+        sourceName: facility?.source_name || null,
+        sourceUrl: facility?.source_url || null,
+        lastCheckedAt: facility?.last_checked_at || null,
+        note: facility?.note || 'No verified travel data is available.',
+    });
+
+    return {
+        trainStation: normalizeFacility(access.train_station),
+        airport: normalizeFacility(access.airport),
+        uber: {
+            status: access.uber?.status || 'unknown_not_verified',
+            sourceName: access.uber?.source_name || null,
+            sourceUrl: access.uber?.source_url || null,
+            lastCheckedAt: access.uber?.last_checked_at || null,
+            note: access.uber?.note || 'Availability has not been verified.',
+        },
     };
 }
 
@@ -203,6 +229,57 @@ function statusTone(status) {
     if (status === 'active' || status === 'link_only') return 'ok';
     if (status === 'blocked' || status === 'non_compliant_without_permission' || status === 'robots_disallow_public_scraping') return 'blocked';
     return 'caution';
+}
+
+function facilityDetail(facility) {
+    if (!facility.name) return 'Unknown/Not verified';
+    if (facility.distanceKm !== null) return `${facility.name} · ${facility.distanceKm} km`;
+    if (facility.travelTimeMinutes !== null) return `${facility.name} · about ${facility.travelTimeMinutes} min`;
+    return facility.name;
+}
+
+function accessMeta(item) {
+    const checked = item.lastCheckedAt ? `Checked ${formatDate(item.lastCheckedAt)}` : 'Check date unavailable';
+    if (!item.sourceName || !item.sourceUrl) return `<span>${checked} · No verified source</span>`;
+    return `<a href="${item.sourceUrl}" target="_blank" rel="noopener">${item.sourceName}</a><span>${checked}</span>`;
+}
+
+function uberStatusLabel(status) {
+    return {
+        available: 'Available',
+        limited_varies: 'Limited/varies',
+        not_available: 'Not available',
+        check_app: 'Check the Uber app',
+        unknown_not_verified: 'Unknown/Not verified',
+    }[status] || 'Unknown/Not verified';
+}
+
+function buildTravelAccess(listing) {
+    const access = listing.travelAccess;
+    return `
+        <aside class="travel-access" aria-labelledby="travel-access-${listing.id}">
+            <div class="travel-access-heading">
+                <p>Getting there</p>
+                <h3 id="travel-access-${listing.id}">Travel &amp; access</h3>
+            </div>
+            <dl class="travel-access-list">
+                <div class="travel-access-item">
+                    <dt>Closest train station</dt>
+                    <dd><strong>${facilityDetail(access.trainStation)}</strong>${accessMeta(access.trainStation)}</dd>
+                    <p>${access.trainStation.note}</p>
+                </div>
+                <div class="travel-access-item">
+                    <dt>Closest airport</dt>
+                    <dd><strong>${facilityDetail(access.airport)}</strong>${accessMeta(access.airport)}</dd>
+                    <p>${access.airport.note}</p>
+                </div>
+                <div class="travel-access-item">
+                    <dt>Uber</dt>
+                    <dd><strong>${uberStatusLabel(access.uber.status)}</strong>${accessMeta(access.uber)}</dd>
+                    <p>${access.uber.note}</p>
+                </div>
+            </dl>
+        </aside>`;
 }
 
 function primarySource(listing) {
@@ -386,26 +463,31 @@ function buildSpread(listing, index, total) {
                     ${listing.amenities.map(amenity => `<span>${displayText(amenity)}</span>`).join('')}
                 </div>
 
-                <div class="detail-grid">
-                    <div>
-                        <h3>Map Context</h3>
-                        <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
-                        <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open approximate map</a>
-                    </div>
-                    <div>
-                        <h3>Provenance</h3>
-                        <p>${sourceSummary}. Last checked ${formatDate(listing.provenance.lastCheckedAt)}. ${listing.provenance.notes}</p>
-                        <a class="text-link" href="${source.sourceUrl}" target="_blank" rel="noopener">Original listing</a>
-                    </div>
-                </div>
+                <div class="lower-detail-layout">
+                    <div class="property-detail-stack">
+                        <div class="detail-grid">
+                            <div>
+                                <h3>Map Context</h3>
+                                <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
+                                <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open approximate map</a>
+                            </div>
+                            <div>
+                                <h3>Provenance</h3>
+                                <p>${sourceSummary}. Last checked ${formatDate(listing.provenance.lastCheckedAt)}. ${listing.provenance.notes}</p>
+                                <a class="text-link" href="${source.sourceUrl}" target="_blank" rel="noopener">Original listing</a>
+                            </div>
+                        </div>
 
-                <div class="source-box">
-                    ${sourceLinks}
-                </div>
+                        <div class="source-box">
+                            ${sourceLinks}
+                        </div>
 
-                <div class="action-row">
-                    ${listing.inquiryActions.map(action => `<a class="action-btn" href="${action.url}" target="_blank" rel="noopener">${action.label}</a>`).join('')}
-                    <button class="action-btn secondary share-dest-btn" type="button" data-dest-index="${index}">Share</button>
+                        <div class="action-row">
+                            ${listing.inquiryActions.map(action => `<a class="action-btn" href="${action.url}" target="_blank" rel="noopener">${action.label}</a>`).join('')}
+                            <button class="action-btn secondary share-dest-btn" type="button" data-dest-index="${index}">Share</button>
+                        </div>
+                    </div>
+                    ${buildTravelAccess(listing)}
                 </div>
             </div>
             <footer class="folio folio-footer">

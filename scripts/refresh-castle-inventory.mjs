@@ -210,6 +210,25 @@ const SOURCES = {
 const JAMESEDITION_CARD_LAST_CHECKED_AT = '2026-07-31T00:00:00.000Z';
 const JAMESEDITION_SNAPSHOT_REF = 'data/manual-review/jamesedition/castle-card-snapshot.json';
 
+const TRAVEL_ACCESS_PROFILES = {
+    'chianti-castle-estate': {
+        train_station: verifiedFacility('Siena railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni/siena.html'),
+        airport: verifiedFacility('Florence Airport (Amerigo Vespucci)', 'Toscana Aeroporti', 'https://www.aeroporto.firenze.it/en/'),
+    },
+    'piedmont-vineyard-castello': {
+        train_station: verifiedFacility('Cuneo railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni.html'),
+        airport: verifiedFacility('Cuneo International Airport', 'Aeroporto di Cuneo', 'https://www.aeroporto.cuneo.it/'),
+    },
+    'valle-itria-masseria-estate': {
+        train_station: verifiedFacility('Ostuni railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni.html'),
+        airport: verifiedFacility('Brindisi Airport (Aeroporto del Salento)', 'Aeroporti di Puglia', 'https://www.aeroportidipuglia.it/brindisi/'),
+    },
+    'salento-masseria-retreat': {
+        train_station: verifiedFacility('Lecce railway station', 'Rete Ferroviaria Italiana', 'https://www.rfi.it/it/stazioni/lecce.html'),
+        airport: verifiedFacility('Brindisi Airport (Aeroporto del Salento)', 'Aeroporti di Puglia', 'https://www.aeroportidipuglia.it/brindisi/'),
+    },
+};
+
 const jamesEditionSnapshot = JSON.parse(await readFile(JAMESEDITION_SNAPSHOT_REF, 'utf8'));
 const JAMESEDITION_CASTLE_CARD_RECORDS = buildJamesEditionCastleCards(jamesEditionSnapshot.records);
 
@@ -637,6 +656,47 @@ function mapContext(record) {
     };
 }
 
+function verifiedFacility(name, sourceName, sourceUrl) {
+    return {
+        status: 'verified_facility',
+        facility_name: name,
+        distance_km: null,
+        travel_time_minutes: null,
+        source_name: sourceName,
+        source_url: sourceUrl,
+        last_checked_at: '2026-07-31T00:00:00.000Z',
+        note: 'Facility name verified from the official operator. Distance and travel time are withheld because the listing location is approximate.',
+    };
+}
+
+function unknownFacility() {
+    return {
+        status: 'unknown_not_verified',
+        facility_name: null,
+        distance_km: null,
+        travel_time_minutes: null,
+        source_name: null,
+        source_url: null,
+        last_checked_at: REFRESHED_AT,
+        note: 'No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address.',
+    };
+}
+
+function travelAccess(record) {
+    const profile = TRAVEL_ACCESS_PROFILES[record.canonical_group] || {};
+    return {
+        train_station: profile.train_station || unknownFacility(),
+        airport: profile.airport || unknownFacility(),
+        uber: {
+            status: 'check_app',
+            source_name: 'Uber city availability directory',
+            source_url: 'https://www.uber.com/global/it/r/italy/cities/',
+            last_checked_at: '2026-07-31T00:00:00.000Z',
+            note: 'Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service.',
+        },
+    };
+}
+
 function toMeasurement(value, unit) {
     return {
         value,
@@ -698,6 +758,7 @@ function toCanonical(records) {
         size: toMeasurement(primary.size_sqm ?? null, 'sqm'),
         land_area: toMeasurement(primary.land_hectares ?? null, 'hectare'),
         amenities: unique(sorted.flatMap(record => record.amenities || [])),
+        travel_access: travelAccess(primary),
         images: [{ ...editorialPlaceholder(primary.asset_class), source_key: primary.source_key }],
         sources: sourceLinks,
         dedupe: {
@@ -748,6 +809,7 @@ function validateListing(listing) {
     if (listing.location.country_code !== 'IT') throw new Error(`${listing.id} must be in Italy`);
     if (!listing.sources.length) throw new Error(`${listing.id} has no sources`);
     if (!listing.inquiry_actions.length) throw new Error(`${listing.id} has no inquiry actions`);
+    if (!listing.travel_access?.train_station || !listing.travel_access?.airport || !listing.travel_access?.uber) throw new Error(`${listing.id} has incomplete travel access data`);
     for (const source of listing.sources) {
         if (!SOURCES[source.source_key]) throw new Error(`${listing.id} unknown source ${source.source_key}`);
         if (!source.source_url.startsWith('http')) throw new Error(`${listing.id} invalid source URL`);

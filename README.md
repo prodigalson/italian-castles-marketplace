@@ -48,6 +48,8 @@ The refresh writes:
 
 The current adapter is intentionally manual and link-only. It includes a committed JamesEdition Italy-castle category-card snapshot at `data/manual-review/jamesedition/castle-card-snapshot.json`; only rows with stable `original_listing_url` values are counted toward active inventory. This expands the castle inventory past 100 active listings after dedupe while avoiding copied source photos, long descriptions, hidden contact data, or blocked endpoints. Before adding an automated adapter, update `docs/castle-data-foundation.md` with dated robots and terms evidence, confirm the exact paths/endpoints are permitted, and preserve attribution, license basis, last-checked time, source status, inventory family, and inquiry route in every emitted record.
 
+Travel/access records follow the same conservative policy. Each canonical listing stores train station, airport, and Uber fields with source and last-checked metadata. A facility name appears only for manually verified municipality-level profiles from official operators; distance and travel-time estimates remain blank when the listing does not expose an exact property address. All other facilities render as `Unknown/Not verified`. Uber records use `Check the Uber app` because coverage and pickup availability can vary by exact address and time.
+
 ## Deployment
 
 This repo is configured for Vercel via `vercel.json`.

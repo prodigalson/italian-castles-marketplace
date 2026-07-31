@@ -31,6 +31,25 @@ for (const listing of listings) {
     check(Boolean(listing.provenance?.notes), `${listing.id}: missing provenance notes.`);
     check(listing.inquiry_actions?.length > 0, `${listing.id}: missing source inquiry action.`);
     check(listing.images?.length > 0, `${listing.id}: missing compliant image or editorial substitute.`);
+    check(Boolean(listing.travel_access?.train_station && listing.travel_access?.airport && listing.travel_access?.uber), `${listing.id}: missing travel/access panel data.`);
+
+    for (const [kind, facility] of Object.entries({ train_station: listing.travel_access?.train_station, airport: listing.travel_access?.airport })) {
+        if (!facility) continue;
+        check(Boolean(facility.last_checked_at && facility.note), `${listing.id}: ${kind} lacks check date or verification note.`);
+        if (facility.status === 'verified_facility') {
+            check(Boolean(facility.facility_name && facility.source_name && isHttpUrl(facility.source_url)), `${listing.id}: verified ${kind} lacks a facility name or source.`);
+        } else {
+            check(facility.status === 'unknown_not_verified', `${listing.id}: unsupported ${kind} verification status.`);
+            check(facility.facility_name === null && facility.distance_km === null && facility.travel_time_minutes === null, `${listing.id}: unverified ${kind} contains inferred facts.`);
+        }
+        check(facility.distance_km === null || facility.travel_time_minutes === null, `${listing.id}: ${kind} should not mix distance and travel-time estimates.`);
+    }
+
+    const uber = listing.travel_access?.uber;
+    if (uber) {
+        check(['available', 'limited_varies', 'not_available', 'check_app', 'unknown_not_verified'].includes(uber.status), `${listing.id}: unsupported Uber status.`);
+        check(Boolean(uber.last_checked_at && uber.note), `${listing.id}: Uber status lacks check date or caveat.`);
+    }
 
     for (const source of listing.sources || []) {
         check(isHttpUrl(source.source_url), `${listing.id}: invalid original source URL.`);
@@ -86,6 +105,7 @@ if (failures.length) {
 } else {
     console.log(`Launch QA passed: ${activeCastles.length} active castles, ${activeMasserias.length} active masserias, ${listings.length} unique canonical listings.`);
     console.log(`Image provenance passed: ${listings.length} listings use explicit actual-property or exactly labelled editorial imagery.`);
+    console.log(`Travel access passed: ${listings.length} listings have conservative train, airport, and Uber records.`);
     console.log(`Site image provenance passed: ${siteImages.length} owned cover/social assets are registered and verified.`);
     console.log(`Source transparency passed: ${sources.length} source records, including all ${masseriaSources.length} required masseria sources.`);
     console.log(`Canonical metadata passed: ${CANONICAL_URL}`);
