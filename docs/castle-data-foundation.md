@@ -1,8 +1,8 @@
-# Italian Castles Marketplace Data Foundation
+# Italian Historic Estates Marketplace Data Foundation
 
 Last checked: 2026-07-31
 
-This document defines the compliant data foundation for an Italian castles-for-sale marketplace. It is intentionally an ingestion plan, not a scraper implementation. Adapters must prefer licensed feeds, APIs, CRM exports, affiliate or partner access, and manual editorial fixtures. Public-page scraping is allowed only after source-specific robots.txt and terms review confirms it is permitted for the exact paths and use case.
+This document defines the compliant data foundation for an Italian castles and masserias marketplace. It is intentionally an ingestion plan, not a scraper implementation. Adapters must prefer licensed feeds, APIs, CRM exports, affiliate or partner access, and manual editorial fixtures. Public-page scraping is allowed only after source-specific robots.txt and terms review confirms it is permitted for the exact paths and use case.
 
 ## Compliance Baseline
 
@@ -15,6 +15,8 @@ This document defines the compliant data foundation for an Italian castles-for-s
 - Keep a takedown workflow: mark the affected source record as removed, suppress non-licensed copied content, retain audit provenance, and re-run dedupe because the canonical representative may change.
 
 ## Source Inventory Plan
+
+### Castle Sources
 
 | Source | Primary access method | Likely fields | Cadence | Attribution | Legal/terms risk | Fallback |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -29,6 +31,23 @@ This document defines the compliant data foundation for an Italian castles-for-s
 | LuxuryEstate | Request professional/partner data access. Terms page says listings are published by advertisers, must be accurate/current, and content is protected; robots must be rechecked for exact paths before automated collection. | Title, country/region/city, price, property type, bedrooms/rooms, bathrooms, area, land, agency, images, amenities, listing URL. | Daily partner feed; every 2-3 days for permitted public status checks. | `LuxuryEstate` and original listing URL; include advertiser attribution when present. | Medium-high: advertiser-owned content and commercial reuse limits require permission for descriptions/images. | Link-only cards or manual fixtures until permission is secured. |
 | Le Figaro Properties | Request Figaro Classifieds partner permission or feed. Terms prohibit extracting, storing, reproducing, or automatically collecting site content for commercial purposes without authorization. | Listing title, country/region/city, price, property type, bedrooms, surface, land, advertiser, photos, contact form URL. | Daily authorized feed only. | `Le Figaro Properties` and original URL; include advertiser/agency attribution. | High for scraping because terms explicitly restrict automated extraction and commercial/professional reuse. | Exclude from automated ingestion until authorized; provide a source-level link-out or manual authorized fixtures. |
 
+### Puglia Masseria Sources
+
+The Puglia masseria adapters use the same compliance baseline, source-record contract, cache/retry/rate-limit rules, stale/removed handling, provenance, and deterministic deduplication rules as castles. The current implementation is a compliant manual/link-only adapter set in `scripts/refresh-castle-inventory.mjs`; it does not scrape public listing pages or bypass access controls.
+
+| Source | Primary access method | Likely fields | Cadence | Attribution | Legal/terms risk | Fallback |
+| --- | --- | --- | --- | --- | --- | --- |
+| Idealista | Request portal/API/feed permission for Puglia rural-property inventory. Public pages may be used only for manual discovery or automation after a positive path-level robots and terms review. | Title, municipality/province, price, rooms, floor area, land, agency, reference, listing URL, images if licensed. | Daily authorized feed; weekly manual permission/source review until authorized. | `Idealista` label, original listing URL, and agency attribution when licensed. | Medium-high: robots allows some sale paths but blocks AJAX, user, saved, photo, virtual-tour, map/list-sort, and broad localized paths; commercial reuse permission is still required. | Source-level status only; no copied descriptions, photos, or hidden contact details until portal permission exists. |
+| Immobiliare.it | Request authorized feed/API or written commercial aggregation permission for Puglia rustici/masserie. | Title, location, price or request, size, rooms, land, agency, reference, listing URL, images if licensed. | Daily authorized feed; weekly source-level permission check. | `Immobiliare.it` label, original URL, and advertiser/agency attribution. | Medium-high: robots exposes sitemap discovery and blocks selected paths, but terms/portal permission are still needed for copied commercial reuse. | Source-level status only until authorized feed/API or written permission exists. |
+| Gate-away | Prefer portal feed, broker export, or written permission; use manual link-only fixtures while rights are pending. | Title, region/province/municipality, price, bedrooms, bathrooms, surface, land, features, agency, source URL. | Daily feed if granted; weekly manual review pending feed. | `Gate-away` label and original listing URL on cards/detail pages. | Medium: public inventory is portal/agent content, so full descriptions and images require permission. | Manual link-only masseria records with high-level normalized facts and source link. |
+| JamesEdition | Request seller/API/partner access or use link-only manual records where public page checks remain compliant. | Title, price/request, location, property type, beds/baths, area, land, seller, images, amenities, listing URL. | Daily feed/API; weekly manual link-only review while permission is pending. | `JamesEdition` plus original URL and seller/agency where available. | Medium: public pages are not globally blocked, but disallowed member/seller/login/inquiry/map/AJAX/feed endpoints and seller-owned content require care. | Store normalized facts plus source URL; use JamesEdition/source inquiry route. |
+| LuxuryEstate | Request professional/partner data access. | Title, location, price/request, property type, rooms, area, land, advertiser, images, amenities, listing URL. | Daily partner feed; weekly manual review pending access. | `LuxuryEstate` and original URL; include advertiser attribution when present. | Medium-high: advertiser-owned content and commercial reuse limits require permission for descriptions/images. | Link-only records or manual fixtures until permission is secured. |
+| Engel & Volkers | Request direct brokerage export, partner feed, or written permission from the relevant Italy office. | Title, brokerage/office, location, price/request, beds/baths, area, land, amenities, images, agent/contact route. | Partner feed or direct broker export only. | `Engel & Volkers` plus original office/listing URL and broker attribution. | High without permission: brokerage content, lead flows, and media must not be crawled or republished without authorization. | Mark source unavailable pending written permission or direct export. |
+| Sotheby's Italy | Use Sotheby's International Realty partner/IDX-style feed or written permission. | Title, location, price/request, brokerage/agent, bedrooms, bathrooms, size, land, amenities, images, virtual tours, inquiry links. | Daily partner/IDX feed only. | `Sotheby's International Realty Italy` with original URL and brokerage/agent attribution. | High for scraping: automated access presented bot verification in this runtime, and terms restrict commercial distribution without prior written permission. | Partner feed or hand-curated link-out cards with permission; otherwise mark source unavailable. |
+| Romolini | Request direct agency permission or export for Puglia masserie. | Title, location, price/request, property type, floor area, land, bedrooms, condition, amenities, agency reference, images, URL. | Daily agency export; weekly manual review while permission is pending. | `Romolini` with original URL and agency attribution. | Medium-high: boutique agency content and media require authorization before copied reuse; public automation needs a positive robots and terms review. | Source-level note or agency-approved link-only fixture. |
+| Apulia Exclusive Houses | Request direct agency feed or written permission. | Title, town/province, price/request, bedrooms, bathrooms, floor area, land, pool/garden/tourism features, agency reference, URL. | Direct agency feed only until public policy is reviewed. | `Apulia Exclusive Houses` and original agency URL. | High until terms/robots and agency permission are verified. | Mark source unavailable pending direct agency permission. |
+| Oikos Immobiliare | Prefer agency export or written permission; current adapter is manual/link-only. | Title, Puglia town/province, agency reference, price/request, beds/baths, floor area, land, features, source URL. | Daily agency export if granted; weekly manual link-only review pending export. | `Oikos Immobiliare` label, original URL, and Oikos reference when present. | Medium: public pages show Puglia listings, but copied descriptions/media and automated collection require agency permission. | Manual link-only fixture with source URL, reference, high-level facts, and attribution. |
+
 ## Adapter Contract
 
 Every source adapter must emit raw source records into a staging area before normalization. A source record has:
@@ -41,11 +60,12 @@ Every source adapter must emit raw source records into a staging area before nor
 - `license_basis`: `partner_feed`, `api_terms`, `written_permission`, `manual_editorial`, or `link_only`.
 - `raw_payload_ref`: pointer to the cached raw payload or manual review note.
 
-Normalize source records into the canonical schema in `data/castle-listing.schema.json`. Validation failures must park the record for review; they must not silently drop unknown values or guess required fields.
+Normalize source records into the canonical schema in `data/castle-listing.schema.json`. The schema includes `asset_class` (`castle` or `masseria`) so masserias and castles can coexist while retaining specific `property_type` values such as `castle`, `masseria`, `trullo`, or `farmhouse`. Validation failures must park the record for review; they must not silently drop unknown values or guess required fields.
 
 ## Canonical Listing Rules
 
 - One canonical listing can have many `sources`. Source links are never collapsed or overwritten.
+- `asset_class` identifies the marketplace inventory family. `property_type` keeps the specific property shape used for search, display, and dedupe conflict checks.
 - `status` is marketplace visibility: `active`, `stale`, `removed`, `pending_permission`, or `archived`.
 - `pricing.display` must be `asking_price`, `price_on_request`, `range`, `unknown`, or `sold_removed`. If a source says "price on request", keep `amount` null and set `price_on_request` true.
 - Location may be approximate. Store the source's precision in `location.precision` and do not increase precision beyond what the source published or licensed.

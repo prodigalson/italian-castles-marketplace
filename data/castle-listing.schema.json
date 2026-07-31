@@ -1,13 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://italian-castles-marketplace.vercel.app/schemas/castle-listing.schema.json",
-  "title": "Italian Castle Listing",
+  "title": "Italian Historic Estate Listing",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "id",
     "status",
     "canonical_title",
+    "asset_class",
     "property_type",
     "location",
     "pricing",
@@ -31,10 +32,17 @@
     "summary": {
       "type": "string"
     },
+    "asset_class": {
+      "type": "string",
+      "enum": ["castle", "masseria"]
+    },
     "property_type": {
       "type": "string",
       "enum": [
         "castle",
+        "masseria",
+        "trullo",
+        "farmhouse",
         "palazzo",
         "historic_villa",
         "fortress",
@@ -369,7 +377,14 @@
         "jamesedition",
         "sothebys_italy",
         "luxuryestate",
-        "le_figaro_properties"
+        "le_figaro_properties",
+        "idealista",
+        "immobiliare_it",
+        "gate_away",
+        "engel_volkers",
+        "romolini",
+        "apulia_exclusive_houses",
+        "oikos_immobiliare"
       ]
     }
   }
