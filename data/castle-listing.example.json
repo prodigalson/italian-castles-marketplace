@@ -3,6 +3,7 @@
   "status": "pending_permission",
   "canonical_title": "Example Tuscan Castle",
   "summary": "Developer fixture showing the normalized listing shape. Not a real property listing.",
+  "asset_class": "castle",
   "property_type": "castle",
   "condition": "unknown",
   "location": {

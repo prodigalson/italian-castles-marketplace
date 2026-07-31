@@ -4,6 +4,7 @@
     "status": "active",
     "canonical_title": "Restored Chianti Castle Estate",
     "summary": "Manual link-only buyer-discovery record for a hilltop Tuscan castle estate with chapel, guest accommodation, olive groves, and vineyard-facing terraces.",
+    "asset_class": "castle",
     "property_type": "castle",
     "condition": "renovated",
     "location": {
@@ -143,6 +144,7 @@
     "status": "active",
     "canonical_title": "Piedmont Vineyard Castello",
     "summary": "Manual marketplace fixture for a Langhe-area castle with winery potential, vaulted cellars, restored owner quarters, and guest accommodation.",
+    "asset_class": "castle",
     "property_type": "castle",
     "condition": "habitable",
     "location": {
@@ -256,10 +258,289 @@
     ]
   },
   {
+    "id": "salento-masseria-retreat",
+    "status": "active",
+    "canonical_title": "Salento Masseria Retreat",
+    "summary": "Manual link-only fixture for a Salento masseria retreat with vaulted stone rooms, pool, gardens, and short-stay hospitality potential.",
+    "asset_class": "masseria",
+    "property_type": "masseria",
+    "condition": "habitable",
+    "location": {
+      "country_code": "IT",
+      "region": "Puglia",
+      "province": "LE",
+      "municipality": "Lecce",
+      "display": "Salento, Lecce, Puglia",
+      "latitude": 40.3515,
+      "longitude": 18.175,
+      "precision": "municipality",
+      "map_context": {
+        "show_map": true,
+        "public_label": "Approximate municipality",
+        "nearby_context": [
+          "Lecce",
+          "LE",
+          "Puglia"
+        ]
+      }
+    },
+    "pricing": {
+      "display": "price_on_request",
+      "currency": null,
+      "amount": null,
+      "range_min": null,
+      "range_max": null,
+      "price_on_request": true,
+      "raw_text": "Price on request"
+    },
+    "bedrooms": 14,
+    "bathrooms": 12,
+    "size": {
+      "value": 1350,
+      "unit": "sqm",
+      "raw_text": "1350 sqm"
+    },
+    "land_area": {
+      "value": 9,
+      "unit": "hectare",
+      "raw_text": "9 hectare"
+    },
+    "amenities": [
+      "farm_buildings",
+      "garden",
+      "panoramic_views",
+      "pool",
+      "tourism_business"
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82",
+        "alt": "Luxury villa courtyard and pool",
+        "caption": "Editorial placeholder image, not copied from the listing source.",
+        "credit": "Editorial placeholder image",
+        "rights_basis": "public_link_only",
+        "source_key": "jamesedition"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1597211833712-5e41faa202ea?auto=format&fit=crop&w=1800&q=82",
+        "alt": "Mediterranean garden path",
+        "caption": "Editorial placeholder image, not copied from the listing source.",
+        "credit": "Editorial placeholder image",
+        "rights_basis": "public_link_only",
+        "source_key": "jamesedition"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=82",
+        "alt": "Vaulted stone interior room",
+        "caption": "Editorial placeholder image, not copied from the listing source.",
+        "credit": "Editorial placeholder image",
+        "rights_basis": "public_link_only",
+        "source_key": "jamesedition"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "jamesedition",
+        "source_name": "JamesEdition",
+        "source_listing_id": "je-salento-masseria-retreat",
+        "source_url": "https://www.jamesedition.com/real_estate/puglia-italy",
+        "source_status": "active",
+        "last_checked_at": "2026-07-30T00:00:00.000Z",
+        "attribution_label": "Source: JamesEdition",
+        "agent_or_broker": null,
+        "license_basis": "link_only",
+        "raw_payload_ref": "manual-review/jamesedition/je-salento-masseria-retreat"
+      },
+      {
+        "source_key": "luxuryestate",
+        "source_name": "LuxuryEstate",
+        "source_listing_id": "le-salento-masseria-retreat",
+        "source_url": "https://www.luxuryestate.com/italy/puglia",
+        "source_status": "active",
+        "last_checked_at": "2026-07-29T00:00:00.000Z",
+        "attribution_label": "Source: LuxuryEstate",
+        "agent_or_broker": null,
+        "license_basis": "link_only",
+        "raw_payload_ref": "manual-review/luxuryestate/le-salento-masseria-retreat"
+      }
+    ],
+    "dedupe": {
+      "match_confidence": "high",
+      "canonical_source_key": "jamesedition",
+      "evidence": [
+        "Same canonical_group from manually reviewed source records.",
+        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
+        "Merged sources retained: JamesEdition, LuxuryEstate."
+      ],
+      "reviewed_by": "manual_editorial_fixture",
+      "reviewed_at": "2026-07-31T00:00:00.000Z"
+    },
+    "provenance": {
+      "created_at": "2026-07-31T00:00:00.000Z",
+      "updated_at": "2026-07-31T00:00:00.000Z",
+      "last_checked_at": "2026-07-30T00:00:00.000Z",
+      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
+    },
+    "inquiry_actions": [
+      {
+        "type": "source_link",
+        "label": "View on JamesEdition",
+        "url": "https://www.jamesedition.com/real_estate/puglia-italy",
+        "source_key": "jamesedition"
+      },
+      {
+        "type": "source_link",
+        "label": "View on LuxuryEstate",
+        "url": "https://www.luxuryestate.com/italy/puglia",
+        "source_key": "luxuryestate"
+      }
+    ]
+  },
+  {
+    "id": "valle-itria-masseria-estate",
+    "status": "active",
+    "canonical_title": "Restored Masseria Near Ostuni",
+    "summary": "Manual duplicate candidate for the same Valle d Itria masseria; retained to demonstrate cross-source dedupe while preserving Oikos attribution and source link.",
+    "asset_class": "masseria",
+    "property_type": "masseria",
+    "condition": "renovated",
+    "location": {
+      "country_code": "IT",
+      "region": "Puglia",
+      "province": "BR",
+      "municipality": "Ostuni",
+      "display": "Ostuni, Brindisi, Puglia",
+      "latitude": 40.73,
+      "longitude": 17.58,
+      "precision": "municipality",
+      "map_context": {
+        "show_map": true,
+        "public_label": "Approximate municipality",
+        "nearby_context": [
+          "Ostuni",
+          "BR",
+          "Puglia"
+        ]
+      }
+    },
+    "pricing": {
+      "display": "asking_price",
+      "currency": "EUR",
+      "amount": 2920000,
+      "range_min": null,
+      "range_max": null,
+      "price_on_request": false,
+      "raw_text": null
+    },
+    "bedrooms": 10,
+    "bathrooms": 9,
+    "size": {
+      "value": 900,
+      "unit": "sqm",
+      "raw_text": "900 sqm"
+    },
+    "land_area": {
+      "value": 6.4,
+      "unit": "hectare",
+      "raw_text": "6.4 hectare"
+    },
+    "amenities": [
+      "garden",
+      "guest_house",
+      "olive_grove",
+      "pool",
+      "tourism_business"
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1800&q=82",
+        "alt": "Whitewashed Mediterranean courtyard with plants",
+        "caption": "Editorial placeholder image, not copied from the listing source.",
+        "credit": "Editorial placeholder image",
+        "rights_basis": "public_link_only",
+        "source_key": "oikos_immobiliare"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1800&q=82",
+        "alt": "Stone country house with pool and garden",
+        "caption": "Editorial placeholder image, not copied from the listing source.",
+        "credit": "Editorial placeholder image",
+        "rights_basis": "public_link_only",
+        "source_key": "oikos_immobiliare"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=82",
+        "alt": "Rural estate landscape with fields",
+        "caption": "Editorial placeholder image, not copied from the listing source.",
+        "credit": "Editorial placeholder image",
+        "rights_basis": "public_link_only",
+        "source_key": "oikos_immobiliare"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "oikos_immobiliare",
+        "source_name": "Oikos Immobiliare",
+        "source_listing_id": "oi-valle-itria-masseria-estate",
+        "source_url": "https://oikosimmobiliare.biz/en/",
+        "source_status": "active",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "attribution_label": "Source: Oikos Immobiliare",
+        "agent_or_broker": null,
+        "license_basis": "link_only",
+        "raw_payload_ref": "manual-review/oikos_immobiliare/oi-valle-itria-masseria-estate"
+      },
+      {
+        "source_key": "gate_away",
+        "source_name": "Gate-away",
+        "source_listing_id": "ga-valle-itria-masseria-estate",
+        "source_url": "https://www.gate-away.com/properties/puglia",
+        "source_status": "active",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "attribution_label": "Source: Gate-away",
+        "agent_or_broker": null,
+        "license_basis": "link_only",
+        "raw_payload_ref": "manual-review/gate_away/ga-valle-itria-masseria-estate"
+      }
+    ],
+    "dedupe": {
+      "match_confidence": "high",
+      "canonical_source_key": "oikos_immobiliare",
+      "evidence": [
+        "Same canonical_group from manually reviewed source records.",
+        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
+        "Merged sources retained: Oikos Immobiliare, Gate-away."
+      ],
+      "reviewed_by": "manual_editorial_fixture",
+      "reviewed_at": "2026-07-31T00:00:00.000Z"
+    },
+    "provenance": {
+      "created_at": "2026-07-31T00:00:00.000Z",
+      "updated_at": "2026-07-31T00:00:00.000Z",
+      "last_checked_at": "2026-07-31T00:00:00.000Z",
+      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
+    },
+    "inquiry_actions": [
+      {
+        "type": "source_link",
+        "label": "View on Oikos Immobiliare",
+        "url": "https://oikosimmobiliare.biz/en/",
+        "source_key": "oikos_immobiliare"
+      },
+      {
+        "type": "source_link",
+        "label": "View on Gate-away",
+        "url": "https://www.gate-away.com/properties/puglia",
+        "source_key": "gate_away"
+      }
+    ]
+  },
+  {
     "id": "umbria-fortified-borgo",
     "status": "stale",
     "canonical_title": "Fortified Umbrian Borgo",
     "summary": "Stale link-only fixture for a walled hamlet-style estate with central keep, restored apartments, event gardens, and valley views.",
+    "asset_class": "castle",
     "property_type": "fortress",
     "condition": "needs_work",
     "location": {
@@ -376,6 +657,7 @@
     "status": "removed",
     "canonical_title": "Sicilian Coastal Watchtower Estate",
     "summary": "Removed source-state fixture retained for audit visibility after the source record was marked removed.",
+    "asset_class": "castle",
     "property_type": "tower",
     "condition": "ruin",
     "location": {

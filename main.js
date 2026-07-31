@@ -75,6 +75,7 @@ function normalizeListing(listing) {
         status: listing.status,
         title: listing.canonical_title,
         summary: listing.summary || '',
+        assetClass: listing.asset_class || 'castle',
         propertyType: listing.property_type,
         condition: listing.condition || 'unknown',
         location: {
@@ -184,6 +185,7 @@ function applyFilters() {
         const haystack = [
             listing.title,
             listing.summary,
+            listing.assetClass,
             listing.propertyType,
             listing.condition,
             listing.location.region,
@@ -286,7 +288,7 @@ function buildSpread(listing, index, total) {
         </div>
         <div class="page-right">
             <header class="folio">
-                <span>Browse Italian Castles for Sale</span>
+                <span>Browse Italian Historic Estates</span>
                 <span>${index + 1} / ${total}</span>
             </header>
             <div class="info-layout">
@@ -437,9 +439,9 @@ function updateUrl() {
 
 async function shareListing(listing) {
     const activeListing = listing || displayedListings[currentSpread];
-    const title = activeListing ? activeListing.title : 'Browse Italian Castles for Sale';
+    const title = activeListing ? activeListing.title : 'Browse Italian Historic Estates';
     const url = activeListing ? `${window.location.origin}${window.location.pathname}?listing=${activeListing.id}` : window.location.href;
-    const text = activeListing ? `${title} · ${formatPrice(activeListing)} · ${activeListing.location.display}` : 'Browse Italian Castles for Sale';
+    const text = activeListing ? `${title} · ${formatPrice(activeListing)} · ${activeListing.location.display}` : 'Browse Italian Historic Estates';
     if (navigator.share) {
         try { await navigator.share({ title, text, url }); } catch {}
     } else {
