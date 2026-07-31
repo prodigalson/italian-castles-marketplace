@@ -285,7 +285,7 @@ function buildSourceCoverage() {
     const relevantSources = sourceStatuses.filter(source => source.inventory_scope.split(',').includes(scope));
     const representedListings = relevantSources.filter(source => source.represented_as === 'listing_record').length;
     const unavailable = relevantSources.filter(source => source.adapter_status === 'blocked' || source.represented_as === 'source_status').length;
-    summary.textContent = `${representedListings} ${activeSection().navLabel.toLowerCase()} sources currently provide link-only listing coverage. ${unavailable} requested sources are shown as permission, terms, or robots gaps until authorized access is available.`;
+    summary.textContent = `${representedListings} ${activeSection().navLabel.toLowerCase()} source records currently provide link-only listing coverage. ${unavailable} requested sources are shown as permission, terms, or robots gaps until authorized access is available.`;
 
     list.innerHTML = relevantSources.map(source => {
         const tone = statusTone(source.compliance_status);
@@ -589,6 +589,15 @@ function updateSectionChrome() {
     document.title = section.title;
     const description = document.querySelector('meta[name="description"]');
     if (description) description.setAttribute('content', section.description);
+    document.querySelectorAll('meta[property="og:title"], meta[name="twitter:title"]').forEach(meta => {
+        meta.setAttribute('content', section.title);
+    });
+    document.querySelectorAll('meta[property="og:description"], meta[name="twitter:description"]').forEach(meta => {
+        meta.setAttribute('content', section.description);
+    });
+    document.querySelectorAll('meta[property="og:site_name"], meta[property="og:image:alt"]').forEach(meta => {
+        meta.setAttribute('content', section.title);
+    });
 }
 
 function setSection(sectionKey, options = {}) {
