@@ -101,7 +101,7 @@
     "robots_terms_evidence": "2026-07-31 data-foundation review: public pages not globally blocked, but member/seller/login/inquiry/map/AJAX/feed endpoints are disallowed and content rights remain with sellers.",
     "fallback": "Store normalized facts plus source URL; use source inquiry route.",
     "represented_as": "listing_record",
-    "record_count": 2,
+    "record_count": 127,
     "generated_at": "2026-07-31T00:00:00.000Z"
   },
   {
