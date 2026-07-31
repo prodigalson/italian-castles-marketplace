@@ -1,0 +1,376 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://italian-castles-marketplace.vercel.app/schemas/castle-listing.schema.json",
+  "title": "Italian Castle Listing",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "status",
+    "canonical_title",
+    "property_type",
+    "location",
+    "pricing",
+    "sources",
+    "provenance",
+    "inquiry_actions"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "stale", "removed", "pending_permission", "archived"]
+    },
+    "canonical_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string"
+    },
+    "property_type": {
+      "type": "string",
+      "enum": [
+        "castle",
+        "palazzo",
+        "historic_villa",
+        "fortress",
+        "tower",
+        "estate",
+        "monastery",
+        "other_historic_property"
+      ]
+    },
+    "condition": {
+      "type": "string",
+      "enum": ["renovated", "habitable", "needs_work", "ruin", "new_build", "unknown"]
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["country_code", "region", "province", "display", "precision"],
+      "properties": {
+        "country_code": {
+          "type": "string",
+          "const": "IT"
+        },
+        "region": {
+          "type": "string",
+          "minLength": 1
+        },
+        "province": {
+          "type": ["string", "null"]
+        },
+        "municipality": {
+          "type": ["string", "null"]
+        },
+        "display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "latitude": {
+          "type": ["number", "null"],
+          "minimum": 35,
+          "maximum": 48
+        },
+        "longitude": {
+          "type": ["number", "null"],
+          "minimum": 6,
+          "maximum": 19
+        },
+        "precision": {
+          "type": "string",
+          "enum": ["exact", "street", "municipality", "province", "region", "country", "unknown"]
+        },
+        "map_context": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "show_map": {
+              "type": "boolean"
+            },
+            "public_label": {
+              "type": "string"
+            },
+            "nearby_context": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["display", "currency", "amount", "price_on_request"],
+      "properties": {
+        "display": {
+          "type": "string",
+          "enum": ["asking_price", "price_on_request", "range", "unknown", "sold_removed"]
+        },
+        "currency": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{3}$"
+        },
+        "amount": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "range_min": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "range_max": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "price_on_request": {
+          "type": "boolean"
+        },
+        "raw_text": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "bedrooms": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "bathrooms": {
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "size": {
+      "$ref": "#/$defs/measurement"
+    },
+    "land_area": {
+      "$ref": "#/$defs/measurement"
+    },
+    "amenities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "vineyard",
+          "olive_grove",
+          "pool",
+          "sea_view",
+          "lake_view",
+          "garden",
+          "park",
+          "chapel",
+          "guest_house",
+          "farm_buildings",
+          "wine_cellar",
+          "spa",
+          "helipad",
+          "equestrian",
+          "restored_frescoes",
+          "panoramic_views",
+          "private_road",
+          "tourism_business"
+        ]
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "alt", "rights_basis"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "alt": {
+            "type": "string"
+          },
+          "caption": {
+            "type": "string"
+          },
+          "credit": {
+            "type": "string"
+          },
+          "source_key": {
+            "$ref": "#/$defs/sourceKey"
+          },
+          "rights_basis": {
+            "type": "string",
+            "enum": ["partner_license", "source_permission", "public_link_only", "owned", "unknown"]
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_key",
+          "source_name",
+          "source_url",
+          "source_status",
+          "last_checked_at",
+          "license_basis"
+        ],
+        "properties": {
+          "source_key": {
+            "$ref": "#/$defs/sourceKey"
+          },
+          "source_name": {
+            "type": "string"
+          },
+          "source_listing_id": {
+            "type": ["string", "null"]
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source_status": {
+            "type": "string",
+            "enum": ["active", "removed", "stale", "blocked", "permission_required"]
+          },
+          "last_checked_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "attribution_label": {
+            "type": "string"
+          },
+          "agent_or_broker": {
+            "type": ["string", "null"]
+          },
+          "license_basis": {
+            "type": "string",
+            "enum": ["partner_feed", "api_terms", "written_permission", "manual_editorial", "link_only"]
+          },
+          "raw_payload_ref": {
+            "type": ["string", "null"]
+          },
+          "removed_at": {
+            "type": ["string", "null"],
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "dedupe": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "match_confidence": {
+          "type": "string",
+          "enum": ["single_source", "high", "medium", "manual_review", "rejected"]
+        },
+        "canonical_source_key": {
+          "$ref": "#/$defs/sourceKey"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewed_by": {
+          "type": ["string", "null"]
+        },
+        "reviewed_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["created_at", "updated_at", "last_checked_at"],
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "last_checked_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "inquiry_actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "label", "url"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["source_link", "agent_email", "agent_phone", "contact_form", "partner_inquiry"]
+          },
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "source_key": {
+            "$ref": "#/$defs/sourceKey"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "measurement": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["value", "unit"],
+      "properties": {
+        "value": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["sqm", "sqft", "hectare", "acre", "unknown"]
+        },
+        "raw_text": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "sourceKey": {
+      "type": "string",
+      "enum": [
+        "castleist",
+        "castle_collector",
+        "immobiliareitaliano",
+        "italy_luxury_property_for_sale",
+        "tranio",
+        "realportico",
+        "jamesedition",
+        "sothebys_italy",
+        "luxuryestate",
+        "le_figaro_properties"
+      ]
+    }
+  }
+}

@@ -2,9 +2,14 @@
 
 ## Reference Format Dependency
 
-Use `https://github.com/prodigalson/amodoveandiamo` as the product-format source.
-Runtime access was verified on 2026-07-31 with `git ls-remote`; `main` resolved
-to `a93a8f153fe714a79bcf59f6fd3a7518ecccfcac`.
+The marketplace implementation now lives in this repository. The original
+`https://github.com/prodigalson/amodoveandiamo` project is only a historical
+format reference and must remain dedicated to the Amo Dove Andiamo date-spots
+site.
+
+Runtime access to the historical reference was verified on 2026-07-31 with
+`git ls-remote`; `main` resolved to
+`a93a8f153fe714a79bcf59f6fd3a7518ecccfcac`.
 
 If future runtime access to the reference project fails, flag the dependency
 immediately and proceed from the preserved facts in this document only.

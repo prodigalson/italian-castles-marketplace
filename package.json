@@ -1,0 +1,18 @@
+{
+  "name": "italian-castles-marketplace",
+  "version": "1.0.0",
+  "description": "Italian castles for sale marketplace",
+  "scripts": {
+    "dev": "vite",
+    "inventory:refresh": "node scripts/refresh-castle-inventory.mjs",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vite": "^8.0.8"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

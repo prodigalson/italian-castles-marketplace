@@ -1,0 +1,82 @@
+{
+  "id": "example-tuscan-castle",
+  "status": "pending_permission",
+  "canonical_title": "Example Tuscan Castle",
+  "summary": "Developer fixture showing the normalized listing shape. Not a real property listing.",
+  "property_type": "castle",
+  "condition": "unknown",
+  "location": {
+    "country_code": "IT",
+    "region": "Tuscany",
+    "province": "SI",
+    "municipality": null,
+    "display": "Tuscany, Italy",
+    "latitude": null,
+    "longitude": null,
+    "precision": "region",
+    "map_context": {
+      "show_map": true,
+      "public_label": "Approximate region only",
+      "nearby_context": ["Central Italy", "Historic hill towns"]
+    }
+  },
+  "pricing": {
+    "display": "price_on_request",
+    "currency": "EUR",
+    "amount": null,
+    "range_min": null,
+    "range_max": null,
+    "price_on_request": true,
+    "raw_text": "Price on request"
+  },
+  "bedrooms": null,
+  "bathrooms": null,
+  "size": {
+    "value": null,
+    "unit": "sqm",
+    "raw_text": null
+  },
+  "land_area": {
+    "value": null,
+    "unit": "hectare",
+    "raw_text": null
+  },
+  "amenities": ["garden", "panoramic_views"],
+  "images": [],
+  "sources": [
+    {
+      "source_key": "jamesedition",
+      "source_name": "JamesEdition",
+      "source_listing_id": null,
+      "source_url": "https://www.jamesedition.com/real_estate/italy",
+      "source_status": "permission_required",
+      "last_checked_at": "2026-07-31T00:00:00Z",
+      "attribution_label": "Source: JamesEdition",
+      "agent_or_broker": null,
+      "license_basis": "link_only",
+      "raw_payload_ref": "manual-review/example-tuscan-castle",
+      "removed_at": null
+    }
+  ],
+  "dedupe": {
+    "match_confidence": "single_source",
+    "canonical_source_key": "jamesedition",
+    "evidence": ["Single link-only fixture used for schema validation."],
+    "reviewed_by": null,
+    "reviewed_at": null
+  },
+  "provenance": {
+    "created_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-07-31T00:00:00Z",
+    "last_checked_at": "2026-07-31T00:00:00Z",
+    "notes": "Non-ingestion fixture for developer validation only."
+  },
+  "inquiry_actions": [
+    {
+      "type": "source_link",
+      "label": "View source",
+      "url": "https://www.jamesedition.com/real_estate/italy",
+      "source_key": "jamesedition"
+    }
+  ]
+}
