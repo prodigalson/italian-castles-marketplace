@@ -519,6 +519,8 @@ function sourceOnlyRecord(source_key) {
 function buildJamesEditionCastleCards(cards) {
     const seen = new Set();
     return cards.flatMap((card) => {
+        if (!card.original_listing_url) return [];
+
         const id = card.id;
         const encoded = card.encoded_card_facts;
         const [place, region, beds, baths, size, land] = encoded.split('|');
@@ -536,9 +538,9 @@ function buildJamesEditionCastleCards(cards) {
 
         return listingRecord('jamesedition', `je-castle-card-${id}`, {
             canonical_group: slug,
-            source_url: card.original_listing_url || card.source_card_page_url,
+            source_url: card.original_listing_url,
             title,
-            summary: `Manual link-only JamesEdition category-card record for an active castle listing in ${place}, ${region}. The record keeps only high-level card facts and routes buyers back to the original JamesEdition source page.`,
+            summary: `Manual link-only JamesEdition category-card record for an active castle listing in ${place}, ${region}. The record keeps only high-level card facts and routes buyers back to the original JamesEdition listing page.`,
             asset_class: 'castle',
             property_type: 'castle',
             condition: 'unknown',

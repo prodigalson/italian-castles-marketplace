@@ -21,7 +21,7 @@ npm audit
 
 Results on 2026-07-31:
 
-- `npm run inventory:refresh` passed and wrote 131 canonical listings from 144 source records, including 127 active castle listings after dedupe.
+- `npm run inventory:refresh` passed and wrote 108 canonical listings from 121 source records, including 104 active castle listings after dedupe.
 - `npm run build` passed with Vite 8.2.0 and generated `dist/index.html`, `dist/admin.html`, and the city HTML copies.
 - `npm audit --omit=dev` passed with 0 vulnerabilities.
 - `npm audit` passed with 0 vulnerabilities after the compatible Vite/PostCSS lockfile update.
@@ -56,8 +56,8 @@ SEO and social preview:
 
 Trust and source transparency:
 
-- Data validation passed: 131 canonical listings, 17 requested sources, listing statuses `active`, `stale`, and `removed`, with no missing attribution, provenance, last-checked, or inquiry fields.
-- Source representation: 12 sources have listing records or source notes in the active product scope; JamesEdition contributes 127 castle listing records from `data/manual-review/jamesedition/castle-card-snapshot.json`, while permission/robots/partner-feed gaps remain represented as source-status-only rows.
+- Data validation passed: 108 canonical listings, 17 requested sources, listing statuses `active`, `stale`, and `removed`, with no missing attribution, provenance, last-checked, or inquiry fields.
+- Source representation: 12 sources have listing records or source notes in the active product scope; JamesEdition contributes 102 active castle listing records from `data/manual-review/jamesedition/castle-card-snapshot.json` after dedupe, each with a stable original listing URL, while permission/robots/partner-feed gaps remain represented as source-status-only rows.
 - The filter panel Source Coverage section exposes permission, terms, robots, and link-only status in-product.
 
 ## Source Trust Checklist
@@ -72,6 +72,6 @@ Trust and source transparency:
 ## Known Gaps
 
 - Inventory is not a live broker feed. It is a compliant link-only/manual fixture.
-- JamesEdition card-snapshot records link back to the reviewed source pages, preserve high-level card facts only, and retain `raw_payload_ref` pointers into the committed manual-review snapshot; richer detail-page ingestion still needs partner/API or source-specific permission review.
+- JamesEdition card-snapshot records link back to original listing pages, preserve high-level card facts only, and retain `raw_payload_ref` pointers into the committed manual-review snapshot; richer detail-page ingestion still needs partner/API or source-specific permission review.
 - Castleist, ImmobiliareItaliano, Italy Luxury Property for Sale, Tranio, Sotheby's Italy, and Le Figaro Properties require written permission, a partner feed, or additional source review before richer ingestion.
 - Placeholder editorial images are not copied from listing sources and should be replaced only with licensed media.

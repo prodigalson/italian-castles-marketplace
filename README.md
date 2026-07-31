@@ -46,7 +46,7 @@ The refresh writes:
 - `data/castle-listings.json` for canonical marketplace listings across `asset_class` values.
 - `data/castle-source-status.json` for source-level compliance, inventory scope, and availability status.
 
-The current adapter is intentionally manual and link-only. It includes a committed JamesEdition Italy-castle category-card snapshot at `data/manual-review/jamesedition/castle-card-snapshot.json` that expands the castle inventory past 100 active listings after dedupe while avoiding copied source photos, long descriptions, hidden contact data, or blocked endpoints. Before adding an automated adapter, update `docs/castle-data-foundation.md` with dated robots and terms evidence, confirm the exact paths/endpoints are permitted, and preserve attribution, license basis, last-checked time, source status, inventory family, and inquiry route in every emitted record.
+The current adapter is intentionally manual and link-only. It includes a committed JamesEdition Italy-castle category-card snapshot at `data/manual-review/jamesedition/castle-card-snapshot.json`; only rows with stable `original_listing_url` values are counted toward active inventory. This expands the castle inventory past 100 active listings after dedupe while avoiding copied source photos, long descriptions, hidden contact data, or blocked endpoints. Before adding an automated adapter, update `docs/castle-data-foundation.md` with dated robots and terms evidence, confirm the exact paths/endpoints are permitted, and preserve attribution, license basis, last-checked time, source status, inventory family, and inquiry route in every emitted record.
 
 ## Deployment
 
