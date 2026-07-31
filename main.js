@@ -483,7 +483,8 @@ async function hydrateGooglePlacePhoto(spread, listing) {
         const placePhoto = await response.json();
         if (!placePhoto.photoUrl) throw new Error('Google Places returned no photo URL');
 
-        const alt = `${placePhoto.placeName}, photographed by a Google Maps contributor.`;
+        if (placePhoto.imageKind !== 'outdoor-street-view') throw new Error('Google Maps image is not verified as outdoor');
+        const alt = `Outdoor Google Maps view near ${placePhoto.placeName}.`;
         const hero = spread.querySelector('.hero-image');
         hero.src = placePhoto.photoUrl;
         hero.alt = alt;
@@ -492,7 +493,7 @@ async function hydrateGooglePlacePhoto(spread, listing) {
         if (firstThumb) {
             firstThumb.dataset.image = placePhoto.photoUrl;
             firstThumb.dataset.alt = alt;
-            firstThumb.setAttribute('aria-label', `View Google Places photo of ${placePhoto.placeName}`);
+            firstThumb.setAttribute('aria-label', `View outdoor Google Maps image near ${placePhoto.placeName}`);
             const thumbImage = firstThumb.querySelector('img');
             if (thumbImage) thumbImage.src = placePhoto.photoUrl;
         }
@@ -508,25 +509,6 @@ async function hydrateGooglePlacePhoto(spread, listing) {
         mapsLink.translate = false;
         mapsLink.textContent = 'Google Maps';
         rights.append(mapsLink);
-
-        for (const attribution of placePhoto.authorAttributions || []) {
-            rights.append(document.createTextNode(' · Photo by '));
-            if (attribution.photoUri) {
-                const avatar = document.createElement('img');
-                avatar.className = 'place-author-avatar';
-                avatar.src = attribution.photoUri;
-                avatar.alt = '';
-                avatar.loading = 'lazy';
-                rights.append(avatar);
-                rights.append(document.createTextNode(' '));
-            }
-            const author = document.createElement('a');
-            author.href = attribution.uri || placePhoto.googleMapsUri || listing.googlePlace.mapsUrl;
-            author.target = '_blank';
-            author.rel = 'noopener';
-            author.textContent = attribution.displayName || 'contributor';
-            rights.append(author);
-        }
 
         const note = document.createElement('span');
         for (const [index, legal] of [['Terms', '/terms.html'], ['Privacy', '/privacy.html']].entries()) {

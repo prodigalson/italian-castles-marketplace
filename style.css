@@ -334,14 +334,6 @@ a {
     text-underline-offset: 2px;
 }
 
-.place-author-avatar {
-    width: 18px;
-    height: 18px;
-    margin-left: 0.15rem;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
 .image-placeholder-label {
     position: absolute;
     top: 1rem;

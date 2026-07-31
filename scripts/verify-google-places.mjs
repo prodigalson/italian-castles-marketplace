@@ -26,6 +26,15 @@ if (!apiSource.includes('Cache-Control') || !apiSource.includes('no-store')) thr
 if (!apiSource.includes('placeConfigForListing') || !apiSource.includes('castle-listings.json')) {
     throw new Error('Google Places photo lookup must cover every inventory listing.');
 }
+if (!apiSource.includes("source: 'outdoor'") || !apiSource.includes("imageKind: 'outdoor-street-view'")) {
+    throw new Error('Google Maps imagery must be restricted to verified outdoor Street View collections.');
+}
+if (apiSource.includes('places.photos') || apiSource.includes('choosePhoto(')) {
+    throw new Error('Unclassified Google Places photos must not be displayed.');
+}
+if (!mainSource.includes("placePhoto.imageKind !== 'outdoor-street-view'")) {
+    throw new Error('The client must reject imagery that is not verified as outdoor.');
+}
 if (!mainSource.includes("textContent = 'Google Maps'")) throw new Error('Google Maps attribution is missing.');
 if (!terms.includes('Google Maps Platform Terms of Service')) throw new Error('Terms do not incorporate Google Maps terms.');
 if (!privacy.includes('Google Privacy Policy')) throw new Error('Privacy page does not reference Google privacy terms.');
