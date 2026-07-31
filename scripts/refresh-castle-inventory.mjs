@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { assertListingSchema } from './listing-schema-validator.mjs';
+import { containsSourceBrand, customerFacingTitle } from './customer-facing-title.mjs';
 
 const REFRESH_DATE = new Date().toISOString().slice(0, 10);
 const REFRESHED_AT = process.env.INVENTORY_REFRESH_AT || `${REFRESH_DATE}T00:00:00.000Z`;
@@ -331,7 +332,7 @@ function buildJamesEditionCastleCards(cards) {
         const land_hectares = toNullableNumber(land);
         const municipality = place.split(',')[0].trim();
         const slug = slugify(`jamesedition ${id} ${place} ${region} castle`);
-        const title = `JamesEdition Castle Card: ${place}`;
+        const title = `Castle in ${place}`;
 
         return listingRecord('jamesedition', `je-castle-card-${id}`, {
             canonical_group: slug,
@@ -533,7 +534,10 @@ function toCanonical(records) {
     return {
         id: primary.canonical_group,
         status,
-        canonical_title: primary.title,
+        canonical_title: customerFacingTitle(primary.title, {
+            assetClass: primary.asset_class,
+            location: primary.display,
+        }),
         summary: primary.summary,
         asset_class: primary.asset_class,
         property_type: primary.property_type,
@@ -614,6 +618,7 @@ function validateListing(listing) {
     if (listing.location.country_code !== 'IT') throw new Error(`${listing.id} must be in Italy`);
     if (!listing.sources.length) throw new Error(`${listing.id} has no sources`);
     if (!listing.inquiry_actions.length) throw new Error(`${listing.id} has no inquiry actions`);
+    if (containsSourceBrand(listing.canonical_title)) throw new Error(`${listing.id} exposes source branding in its customer-facing title`);
     if (!listing.travel_access?.train_station || !listing.travel_access?.airport || !listing.travel_access?.uber) throw new Error(`${listing.id} has incomplete travel access data`);
     validateTravelAccess(listing);
     for (const source of listing.sources) {
