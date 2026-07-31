@@ -108,7 +108,7 @@ export default async function handler(req, res) {
 
         const [trainStation, airport] = await Promise.all([
             nearestFacility(apiKey, property.location, 'train_station', 'train station'),
-            nearestFacility(apiKey, property.location, 'airport', 'airport'),
+            nearestFacility(apiKey, property.location, 'international_airport', 'international airport'),
         ]);
 
         return res.status(200).json({

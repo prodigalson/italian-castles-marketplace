@@ -38,7 +38,7 @@ const [apiSource, mainSource] = await Promise.all([
     readFile('main.js', 'utf8'),
 ]);
 check(apiSource.includes("includedType: type") && apiSource.includes("rankPreference: 'DISTANCE'"), 'Google travel lookup must rank typed facilities by distance.');
-check(apiSource.includes("'train_station'") && apiSource.includes("'airport'"), 'Google travel lookup must request train stations and airports.');
+check(apiSource.includes("'train_station'") && apiSource.includes("'international_airport'"), 'Google travel lookup must request train stations and passenger airports.');
 check(apiSource.includes('distanceKm(origin, place.location)'), 'Google travel lookup must calculate property-specific distance.');
 check(apiSource.includes('m.uber.com/looking?pickup='), 'Uber link must receive the property pickup coordinates.');
 check(mainSource.includes('hydrateGoogleTravelAccess(spread, displayedListings[i])'), 'Rendered listings must hydrate Google travel information.');
