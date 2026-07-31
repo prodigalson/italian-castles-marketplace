@@ -5,19 +5,17 @@ const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
 const listingsById = new Map(listings.map(listing => [listing.id, listing]));
 
 function placeConfigForListing(listingId) {
-    const verified = googlePlacesByListingId[listingId];
-    if (verified) return { ...verified, verified: true };
-
     const listing = listingsById.get(listingId);
     if (!listing) return null;
 
-    const query = [listing.canonical_title, listing.location?.display, 'Italy'].filter(Boolean).join(', ');
-    return {
-        query,
-        expectedName: listing.canonical_title,
-        mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`,
-        verified: false,
-    };
+    // Only a hand-verified mapping may be shown as the property. Deriving a text query from
+    // the listing title returns whichever landmark Google ranks first for the town, not the
+    // property: "Castle in Malamocco - Alberoni, Venice, ... Italy" resolves to the Doge's
+    // Palace. An unverified listing keeps its editorial placeholder instead.
+    const verified = googlePlacesByListingId[listingId];
+    if (!verified) return null;
+
+    return { ...verified, verified: true };
 }
 
 function noStore(res) {
@@ -64,9 +62,9 @@ export default async function handler(req, res) {
         }
 
         const searchPayload = await searchResponse.json();
-        const place = placeConfig.verified
-            ? searchPayload.places?.find(candidate => candidate.displayName?.text === placeConfig.expectedName) || searchPayload.places?.[0]
-            : searchPayload.places?.[0];
+        // No positional fallback: if the verified name is not among the results, the property
+        // was not found and nothing is shown.
+        const place = searchPayload.places?.find(candidate => candidate.displayName?.text === placeConfig.expectedName) || null;
         const photo = choosePhoto(place?.photos);
         if (!place || !photo) return res.status(404).json({ error: 'No Google Places photo is available for this place.' });
 

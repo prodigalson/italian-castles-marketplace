@@ -10,8 +10,9 @@ for (const [listingId, place] of Object.entries(googlePlacesByListingId)) {
     }
 }
 
-const [apiSource, mainSource, terms, privacy] = await Promise.all([
+const [apiSource, travelSource, mainSource, terms, privacy] = await Promise.all([
     readFile('api/place-photo.js', 'utf8'),
+    readFile('api/travel-access.js', 'utf8'),
     readFile('main.js', 'utf8'),
     readFile('terms.html', 'utf8'),
     readFile('privacy.html', 'utf8'),
@@ -31,6 +32,17 @@ if (!apiSource.includes('places.photos') || !apiSource.includes('choosePhoto('))
 }
 if (apiSource.includes("source: 'outdoor'") || apiSource.includes("imageKind: 'outdoor-street-view'")) {
     throw new Error('The outdoor-only Street View restriction must remain disabled.');
+}
+for (const [file, source] of [['api/place-photo.js', apiSource], ['api/travel-access.js', travelSource]]) {
+    if (!source.includes('if (!verified) return null;')) {
+        throw new Error(`${file} must refuse to resolve a place for a listing with no verified mapping.`);
+    }
+}
+if (apiSource.includes('|| searchPayload.places?.[0]') || travelSource.includes('|| payload.places?.[0]')) {
+    throw new Error("Property lookups must not fall back to Google's first text-search result.");
+}
+if (!mainSource.includes('!listing.googlePlace?.verified')) {
+    throw new Error('The client must not request Google imagery or travel distances for unverified listings.');
 }
 if (!mainSource.includes("textContent = 'Google Maps'")) throw new Error('Google Maps attribution is missing.');
 if (!terms.includes('Google Maps Platform Terms of Service')) throw new Error('Terms do not incorporate Google Maps terms.');
