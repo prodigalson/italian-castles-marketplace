@@ -538,8 +538,7 @@ async function hydrateGooglePlacePhoto(spread, listing) {
         const placePhoto = await response.json();
         if (!placePhoto.photoUrl) throw new Error('Google Places returned no photo URL');
 
-        if (placePhoto.imageKind !== 'outdoor-street-view') throw new Error('Google Maps image is not verified as outdoor');
-        const alt = `Outdoor Google Maps view near ${placePhoto.placeName}.`;
+        const alt = `${placePhoto.placeName}, from Google Maps.`;
         const hero = spread.querySelector('.hero-image');
         hero.src = placePhoto.photoUrl;
         hero.alt = alt;
@@ -548,7 +547,7 @@ async function hydrateGooglePlacePhoto(spread, listing) {
         if (firstThumb) {
             firstThumb.dataset.image = placePhoto.photoUrl;
             firstThumb.dataset.alt = alt;
-            firstThumb.setAttribute('aria-label', `View outdoor Google Maps image near ${placePhoto.placeName}`);
+            firstThumb.setAttribute('aria-label', `View Google Places photo of ${placePhoto.placeName}`);
             const thumbImage = firstThumb.querySelector('img');
             if (thumbImage) thumbImage.src = placePhoto.photoUrl;
         }
