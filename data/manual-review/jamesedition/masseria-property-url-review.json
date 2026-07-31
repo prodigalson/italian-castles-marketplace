@@ -1,0 +1,30 @@
+{
+  "source_key": "jamesedition",
+  "source_name": "JamesEdition",
+  "reviewed_at": "2026-07-31T00:00:00.000Z",
+  "compliance_basis": "Manual link-only review of stable property-level URLs. High-level facts and image-presence counts are recorded; no source photographs, long descriptions, hidden contacts, or inquiry flows are copied.",
+  "records": [
+    {
+      "source_listing_id": "15074705",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+      "title": "Masseria For Sale In Puglia",
+      "location": "Conversano, Apulia, Italy",
+      "source_images_present": true,
+      "source_image_count_observed": 30,
+      "image_reuse_basis": "link_only_no_display_permission",
+      "selected_image_policy": "Owned editorial fallback; no source image copied or hotlinked.",
+      "observed_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "source_listing_id": "18413842",
+      "original_listing_url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
+      "title": "Historic Masseria With Productive Estate In Southern Puglia",
+      "location": "Salve, Apulia, Italy",
+      "source_images_present": true,
+      "source_image_count_observed": 47,
+      "image_reuse_basis": "link_only_no_display_permission",
+      "selected_image_policy": "Owned editorial fallback; no source image copied or hotlinked.",
+      "observed_at": "2026-07-31T00:00:00.000Z"
+    }
+  ]
+}

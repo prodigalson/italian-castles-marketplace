@@ -149,6 +149,12 @@ a {
     color: #fff;
 }
 
+.cover-image-provenance a {
+    color: #fff;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
 .cover-overlay {
     position: relative;
     z-index: 2;
@@ -1080,7 +1086,12 @@ a {
     }
 
     .cover-title {
-        font-size: clamp(3.4rem, 18vw, 5.5rem);
+        font-size: clamp(3rem, 16vw, 5.5rem);
+        line-height: 0.88;
+    }
+
+    .cover-bg img {
+        object-position: center 52%;
     }
 
     .cover-image-provenance {

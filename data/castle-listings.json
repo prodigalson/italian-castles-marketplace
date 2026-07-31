@@ -1,58 +1,56 @@
 [
   {
-    "id": "chianti-castle-estate",
+    "id": "jamesedition-historic-masseria-salve-18413842",
     "status": "active",
-    "canonical_title": "Restored Chianti Castle Estate",
-    "summary": "Manual link-only buyer-discovery record for a hilltop Tuscan castle estate with chapel, guest accommodation, olive groves, and vineyard-facing terraces.",
-    "asset_class": "castle",
-    "property_type": "castle",
-    "condition": "renovated",
+    "canonical_title": "Historic Masseria With Productive Estate In Salve",
+    "summary": "Manual link-only record for a historic Salento masseria with established hospitality use, olive groves, vineyards, and approximately forty hectares of land.",
+    "asset_class": "masseria",
+    "property_type": "masseria",
+    "condition": "habitable",
     "location": {
       "country_code": "IT",
-      "region": "Tuscany",
-      "province": "SI",
-      "municipality": "Siena",
-      "display": "Chianti, Siena, Tuscany",
-      "latitude": 43.3188,
-      "longitude": 11.3308,
+      "region": "Puglia",
+      "province": "LE",
+      "municipality": "Salve",
+      "display": "Salve, Lecce, Puglia",
+      "latitude": null,
+      "longitude": null,
       "precision": "municipality",
       "map_context": {
-        "show_map": true,
+        "show_map": false,
         "public_label": "Approximate municipality",
         "nearby_context": [
-          "Siena",
-          "SI",
-          "Tuscany"
+          "Salve",
+          "LE",
+          "Puglia"
         ]
       }
     },
     "pricing": {
       "display": "asking_price",
       "currency": "EUR",
-      "amount": 12500000,
+      "amount": 10000000,
       "range_min": null,
       "range_max": null,
       "price_on_request": false,
       "raw_text": null
     },
-    "bedrooms": 18,
-    "bathrooms": 16,
+    "bedrooms": 8,
+    "bathrooms": 8,
     "size": {
-      "value": 4200,
+      "value": null,
       "unit": "sqm",
-      "raw_text": "4200 sqm"
+      "raw_text": null
     },
     "land_area": {
-      "value": 38,
+      "value": 40,
       "unit": "hectare",
-      "raw_text": "38 hectare"
+      "raw_text": "40 hectare"
     },
     "amenities": [
-      "chapel",
-      "guest_house",
       "olive_grove",
       "panoramic_views",
-      "pool",
+      "tourism_business",
       "vineyard"
     ],
     "travel_access": {
@@ -96,7 +94,7 @@
     },
     "images": [
       {
-        "url": "/images/editorial-castle-placeholder.svg",
+        "url": "/images/editorial-masseria-placeholder.svg",
         "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
         "caption": "Editorial placeholder images.",
         "credit": "Italian Castles Marketplace editorial artwork",
@@ -104,6 +102,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -111,35 +112,21 @@
       {
         "source_key": "jamesedition",
         "source_name": "JamesEdition",
-        "source_listing_id": "je-chianti-castle-estate",
-        "source_url": "https://www.jamesedition.com/real_estate/italy",
+        "source_listing_id": "je-historic-masseria-salve-18413842",
+        "source_url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
         "source_status": "active",
         "last_checked_at": "2026-07-31T00:00:00.000Z",
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-chianti-castle-estate"
-      },
-      {
-        "source_key": "luxuryestate",
-        "source_name": "LuxuryEstate",
-        "source_listing_id": "le-chianti-castle-estate",
-        "source_url": "https://www.luxuryestate.com/italy",
-        "source_status": "active",
-        "last_checked_at": "2026-07-30T00:00:00.000Z",
-        "attribution_label": "Source: LuxuryEstate",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/luxuryestate/le-chianti-castle-estate"
+        "raw_payload_ref": "data/manual-review/jamesedition/masseria-property-url-review.json#18413842"
       }
     ],
     "dedupe": {
-      "match_confidence": "high",
+      "match_confidence": "single_source",
       "canonical_source_key": "jamesedition",
       "evidence": [
-        "Same canonical_group from manually reviewed source records.",
-        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
-        "Merged sources retained: JamesEdition, LuxuryEstate."
+        "Single source record from JamesEdition."
       ],
       "reviewed_by": "manual_editorial_fixture",
       "reviewed_at": "2026-07-31T00:00:00.000Z"
@@ -154,14 +141,155 @@
       {
         "type": "source_link",
         "label": "View on JamesEdition",
-        "url": "https://www.jamesedition.com/real_estate/italy",
+        "url": "https://www.jamesedition.com/real_estate/salve-italy/historic-masseria-with-productive-estate-in-southern-puglia-18413842",
         "source_key": "jamesedition"
+      }
+    ]
+  },
+  {
+    "id": "jamesedition-masseria-conversano-15074705",
+    "status": "active",
+    "canonical_title": "Restored Eighteenth-Century Masseria In Conversano",
+    "summary": "Manual link-only record for a restored eighteenth-century masseria near Conversano with traditional stonework, a private pool, and a one-hectare pine garden.",
+    "asset_class": "masseria",
+    "property_type": "masseria",
+    "condition": "renovated",
+    "location": {
+      "country_code": "IT",
+      "region": "Puglia",
+      "province": "BA",
+      "municipality": "Conversano",
+      "display": "Conversano, Bari, Puglia",
+      "latitude": null,
+      "longitude": null,
+      "precision": "municipality",
+      "map_context": {
+        "show_map": false,
+        "public_label": "Approximate municipality",
+        "nearby_context": [
+          "Conversano",
+          "BA",
+          "Puglia"
+        ]
+      }
+    },
+    "pricing": {
+      "display": "asking_price",
+      "currency": "EUR",
+      "amount": 1400000,
+      "range_min": null,
+      "range_max": null,
+      "price_on_request": false,
+      "raw_text": null
+    },
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "size": {
+      "value": 700,
+      "unit": "sqm",
+      "raw_text": "700 sqm"
+    },
+    "land_area": {
+      "value": 1,
+      "unit": "hectare",
+      "raw_text": "1 hectare"
+    },
+    "amenities": [
+      "garden",
+      "olive_grove",
+      "pool",
+      "tourism_business"
+    ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
       },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
+    "images": [
+      {
+        "url": "/images/editorial-masseria-placeholder.svg",
+        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
+        "caption": "Editorial placeholder images.",
+        "credit": "Italian Castles Marketplace editorial artwork",
+        "depiction_type": "editorial_placeholder",
+        "display_label": "Editorial placeholder images.",
+        "rights_basis": "owned",
+        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
+        "source_key": "jamesedition"
+      }
+    ],
+    "sources": [
+      {
+        "source_key": "jamesedition",
+        "source_name": "JamesEdition",
+        "source_listing_id": "je-masseria-conversano-15074705",
+        "source_url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+        "source_status": "active",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "attribution_label": "Source: JamesEdition",
+        "agent_or_broker": null,
+        "license_basis": "link_only",
+        "raw_payload_ref": "data/manual-review/jamesedition/masseria-property-url-review.json#15074705"
+      }
+    ],
+    "dedupe": {
+      "match_confidence": "single_source",
+      "canonical_source_key": "jamesedition",
+      "evidence": [
+        "Single source record from JamesEdition."
+      ],
+      "reviewed_by": "manual_editorial_fixture",
+      "reviewed_at": "2026-07-31T00:00:00.000Z"
+    },
+    "provenance": {
+      "created_at": "2026-07-31T00:00:00.000Z",
+      "updated_at": "2026-07-31T00:00:00.000Z",
+      "last_checked_at": "2026-07-31T00:00:00.000Z",
+      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
+    },
+    "inquiry_actions": [
       {
         "type": "source_link",
-        "label": "View on LuxuryEstate",
-        "url": "https://www.luxuryestate.com/italy",
-        "source_key": "luxuryestate"
+        "label": "View on JamesEdition",
+        "url": "https://www.jamesedition.com/real_estate/conversano-italy/masseria-for-sale-in-puglia-15074705",
+        "source_key": "jamesedition"
       }
     ]
   },
@@ -267,6 +395,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/marsciano-italy/the-feudal-residence-with-vineyards-and-casale-perugia-umbria-17128301",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -407,6 +538,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/salo-italy/villa-versine-historic-estate-on-lake-garda-with-an-olive-grove-and-development-potential-18399856",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -549,6 +683,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/medieval-heritage-palazzo-with-tower-and-park-gaiole-in-chianti-tuscany-17713851",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -691,6 +828,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/pieve-santo-stefano-italy/prestigious-castle-with-a-private-hamlet-and-church-in-the-heart-of-tuscany-17682437",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -833,6 +973,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montalcino-italy/wonderful-castle-for-sale-in-montalcino-18432951",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -974,6 +1117,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montalto-dora-italy/medieval-castle-with-park-overlooking-canavese-lakes-17698652",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1115,6 +1261,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/bollengo-italy/maestoso-castello-da-riscrivere-sulla-via-francigena-18390984",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1257,6 +1406,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/firenze-italy/extraordinary-castle-with-a-view-of-florence-for-sale-in-tuscany-18432564",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1399,6 +1551,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montespertoli-italy/brunelleschi-castle-for-sale-near-florence-17775311",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1541,6 +1696,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/talla-italy/borgo-dei-bizantini-17980316",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1683,6 +1841,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montespertoli-italy/period-castle-with-park-and-pool-in-chianti-south-of-florence-18355834",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1824,6 +1985,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/caselette-italy/historic-castle-with-monumental-park-on-the-outskirts-of-turin-18529554",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -1966,6 +2130,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castelnuovo-berardenga-italy/historic-102-1-hectare-wine-estate-with-villa-winery-and-restoration-potential-in-chianti-17285266",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2108,6 +2275,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/spoleto-italy/medieval-castle-in-spoleto-17870567",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2249,6 +2419,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/venezia-italy/private-octagon-in-the-venice-lagoon-18058792",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2391,6 +2564,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/barberino-di-mugello-italy/62-ha-estate-with-medieval-castle-for-sale-in-mugello-tuscany-18421489",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2533,6 +2709,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/radda-in-chianti-italy/enchanting-castle-in-the-heart-of-chianti-18317109",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2674,6 +2853,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/balzola-italy/designer-castle-overlooking-the-hills-of-monferrato-18185317",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2816,6 +2998,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castelfiorentino-italy/castello-molineto-a-landmark-tuscan-castle-estate-dimore-by-camisa-17047119",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -2956,6 +3141,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/monguzzo-italy/unique-historic-residence-castle-with-120-000-sqm-park-and-breathtaking-views-17538796",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3098,6 +3286,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/medieval-castle-in-the-heart-of-chianti-classico-with-pool-and-guesthouses-17562689",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3240,6 +3431,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/impruneta-italy/noble-castle-with-broad-park-near-florence-18188823",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3380,6 +3574,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castrocaro-terme-e-terra-del-sole-italy/old-castle-for-sale-on-emilia-romagna-s-hills-18432959",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3521,6 +3718,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/mercenasco-italy/17th-century-castle-with-stables-for-sale-in-ivrea-in-piedmont-17361925",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3663,6 +3863,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/monteriggioni-italy/hamlet-for-sale-in-monteriggioni-17990100",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3804,6 +4007,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montemale-di-cuneo-italy/medieval-castle-with-centuries-old-park-on-cuneo-s-alps-18087474",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -3946,6 +4152,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/monteriggioni-italy/prestigious-hamlet-for-sale-near-siena-18432406",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4088,6 +4297,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/asciano-italy/castello-in-vendita-a-asciano-17848588",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4230,6 +4442,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/campiglia-marittima-italy/castle-with-spa-vineyards-and-sea-view-for-sale-in-the-hills-of-the-etruscan-coast-17665535",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4371,6 +4586,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/buronzo-italy/castello-in-vendita-a-buronzo-17488935",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4512,6 +4730,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/moncrivello-italy/castello-in-vendita-a-moncrivello-18303285",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4652,6 +4873,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castel-de-britti-italy/a-castle-on-the-hills-overlooking-bologna-18394277",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4794,6 +5018,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/lucca-italy/edificio-storico-in-vendita-a-lucca-composto-da-25vani-13628921",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -4936,6 +5163,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/pontebosio-italy/seventeenth-century-architecture-between-history-and-wellness-in-pontebosio-tuscany-17759518",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5076,6 +5306,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castello-cabiaglio-italy/elegant-historic-palace-with-portico-and-views-of-the-surrounding-hills-18298093",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5217,6 +5450,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montegioco-italy/stunning-castle-for-sale-on-tortona-s-hills-18432913",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5359,6 +5595,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/sinalunga-italy/immobili-di-prestigio-in-vendita-a-sinalunga-17941670",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5500,6 +5739,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/tavoleto-italy/13th-century-castle-for-sale-in-marche-30-from-the-sea-17134443",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5642,6 +5884,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/marsciano-italy/charming-medieval-castle-with-tower-in-nestore-valley-sant-apollinare-17090485",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5783,6 +6028,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/serra-ricco-italy/castle-of-san-cipriano-with-park-18108277",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -5923,6 +6171,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/majano-italy/prestigious-historical-castle-for-sale-near-udine-17361920",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6065,6 +6316,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/amelia-italy/luxury-historical-property-for-sale-amelia-umbria-17510022",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6207,6 +6461,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/radda-in-chianti-italy/tuscany-chianti-castle-for-sale-in-chianti-17674803",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6349,6 +6606,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/umbertide-italy/borgo-in-vendita-a-umbertide-comunaglia-16323504",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6490,6 +6750,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/poggio-corese-italy/historic-castle-with-private-spa-panoramic-tower-boutique-hospitality-potential-near-rome-17002359",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6631,6 +6894,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/balzola-italy/neo-gothic-castle-nestled-within-the-unesco-world-heritage-area-of-monferrato-18508294",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6772,6 +7038,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/marano-ticino-italy/medieval-castle-with-grand-private-park-in-the-novara-area-18529583",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -6913,6 +7182,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/acquapendente-italy/impressive-18th-century-castle-near-rome-16991176",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7054,6 +7326,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/rivarolo-canavese-italy/prestigious-medieval-castle-near-turin-17023309",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7196,6 +7471,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/majestic-castle-with-pool-in-the-heart-of-tuscany-18154060",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7337,6 +7615,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/san-damiano-d-asti-italy/magnificent-castle-located-between-langa-and-monferrato-16846236",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7479,6 +7760,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/licciana-nardi-italy/licci-castle-a-private-hidden-tuscan-ancient-castle-by-dimore-camisa-16928111",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7620,6 +7904,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/finale-ligure-italy/forte-tortagna-a-historic-fortress-reborn-as-an-exclusive-residence-16276613",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7762,6 +8049,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/livorno-italy/historic-castle-with-vineyard-and-sea-views-in-tuscany-17060375",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -7903,6 +8193,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gavi-piedmont-italy/medieval-castle-s-countryard-with-real-estate-development-project-16615980",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8045,6 +8338,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/medieval-castle-in-the-heart-of-chianti-classico-18396677",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8187,6 +8483,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/marzana-italy/prestigious-historic-residence-with-chapel-and-private-estate-in-san-miniato-16672481",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8329,6 +8628,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/incisa-in-val-d-arno-italy/a-tuscan-legacy-reborn-17428569",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8471,6 +8773,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/villafranca-in-lunigiana-italy/wine-estate-with-castle-for-sale-in-lunigiana-tuscany-18429882",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8612,6 +8917,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/bubbio-italy/castello-in-vendita-a-bubbio-localita-piana-16652879",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8753,6 +9061,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/nerola-italy/medieval-11th-century-castle-5-hotel-near-rome-16551755",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -8895,6 +9206,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/todi-italy/splendid-abbey-and-stone-house-with-580-acres-woods-and-meadows-16135812",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9036,6 +9350,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/lecce-italy/historic-16th-century-palazzo-in-the-heart-of-lecce-puglia-s-baroque-pearl-16707442",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9178,6 +9495,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/reggello-italy/castello-in-vendita-a-reggello-san-clemente-16610043",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9320,6 +9640,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/todi-italy/borgo-in-vendita-a-todi-16081369",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9460,6 +9783,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/mozzanica-italy/mozzanica-castle-17064735",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9601,6 +9927,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/cavallirio-italy/historic-castle-with-17-rooms-in-cavallirio-16392144",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9743,6 +10072,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/todi-italy/castello-in-vendita-a-todi-16725175",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -9885,6 +10217,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/arezzo-italy/millennial-castle-in-the-hills-of-arezzo-16277709",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10026,6 +10361,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/asti-italy/restored-medieval-castle-for-sale-in-monferrato-one-hour-from-asti-16545304",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10166,6 +10504,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/agazzano-italy/medieval-castle-with-pool-spa-and-olive-grove-in-piacenza-16105552",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10308,6 +10649,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castello-di-querceto-italy/rustic-for-sale-in-castello-di-querceto-17925375",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10450,6 +10794,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gaiole-in-chianti-italy/gaiole-in-chianti-medieval-tower-with-private-pool-16575409",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10592,6 +10939,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/spina-italy/farm-estate-with-xi-century-castle-for-sale-in-umbria-16046987",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10732,6 +11082,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/milano-italy/milan-piazza-castello-16650938",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -10874,6 +11227,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/bargino-italy/tailor-made-tuscan-castle-a-private-fortress-where-history-meets-elegance-and-modern-living-15750097",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11015,6 +11371,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/mercatello-sul-metauro-italy/restored-castle-luxury-boutique-hotel-for-sale-in-marche-16317385",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11157,6 +11516,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/san-gemini-italy/villa-mattina-15989136",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11299,6 +11661,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/monsummano-terme-italy/borgo-in-vendita-a-monsummano-terme-16329942",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11440,6 +11805,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/gattico-veruno-italy/revislate-castle-historic-residence-in-gattico-veruno-16297076",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11582,6 +11950,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/fabro-italy/millennial-castle-in-umbria-15940704",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11723,6 +12094,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/torre-alfina-italy/the-castle-of-torre-alfina-medieval-masterpiece-18547711",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -11864,6 +12238,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/riomaggiore-italy/riomaggiore-castle-residence-cod-521-16607727",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12006,6 +12383,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/bucine-italy/ancient-castle-with-pool-on-the-hills-of-arezzo-15965479",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12146,6 +12526,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/imola-italy/exclusive-hotel-for-sale-in-bologna-s-countryside-16487658",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12286,6 +12669,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/lugo-italy/charming-frescoed-castle-for-sale-near-ravenna-15901679",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12428,6 +12814,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/citta-di-castello-italy/a-jewel-of-the-past-finely-restored-14th-century-hamlet-with-unique-panoramic-views-15808604",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12570,6 +12959,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/cortona-italy/borgo-in-vendita-a-cortona-15761782",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12711,6 +13103,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/montemale-di-cuneo-italy/montemale-s-castle-15899602",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12853,6 +13248,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/campello-sul-clitunno-collinare-italy/characteristic-castle-with-large-land-and-outbuildings-in-campello-sul-clitunno-16623787",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -12994,6 +13392,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/incisa-scapaccino-italy/castle-with-three-hectares-of-land-15623824",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13135,6 +13536,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/san-damiano-d-asti-italy/castle-on-sale-piemonte-italia-15539406",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13276,6 +13680,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/lesa-italy/historic-castle-on-lake-maggiore-lesa-15957532",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13417,6 +13824,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/cingoli-italy/the-pink-village-borgo-in-marche-region-16194774",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13559,6 +13969,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/rapolano-terme-italy/800-ha-estate-with-castle-and-hunting-reserve-for-sale-in-tuscany-15663441",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13701,6 +14114,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/campiglia-marittima-italy/chateau-for-sale-in-campiglia-marittima-15929689",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13843,6 +14259,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/impruneta-italy/art-nouveau-tower-to-be-restored-for-sale-in-tuscany-impruneta-15666393",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -13985,6 +14404,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/siena-italy/the-oak-palace-with-chianti-vineyards-and-olive-grove-siena-toscana-15987390",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -14127,6 +14549,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/arezzo-italy/medieval-castle-to-be-restored-for-sale-in-arezzo-tuscany-16069590",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -14269,6 +14694,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/castiglioncello-italy/little-castle-by-the-sea-with-panoramic-views-and-private-park-15922330",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -14410,6 +14838,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/cagli-italy/castle-luxury-boutique-hotel-for-sale-in-marche-15665888",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -14552,6 +14983,9 @@
         "display_label": "Editorial placeholder images.",
         "rights_basis": "owned",
         "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
+        "source_listing_url": "https://www.jamesedition.com/real_estate/bagno-a-ripoli-italy/castle-with-views-of-the-historic-center-of-florence-for-sale-15665927",
+        "selection_reviewed_at": "2026-07-31T00:00:00.000Z",
+        "selection_note": "The original listing link is preserved, but its link_only source record does not document property-photo display rights. No source image was copied or hotlinked; the compliant owned fallback was selected.",
         "source_key": "jamesedition"
       }
     ],
@@ -14590,765 +15024,6 @@
         "label": "View on JamesEdition",
         "url": "https://www.jamesedition.com/real_estate/bagno-a-ripoli-italy/castle-with-views-of-the-historic-center-of-florence-for-sale-15665927",
         "source_key": "jamesedition"
-      }
-    ]
-  },
-  {
-    "id": "piedmont-vineyard-castello",
-    "status": "active",
-    "canonical_title": "Piedmont Vineyard Castello",
-    "summary": "Manual marketplace fixture for a Langhe-area castle with winery potential, vaulted cellars, restored owner quarters, and guest accommodation.",
-    "asset_class": "castle",
-    "property_type": "castle",
-    "condition": "habitable",
-    "location": {
-      "country_code": "IT",
-      "region": "Piedmont",
-      "province": "CN",
-      "municipality": "Cuneo",
-      "display": "Langhe, Cuneo, Piedmont",
-      "latitude": 44.608,
-      "longitude": 7.958,
-      "precision": "municipality",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Approximate municipality",
-        "nearby_context": [
-          "Cuneo",
-          "CN",
-          "Piedmont"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "asking_price",
-      "currency": "EUR",
-      "amount": 3900000,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": false,
-      "raw_text": null
-    },
-    "bedrooms": 9,
-    "bathrooms": 8,
-    "size": {
-      "value": 1850,
-      "unit": "sqm",
-      "raw_text": "1850 sqm"
-    },
-    "land_area": {
-      "value": 18,
-      "unit": "hectare",
-      "raw_text": "18 hectare"
-    },
-    "amenities": [
-      "guest_house",
-      "panoramic_views",
-      "vineyard",
-      "wine_cellar"
-    ],
-    "travel_access": {
-      "train_station": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "airport": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "uber": {
-        "status": "check_app",
-        "source_name": "Uber city availability directory",
-        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
-      }
-    },
-    "images": [
-      {
-        "url": "/images/editorial-castle-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_key": "castle_collector"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "castle_collector",
-        "source_name": "Castle Collector",
-        "source_listing_id": "cc-piedmont-vineyard-castello",
-        "source_url": "https://castle-collector.com/castles-for-sale/",
-        "source_status": "active",
-        "last_checked_at": "2026-07-28T00:00:00.000Z",
-        "attribution_label": "Source: Castle Collector",
-        "agent_or_broker": null,
-        "license_basis": "manual_editorial",
-        "raw_payload_ref": "manual-review/castle_collector/cc-piedmont-vineyard-castello"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "single_source",
-      "canonical_source_key": "castle_collector",
-      "evidence": [
-        "Single source record from Castle Collector."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-28T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "View on Castle Collector",
-        "url": "https://castle-collector.com/castles-for-sale/",
-        "source_key": "castle_collector"
-      }
-    ]
-  },
-  {
-    "id": "salento-masseria-retreat",
-    "status": "active",
-    "canonical_title": "Salento Masseria Retreat",
-    "summary": "Manual link-only fixture for a Salento masseria retreat with vaulted stone rooms, pool, gardens, and short-stay hospitality potential.",
-    "asset_class": "masseria",
-    "property_type": "masseria",
-    "condition": "habitable",
-    "location": {
-      "country_code": "IT",
-      "region": "Puglia",
-      "province": "LE",
-      "municipality": "Lecce",
-      "display": "Salento, Lecce, Puglia",
-      "latitude": 40.3515,
-      "longitude": 18.175,
-      "precision": "municipality",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Approximate municipality",
-        "nearby_context": [
-          "Lecce",
-          "LE",
-          "Puglia"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "price_on_request",
-      "currency": null,
-      "amount": null,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": true,
-      "raw_text": "Price on request"
-    },
-    "bedrooms": 14,
-    "bathrooms": 12,
-    "size": {
-      "value": 1350,
-      "unit": "sqm",
-      "raw_text": "1350 sqm"
-    },
-    "land_area": {
-      "value": 9,
-      "unit": "hectare",
-      "raw_text": "9 hectare"
-    },
-    "amenities": [
-      "farm_buildings",
-      "garden",
-      "panoramic_views",
-      "pool",
-      "tourism_business"
-    ],
-    "travel_access": {
-      "train_station": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "airport": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "uber": {
-        "status": "check_app",
-        "source_name": "Uber city availability directory",
-        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
-      }
-    },
-    "images": [
-      {
-        "url": "/images/editorial-masseria-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_key": "jamesedition"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "jamesedition",
-        "source_name": "JamesEdition",
-        "source_listing_id": "je-salento-masseria-retreat",
-        "source_url": "https://www.jamesedition.com/real_estate/puglia-italy",
-        "source_status": "active",
-        "last_checked_at": "2026-07-30T00:00:00.000Z",
-        "attribution_label": "Source: JamesEdition",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-salento-masseria-retreat"
-      },
-      {
-        "source_key": "luxuryestate",
-        "source_name": "LuxuryEstate",
-        "source_listing_id": "le-salento-masseria-retreat",
-        "source_url": "https://www.luxuryestate.com/italy/puglia",
-        "source_status": "active",
-        "last_checked_at": "2026-07-29T00:00:00.000Z",
-        "attribution_label": "Source: LuxuryEstate",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/luxuryestate/le-salento-masseria-retreat"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "high",
-      "canonical_source_key": "jamesedition",
-      "evidence": [
-        "Same canonical_group from manually reviewed source records.",
-        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
-        "Merged sources retained: JamesEdition, LuxuryEstate."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-30T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "View on JamesEdition",
-        "url": "https://www.jamesedition.com/real_estate/puglia-italy",
-        "source_key": "jamesedition"
-      },
-      {
-        "type": "source_link",
-        "label": "View on LuxuryEstate",
-        "url": "https://www.luxuryestate.com/italy/puglia",
-        "source_key": "luxuryestate"
-      }
-    ]
-  },
-  {
-    "id": "valle-itria-masseria-estate",
-    "status": "active",
-    "canonical_title": "Restored Masseria Near Ostuni",
-    "summary": "Manual duplicate candidate for the same Valle d Itria masseria; retained to demonstrate cross-source dedupe while preserving Oikos attribution and source link.",
-    "asset_class": "masseria",
-    "property_type": "masseria",
-    "condition": "renovated",
-    "location": {
-      "country_code": "IT",
-      "region": "Puglia",
-      "province": "BR",
-      "municipality": "Ostuni",
-      "display": "Ostuni, Brindisi, Puglia",
-      "latitude": 40.73,
-      "longitude": 17.58,
-      "precision": "municipality",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Approximate municipality",
-        "nearby_context": [
-          "Ostuni",
-          "BR",
-          "Puglia"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "asking_price",
-      "currency": "EUR",
-      "amount": 2920000,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": false,
-      "raw_text": null
-    },
-    "bedrooms": 10,
-    "bathrooms": 9,
-    "size": {
-      "value": 900,
-      "unit": "sqm",
-      "raw_text": "900 sqm"
-    },
-    "land_area": {
-      "value": 6.4,
-      "unit": "hectare",
-      "raw_text": "6.4 hectare"
-    },
-    "amenities": [
-      "garden",
-      "guest_house",
-      "olive_grove",
-      "pool",
-      "tourism_business"
-    ],
-    "travel_access": {
-      "train_station": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "airport": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "uber": {
-        "status": "check_app",
-        "source_name": "Uber city availability directory",
-        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
-      }
-    },
-    "images": [
-      {
-        "url": "/images/editorial-masseria-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_key": "oikos_immobiliare"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "oikos_immobiliare",
-        "source_name": "Oikos Immobiliare",
-        "source_listing_id": "oi-valle-itria-masseria-estate",
-        "source_url": "https://oikosimmobiliare.biz/en/",
-        "source_status": "active",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "attribution_label": "Source: Oikos Immobiliare",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/oikos_immobiliare/oi-valle-itria-masseria-estate"
-      },
-      {
-        "source_key": "gate_away",
-        "source_name": "Gate-away",
-        "source_listing_id": "ga-valle-itria-masseria-estate",
-        "source_url": "https://www.gate-away.com/properties/puglia",
-        "source_status": "active",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "attribution_label": "Source: Gate-away",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/gate_away/ga-valle-itria-masseria-estate"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "high",
-      "canonical_source_key": "oikos_immobiliare",
-      "evidence": [
-        "Same canonical_group from manually reviewed source records.",
-        "Same province/municipality with price, area, bedroom, and coordinate agreement inside configured thresholds.",
-        "Merged sources retained: Oikos Immobiliare, Gate-away."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-31T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "View on Oikos Immobiliare",
-        "url": "https://oikosimmobiliare.biz/en/",
-        "source_key": "oikos_immobiliare"
-      },
-      {
-        "type": "source_link",
-        "label": "View on Gate-away",
-        "url": "https://www.gate-away.com/properties/puglia",
-        "source_key": "gate_away"
-      }
-    ]
-  },
-  {
-    "id": "umbria-fortified-borgo",
-    "status": "stale",
-    "canonical_title": "Fortified Umbrian Borgo",
-    "summary": "Stale link-only fixture for a walled hamlet-style estate with central keep, restored apartments, event gardens, and valley views.",
-    "asset_class": "castle",
-    "property_type": "fortress",
-    "condition": "needs_work",
-    "location": {
-      "country_code": "IT",
-      "region": "Umbria",
-      "province": "PG",
-      "municipality": null,
-      "display": "Perugia province, Umbria",
-      "latitude": 43.1122,
-      "longitude": 12.3888,
-      "precision": "province",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Province only",
-        "nearby_context": [
-          "PG",
-          "Umbria"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "asking_price",
-      "currency": "EUR",
-      "amount": 6800000,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": false,
-      "raw_text": null
-    },
-    "bedrooms": 24,
-    "bathrooms": 21,
-    "size": {
-      "value": 5100,
-      "unit": "sqm",
-      "raw_text": "5100 sqm"
-    },
-    "land_area": {
-      "value": 62,
-      "unit": "hectare",
-      "raw_text": "62 hectare"
-    },
-    "amenities": [
-      "guest_house",
-      "olive_grove",
-      "panoramic_views",
-      "tourism_business"
-    ],
-    "travel_access": {
-      "train_station": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "airport": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "uber": {
-        "status": "check_app",
-        "source_name": "Uber city availability directory",
-        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
-      }
-    },
-    "images": [
-      {
-        "url": "/images/editorial-castle-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_key": "realportico"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "realportico",
-        "source_name": "REALPORTICO",
-        "source_listing_id": "rp-umbria-fortified-borgo",
-        "source_url": "https://www.realportico.com/property-search/italy",
-        "source_status": "stale",
-        "last_checked_at": "2026-07-13T00:00:00.000Z",
-        "attribution_label": "Source: REALPORTICO",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/realportico/rp-umbria-fortified-borgo"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "single_source",
-      "canonical_source_key": "realportico",
-      "evidence": [
-        "Single source record from REALPORTICO."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-13T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "Check REALPORTICO status",
-        "url": "https://www.realportico.com/property-search/italy",
-        "source_key": "realportico"
-      }
-    ]
-  },
-  {
-    "id": "sicilian-coastal-watchtower",
-    "status": "removed",
-    "canonical_title": "Sicilian Coastal Watchtower Estate",
-    "summary": "Removed source-state fixture retained for audit visibility after the source record was marked removed.",
-    "asset_class": "castle",
-    "property_type": "tower",
-    "condition": "ruin",
-    "location": {
-      "country_code": "IT",
-      "region": "Sicily",
-      "province": "SR",
-      "municipality": null,
-      "display": "Siracusa province, Sicily",
-      "latitude": 36.998,
-      "longitude": 15.07,
-      "precision": "province",
-      "map_context": {
-        "show_map": true,
-        "public_label": "Province only",
-        "nearby_context": [
-          "SR",
-          "Sicily"
-        ]
-      }
-    },
-    "pricing": {
-      "display": "sold_removed",
-      "currency": null,
-      "amount": null,
-      "range_min": null,
-      "range_max": null,
-      "price_on_request": true,
-      "raw_text": "Price on request"
-    },
-    "bedrooms": null,
-    "bathrooms": null,
-    "size": {
-      "value": null,
-      "unit": "sqm",
-      "raw_text": null
-    },
-    "land_area": {
-      "value": 12,
-      "unit": "hectare",
-      "raw_text": "12 hectare"
-    },
-    "amenities": [
-      "panoramic_views",
-      "sea_view"
-    ],
-    "travel_access": {
-      "train_station": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "airport": {
-        "status": "unknown_not_verified",
-        "facility_name": null,
-        "distance_km": null,
-        "travel_time_minutes": null,
-        "source_name": null,
-        "source_url": null,
-        "nearest_selection_method": null,
-        "nearest_selection_source_url": null,
-        "estimate_method": null,
-        "estimate_source_url": null,
-        "last_checked_at": null,
-        "record_generated_at": "2026-07-31T00:00:00.000Z",
-        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
-      },
-      "uber": {
-        "status": "check_app",
-        "source_name": "Uber city availability directory",
-        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
-        "last_checked_at": "2026-07-31T00:00:00.000Z",
-        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
-      }
-    },
-    "images": [
-      {
-        "url": "/images/editorial-castle-placeholder.svg",
-        "alt": "Editorial placeholder images. This illustration does not depict the listed property.",
-        "caption": "Editorial placeholder images.",
-        "credit": "Italian Castles Marketplace editorial artwork",
-        "depiction_type": "editorial_placeholder",
-        "display_label": "Editorial placeholder images.",
-        "rights_basis": "owned",
-        "rights_note": "Original editorial illustration owned by the marketplace; it is not a photograph of the listed property.",
-        "source_key": "castleist"
-      }
-    ],
-    "sources": [
-      {
-        "source_key": "castleist",
-        "source_name": "Castleist",
-        "source_listing_id": "cl-sicilian-coastal-watchtower",
-        "source_url": "https://www.castleist.com/castles-for-sale/italy",
-        "source_status": "removed",
-        "last_checked_at": "2026-07-29T00:00:00.000Z",
-        "attribution_label": "Source: Castleist",
-        "agent_or_broker": null,
-        "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/castleist/cl-sicilian-coastal-watchtower",
-        "removed_at": "2026-07-29T00:00:00.000Z"
-      }
-    ],
-    "dedupe": {
-      "match_confidence": "single_source",
-      "canonical_source_key": "castleist",
-      "evidence": [
-        "Single source record from Castleist."
-      ],
-      "reviewed_by": "manual_editorial_fixture",
-      "reviewed_at": "2026-07-31T00:00:00.000Z"
-    },
-    "provenance": {
-      "created_at": "2026-07-31T00:00:00.000Z",
-      "updated_at": "2026-07-31T00:00:00.000Z",
-      "last_checked_at": "2026-07-29T00:00:00.000Z",
-      "notes": "Generated by scripts/refresh-castle-inventory.mjs from compliant link-only/manual source records. No source page scraping is performed."
-    },
-    "inquiry_actions": [
-      {
-        "type": "source_link",
-        "label": "Check Castleist status",
-        "url": "https://www.castleist.com/castles-for-sale/italy",
-        "source_key": "castleist"
       }
     ]
   }
