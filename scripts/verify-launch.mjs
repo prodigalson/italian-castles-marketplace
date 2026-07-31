@@ -73,7 +73,7 @@ check(html.includes(`class="cover-image-provenance"><strong>${REQUIRED_PLACEHOLD
 check(!html.includes('commons.wikimedia.org'), 'Unregistered third-party cover imagery remains in the page.');
 check(html.includes(`${CANONICAL_URL.slice(0, -1)}${socialImage?.url}`), 'Social metadata does not use its registered marketplace asset.');
 check(html.includes('<meta property="og:image:type" content="image/png">'), 'Social preview MIME metadata does not match the PNG asset.');
-check(socialSource.includes('Browse Italian Castles for Sale') && socialSource.includes(REQUIRED_PLACEHOLDER_LABEL.toUpperCase()), 'Social preview source is not identifiable as owned castle-marketplace editorial artwork.');
+check(socialSource.includes('Browse Italian Castles for Sale') && socialSource.includes(`>${REQUIRED_PLACEHOLDER_LABEL}</text>`), 'Social preview source must visibly render the exact placeholder label.');
 check(!socialSource.includes('Amo Dove Andiamo'), 'Social preview source contains unrelated Amo branding.');
 check(socialMetadata.width === 1200 && socialMetadata.height === 630 && socialMetadata.format === 'png', 'Generated social preview must be a 1200x630 PNG.');
 check(sha256(socialOutput) === socialImage?.generated_sha256, 'Generated social preview does not match its recorded provenance hash.');
