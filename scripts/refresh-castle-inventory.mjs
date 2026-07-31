@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 
 const REFRESH_DATE = new Date().toISOString().slice(0, 10);
@@ -208,139 +208,10 @@ const SOURCES = {
 };
 
 const JAMESEDITION_CARD_LAST_CHECKED_AT = '2026-07-31T00:00:00.000Z';
+const JAMESEDITION_SNAPSHOT_REF = 'data/manual-review/jamesedition/castle-card-snapshot.json';
 
-const JAMESEDITION_CASTLE_CARD_SNAPSHOT = [
-    ['p1-001', 1, 'Marsciano|Umbria|9|11|1575|76.6'],
-    ['p1-002', 1, 'Salo|Lombardy|6|6|732|'],
-    ['p1-003', 1, 'Gaiole in Chianti|Tuscany|7|9|798|'],
-    ['p1-004', 1, 'Pieve Santo Stefano|Tuscany|14|18|812|0.2175'],
-    ['p1-005', 1, 'Montalcino|Tuscany|46|50|9500|'],
-    ['p1-006', 1, 'Montalto Dora|Piedmont|11|13|2525|'],
-    ['p1-007', 1, 'Bollengo|Piedmont||20|12388|'],
-    ['p1-008', 1, 'Settignano, Florence|Tuscany|21|24|3665|'],
-    ['p1-009', 1, 'Montalbino, Montespertoli|Tuscany|15|20|35000|'],
-    ['p1-010', 1, 'Talla|Tuscany|25|25|2200|'],
-    ['p1-011', 1, 'Montagnana - Baccaiano - Anselmo, Montespertoli|Tuscany|84|70|7000|'],
-    ['p1-012', 1, 'Caselette|Piedmont|40|40|4000|'],
-    ['p1-013', 1, 'Castelnuovo Berardenga|Tuscany|5|5|4500|'],
-    ['p1-014', 1, 'Spoleto|Umbria|12|12|970|'],
-    ['p1-015', 1, 'Malamocco - Alberoni, Venice|Veneto|4|4|2450|'],
-    ['p1-016', 1, 'Barberino di Mugello|Tuscany|60|40|5314|'],
-    ['p1-017', 1, 'Montefioralle, Greve in Chianti|Tuscany|||708|'],
-    ['p1-018', 1, 'Balzola|Piedmont|7|6|662|'],
-    ['p1-019', 1, 'Center, Castelfiorentino|Tuscany|52|45|34082|'],
-    ['p1-020', 1, 'Monguzzo|Lombardy|20|20|5000|'],
-    ['p1-021', 1, 'Gaiole in Chianti|Tuscany|8|10|1400|'],
-    ['p1-022', 1, 'Center, Impruneta|Tuscany|15|12|1600|'],
-    ['p1-023', 1, 'Terra del Sole|Emilia-Romagna|7|12|3300|'],
-    ['p1-024', 1, 'Mercenasco|Piedmont|5|5|2964|'],
-    ['p1-025', 1, 'Monteriggioni|Tuscany|11|12|854|'],
-    ['p1-026', 1, 'Montemale di Cuneo|Piedmont|27|11|2700|'],
-    ['p1-027', 1, 'Monteriggioni|Tuscany|39|30|4185|'],
-    ['p1-028', 1, 'Asciano|Tuscany|22|25|2500|'],
-    ['p1-029', 1, 'Venturina Terme, Campiglia Marittima|Tuscany|20|20|3600|'],
-    ['p1-030', 1, 'Buronzo|Piedmont|10|2|900|'],
-    ['p1-031', 1, 'Moncrivello|Piedmont|28|7|1850|'],
-    ['p1-032', 1, 'San Lazzaro|Emilia-Romagna|4||800|'],
-    ['p2-001', 2, 'Historic Center, Lucca|Tuscany|6|8|818|0.1'],
-    ['p2-002', 2, 'Calenzano|Tuscany|17|17|2500|'],
-    ['p2-003', 2, 'Licciana Nardi|Tuscany|14|18|2000|'],
-    ['p2-004', 2, 'Castello Cabiaglio|Lombardy|4|3|556|'],
-    ['p2-005', 2, 'Palazzo|Piedmont|24|13|4000|'],
-    ['p2-006', 2, 'Sinalunga|Tuscany|4|4|600|'],
-    ['p2-007', 2, 'Tavoleto|Marche|7|12|2100|'],
-    ['p2-008', 2, 'Marsciano|Umbria|57||1575|'],
-    ['p2-009', 2, 'Serra Ricco|Liguria|||839|'],
-    ['p2-010', 2, 'Majano|Friuli-Venezia Giulia|4|6|2700|'],
-    ['p2-011', 2, 'Amelia|Umbria|14|9|1883|'],
-    ['p2-012', 2, 'Radda in Chianti|Tuscany|8|9|1300|'],
-    ['p2-013', 2, 'Umbertide|Umbria|45|50|4500|'],
-    ['p2-014', 2, 'Falerna|Calabria|4|2|200|'],
-    ['p2-015', 2, 'Scandriglia|Lazio|7|8|900|'],
-    ['p2-016', 2, 'Balzola|Piedmont|7|6|660|'],
-    ['p2-017', 2, 'Marano Ticino|Piedmont|10|5|1621|'],
-    ['p2-018', 2, 'Acquapendente|Lazio|25|15|5000|'],
-    ['p2-019', 2, 'San Giorgio Canavese|Piedmont|10|11|7540|'],
-    ['p2-020', 2, 'Gaiole in Chianti|Tuscany|8|8|1490|'],
-    ['p2-021', 2, 'San Damiano d Asti|Piedmont|10|10|2426|'],
-    ['p2-022', 2, 'Licciana Nardi|Tuscany|27|16|1800|'],
-    ['p2-023', 2, 'Finale Pia - Calvisio, Finale Ligure|Liguria|5|3|865|'],
-    ['p2-024', 2, 'Filzi - Shangay, Livorno|Tuscany|19|25|2200|'],
-    ['p2-025', 2, 'Gavi|Piedmont|20|20|3670|'],
-    ['p2-026', 2, 'Gaiole in Chianti|Tuscany|7|9|1300|'],
-    ['p2-027', 2, 'San Miniato|Tuscany|9|6|528|'],
-    ['p2-028', 2, 'Poggio alla Croce, Figline e Incisa Valdarno|Tuscany|||3500|'],
-    ['p2-029', 2, 'Villafranca in Lunigiana|Tuscany|10|12|1382|'],
-    ['p2-030', 2, 'Bubbio|Piedmont|12|14|2200|'],
-    ['p2-031', 2, 'Nerola|Lazio|51|51|4314|'],
-    ['p2-032', 2, 'Todi|Umbria|4|3|350|'],
-    ['p3-001', 3, 'Historic Center, Lucca|Tuscany|6|8|818|0.1'],
-    ['p3-002', 3, 'Historic Center, Lecce|Apulia|10|10|1500|'],
-    ['p3-003', 3, 'Leccio - Sant Ellero - San Clemente, Reggello|Tuscany|16|15|2450|'],
-    ['p3-004', 3, 'Todi|Umbria|10|6|700|'],
-    ['p3-005', 3, 'Mozzanica|Lombardy|||1000|'],
-    ['p3-006', 3, 'Cavallirio|Piedmont|||540|'],
-    ['p3-007', 3, 'Todi|Umbria|12|10|1000|'],
-    ['p3-008', 3, 'Rigutino - Frassineto, Arezzo|Tuscany|40||3500|'],
-    ['p3-009', 3, 'Center, Asti|Piedmont|23|23|4229|'],
-    ['p3-010', 3, 'Agazzano|Emilia-Romagna|16||4000|'],
-    ['p3-011', 3, 'Lucolena in Chianti, Greve in Chianti|Tuscany|3|1|580|'],
-    ['p3-012', 3, 'Gaiole in Chianti|Tuscany|5|4|508|'],
-    ['p3-013', 3, 'Marsciano|Umbria|8|6|1575|'],
-    ['p3-014', 3, 'Montalto Dora|Piedmont|11|13|2525|'],
-    ['p3-015', 3, 'Historic Center, Milan|Lombardy|3|3|180|'],
-    ['p3-016', 3, 'Montefiridolfi, San Casciano in Val di Pesa|Tuscany|8|7|700|'],
-    ['p3-017', 3, 'Mercatello sul Metauro|Marche|10|10|1221|'],
-    ['p3-018', 3, 'San Gemini|Umbria|24|16|1666|'],
-    ['p3-019', 3, 'The Houses - Grotta Giusti - Virgin of the Pines, Monsummano Terme|Tuscany|30|33|6500|'],
-    ['p3-020', 3, 'Nerola|Lazio|51|51|4314|'],
-    ['p3-021', 3, 'Gattico|Piedmont|||1000|'],
-    ['p3-022', 3, 'Fabro|Umbria|11|8|3500|'],
-    ['p3-023', 3, 'Acquapendente|Lazio|||4890|'],
-    ['p3-024', 3, 'Riomaggiore|Liguria|2|2||'],
-    ['p3-025', 3, 'Bucine|Tuscany|10|11|1000|'],
-    ['p3-026', 3, 'Sesto Imolese - Sasso Morelli, Imola|Emilia-Romagna|38|48|4200|'],
-    ['p3-027', 3, 'Lugo|Emilia-Romagna|30|30|3000|'],
-    ['p3-028', 3, 'Citta di Castello|Umbria|14|18|1200|'],
-    ['p3-029', 3, 'Center, Cortona|Tuscany|20|18|3200|'],
-    ['p3-030', 3, 'Montemale di Cuneo|Piedmont|27|11|2325|'],
-    ['p3-031', 3, 'Campello sul Clitunno|Umbria||||'],
-    ['p3-032', 3, 'Incisa Scapaccino|Piedmont|6|2|1244|'],
-    ['p3-033', 3, 'San Damiano d Asti|Piedmont|12|10|13690|'],
-    ['p4-001', 4, 'Lesa|Piedmont|10|8|1300|'],
-    ['p4-002', 4, 'Cingoli|Marche|30|15|5500|'],
-    ['p4-003', 4, 'Rapolano Terme|Tuscany|70|60|15770|'],
-    ['p4-004', 4, 'Center, Campiglia Marittima|Tuscany|19||3600|'],
-    ['p4-005', 4, 'Center, Impruneta|Tuscany|6|4|400|'],
-    ['p4-006', 4, 'Scacciapensieri - Vico Alto, Siena|Tuscany|10|10||'],
-    ['p4-007', 4, 'Center, Arezzo|Tuscany|20|20|1458|'],
-    ['p4-008', 4, 'Castiglioncello, Rosignano Marittimo|Tuscany|8|6|400|'],
-    ['p4-009', 4, 'Cagli|Marche|8|12|1115|'],
-    ['p4-010', 4, 'Bagno A Ripoli|Tuscany|18|21|2095|'],
-    ['p4-011', 4, 'Penna in Teverina|Umbria|20|18|3036|'],
-    ['p4-012', 4, 'Montalcino|Tuscany|25|25|3729|'],
-    ['p4-013', 4, 'Casciana Terme Lari|Tuscany|40|45|4000|'],
-    ['p4-014', 4, 'San Miniato|Tuscany|||6300|'],
-    ['p4-015', 4, 'Scarperia e San Piero|Tuscany|10|6|1200|'],
-    ['p4-016', 4, 'Calenzano|Tuscany|12|9|1500|'],
-    ['p4-017', 4, 'Casalfiumanese|Emilia-Romagna|7|7|125|'],
-    ['p4-018', 4, 'Castiglione d Orcia|Tuscany|37|21|4123|'],
-    ['p4-019', 4, 'Masio|Piedmont|14|10|1000|'],
-    ['p4-020', 4, 'Celleno|Lazio|34|20|5000|'],
-    ['p4-021', 4, 'Vellezzo Bellini|Lombardy|10|8|2800|'],
-    ['p4-022', 4, 'Center, Montespertoli|Tuscany|71|55|7350|'],
-    ['p4-023', 4, 'Ivrea|Piedmont|22|22|2100|'],
-    ['p4-024', 4, 'Center, Cremona|Lombardy|20|15|2956|'],
-    ['p4-025', 4, 'Oviglio|Piedmont|10|14|2150|'],
-    ['p4-026', 4, 'Bucine|Tuscany|12|12|1038|'],
-    ['p4-027', 4, 'Poets - Musicians - Fornaci, Loano|Liguria|20|20|1000|'],
-    ['p4-028', 4, 'Montaldo Torinese|Piedmont|50|50|10000|'],
-    ['p4-029', 4, 'Monte Morello-Cercina, Municipality of Sesto Fiorentino|Tuscany|21|25|3630|'],
-    ['p4-030', 4, 'Todi|Umbria|8|11|1000|'],
-    ['p4-031', 4, 'Siena|Tuscany|7|6|804|'],
-];
-
-const JAMESEDITION_CASTLE_CARD_RECORDS = buildJamesEditionCastleCards(JAMESEDITION_CASTLE_CARD_SNAPSHOT);
+const jamesEditionSnapshot = JSON.parse(await readFile(JAMESEDITION_SNAPSHOT_REF, 'utf8'));
+const JAMESEDITION_CASTLE_CARD_RECORDS = buildJamesEditionCastleCards(jamesEditionSnapshot.records);
 
 const RAW_RECORDS = [
     ...JAMESEDITION_CASTLE_CARD_RECORDS,
@@ -647,7 +518,9 @@ function sourceOnlyRecord(source_key) {
 
 function buildJamesEditionCastleCards(cards) {
     const seen = new Set();
-    return cards.flatMap(([id, page, encoded]) => {
+    return cards.flatMap((card) => {
+        const id = card.id;
+        const encoded = card.encoded_card_facts;
         const [place, region, beds, baths, size, land] = encoded.split('|');
         const signature = [place, region, beds, baths, size, land].join('|').toLowerCase();
         if (seen.has(signature)) return [];
@@ -663,7 +536,7 @@ function buildJamesEditionCastleCards(cards) {
 
         return listingRecord('jamesedition', `je-castle-card-${id}`, {
             canonical_group: slug,
-            source_url: `https://www.jamesedition.com/real_estate/castle-italy${page > 1 ? `?page=${page}` : ''}`,
+            source_url: card.original_listing_url || card.source_card_page_url,
             title,
             summary: `Manual link-only JamesEdition category-card record for an active castle listing in ${place}, ${region}. The record keeps only high-level card facts and routes buyers back to the original JamesEdition source page.`,
             asset_class: 'castle',
@@ -686,6 +559,7 @@ function buildJamesEditionCastleCards(cards) {
             source_status: 'active',
             license_basis: 'link_only',
             last_checked_at: JAMESEDITION_CARD_LAST_CHECKED_AT,
+            raw_payload_ref: `${JAMESEDITION_SNAPSHOT_REF}#${id}`,
         });
     });
 }

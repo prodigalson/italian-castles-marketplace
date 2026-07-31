@@ -204,7 +204,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-001"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-001"
       }
     ],
     "dedupe": {
@@ -293,7 +293,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-002"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-002"
       }
     ],
     "dedupe": {
@@ -384,7 +384,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-003"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-003"
       }
     ],
     "dedupe": {
@@ -475,7 +475,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-004"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-004"
       }
     ],
     "dedupe": {
@@ -566,7 +566,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-005"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-005"
       }
     ],
     "dedupe": {
@@ -656,7 +656,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-006"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-006"
       }
     ],
     "dedupe": {
@@ -746,7 +746,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-007"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-007"
       }
     ],
     "dedupe": {
@@ -837,7 +837,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-008"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-008"
       }
     ],
     "dedupe": {
@@ -928,7 +928,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-009"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-009"
       }
     ],
     "dedupe": {
@@ -1019,7 +1019,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-010"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-010"
       }
     ],
     "dedupe": {
@@ -1110,7 +1110,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-011"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-011"
       }
     ],
     "dedupe": {
@@ -1200,7 +1200,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-012"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-012"
       }
     ],
     "dedupe": {
@@ -1291,7 +1291,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-013"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-013"
       }
     ],
     "dedupe": {
@@ -1382,7 +1382,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-014"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-014"
       }
     ],
     "dedupe": {
@@ -1472,7 +1472,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-015"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-015"
       }
     ],
     "dedupe": {
@@ -1563,7 +1563,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-016"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-016"
       }
     ],
     "dedupe": {
@@ -1654,7 +1654,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-017"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-017"
       }
     ],
     "dedupe": {
@@ -1744,7 +1744,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-018"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-018"
       }
     ],
     "dedupe": {
@@ -1835,7 +1835,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-019"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-019"
       }
     ],
     "dedupe": {
@@ -1924,7 +1924,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-020"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-020"
       }
     ],
     "dedupe": {
@@ -2015,7 +2015,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-021"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-021"
       }
     ],
     "dedupe": {
@@ -2106,7 +2106,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-022"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-022"
       }
     ],
     "dedupe": {
@@ -2195,7 +2195,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-023"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-023"
       }
     ],
     "dedupe": {
@@ -2285,7 +2285,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-024"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-024"
       }
     ],
     "dedupe": {
@@ -2376,7 +2376,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-025"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-025"
       }
     ],
     "dedupe": {
@@ -2466,7 +2466,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-026"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-026"
       }
     ],
     "dedupe": {
@@ -2557,7 +2557,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-027"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-027"
       }
     ],
     "dedupe": {
@@ -2648,7 +2648,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-028"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-028"
       }
     ],
     "dedupe": {
@@ -2739,7 +2739,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-029"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-029"
       }
     ],
     "dedupe": {
@@ -2829,7 +2829,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-030"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-030"
       }
     ],
     "dedupe": {
@@ -2919,7 +2919,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-031"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-031"
       }
     ],
     "dedupe": {
@@ -3008,7 +3008,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p1-032"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p1-032"
       }
     ],
     "dedupe": {
@@ -3099,7 +3099,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-001"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-001"
       }
     ],
     "dedupe": {
@@ -3190,7 +3190,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-002"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-002"
       }
     ],
     "dedupe": {
@@ -3281,7 +3281,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-003"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-003"
       }
     ],
     "dedupe": {
@@ -3370,7 +3370,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-004"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-004"
       }
     ],
     "dedupe": {
@@ -3460,7 +3460,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-005"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-005"
       }
     ],
     "dedupe": {
@@ -3551,7 +3551,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-006"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-006"
       }
     ],
     "dedupe": {
@@ -3641,7 +3641,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-007"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-007"
       }
     ],
     "dedupe": {
@@ -3732,7 +3732,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-008"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-008"
       }
     ],
     "dedupe": {
@@ -3822,7 +3822,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-009"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-009"
       }
     ],
     "dedupe": {
@@ -3911,7 +3911,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-010"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-010"
       }
     ],
     "dedupe": {
@@ -4002,7 +4002,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-011"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-011"
       }
     ],
     "dedupe": {
@@ -4093,7 +4093,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-012"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-012"
       }
     ],
     "dedupe": {
@@ -4184,7 +4184,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-013"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-013"
       }
     ],
     "dedupe": {
@@ -4274,7 +4274,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-014"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-014"
       }
     ],
     "dedupe": {
@@ -4364,7 +4364,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-015"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-015"
       }
     ],
     "dedupe": {
@@ -4454,7 +4454,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-016"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-016"
       }
     ],
     "dedupe": {
@@ -4544,7 +4544,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-017"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-017"
       }
     ],
     "dedupe": {
@@ -4634,7 +4634,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-018"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-018"
       }
     ],
     "dedupe": {
@@ -4724,7 +4724,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-019"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-019"
       }
     ],
     "dedupe": {
@@ -4815,7 +4815,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-020"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-020"
       }
     ],
     "dedupe": {
@@ -4905,7 +4905,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-021"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-021"
       }
     ],
     "dedupe": {
@@ -4996,7 +4996,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-022"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-022"
       }
     ],
     "dedupe": {
@@ -5086,7 +5086,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-023"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-023"
       }
     ],
     "dedupe": {
@@ -5177,7 +5177,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-024"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-024"
       }
     ],
     "dedupe": {
@@ -5267,7 +5267,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-025"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-025"
       }
     ],
     "dedupe": {
@@ -5358,7 +5358,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-026"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-026"
       }
     ],
     "dedupe": {
@@ -5449,7 +5449,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-027"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-027"
       }
     ],
     "dedupe": {
@@ -5540,7 +5540,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-028"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-028"
       }
     ],
     "dedupe": {
@@ -5631,7 +5631,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-029"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-029"
       }
     ],
     "dedupe": {
@@ -5721,7 +5721,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-030"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-030"
       }
     ],
     "dedupe": {
@@ -5811,7 +5811,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-031"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-031"
       }
     ],
     "dedupe": {
@@ -5902,7 +5902,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p2-032"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p2-032"
       }
     ],
     "dedupe": {
@@ -5992,7 +5992,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-002"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-002"
       }
     ],
     "dedupe": {
@@ -6083,7 +6083,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-003"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-003"
       }
     ],
     "dedupe": {
@@ -6174,7 +6174,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-004"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-004"
       }
     ],
     "dedupe": {
@@ -6263,7 +6263,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-005"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-005"
       }
     ],
     "dedupe": {
@@ -6353,7 +6353,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-006"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-006"
       }
     ],
     "dedupe": {
@@ -6444,7 +6444,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-007"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-007"
       }
     ],
     "dedupe": {
@@ -6535,7 +6535,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-008"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-008"
       }
     ],
     "dedupe": {
@@ -6625,7 +6625,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-009"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-009"
       }
     ],
     "dedupe": {
@@ -6714,7 +6714,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-010"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-010"
       }
     ],
     "dedupe": {
@@ -6805,7 +6805,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-011"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-011"
       }
     ],
     "dedupe": {
@@ -6896,7 +6896,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-012"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-012"
       }
     ],
     "dedupe": {
@@ -6987,7 +6987,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-013"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-013"
       }
     ],
     "dedupe": {
@@ -7076,7 +7076,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-015"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-015"
       }
     ],
     "dedupe": {
@@ -7167,7 +7167,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-016"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-016"
       }
     ],
     "dedupe": {
@@ -7257,7 +7257,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-017"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-017"
       }
     ],
     "dedupe": {
@@ -7348,7 +7348,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-018"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-018"
       }
     ],
     "dedupe": {
@@ -7439,7 +7439,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-019"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-019"
       }
     ],
     "dedupe": {
@@ -7529,7 +7529,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-021"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-021"
       }
     ],
     "dedupe": {
@@ -7620,7 +7620,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-022"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-022"
       }
     ],
     "dedupe": {
@@ -7710,7 +7710,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-023"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-023"
       }
     ],
     "dedupe": {
@@ -7800,7 +7800,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-024"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-024"
       }
     ],
     "dedupe": {
@@ -7891,7 +7891,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-025"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-025"
       }
     ],
     "dedupe": {
@@ -7980,7 +7980,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-026"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-026"
       }
     ],
     "dedupe": {
@@ -8069,7 +8069,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-027"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-027"
       }
     ],
     "dedupe": {
@@ -8160,7 +8160,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-028"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-028"
       }
     ],
     "dedupe": {
@@ -8251,7 +8251,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-029"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-029"
       }
     ],
     "dedupe": {
@@ -8341,7 +8341,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-030"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-030"
       }
     ],
     "dedupe": {
@@ -8432,7 +8432,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-031"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-031"
       }
     ],
     "dedupe": {
@@ -8522,7 +8522,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-032"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-032"
       }
     ],
     "dedupe": {
@@ -8612,7 +8612,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p3-033"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p3-033"
       }
     ],
     "dedupe": {
@@ -8702,7 +8702,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-001"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-001"
       }
     ],
     "dedupe": {
@@ -8792,7 +8792,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-002"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-002"
       }
     ],
     "dedupe": {
@@ -8883,7 +8883,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-003"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-003"
       }
     ],
     "dedupe": {
@@ -8974,7 +8974,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-004"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-004"
       }
     ],
     "dedupe": {
@@ -9065,7 +9065,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-005"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-005"
       }
     ],
     "dedupe": {
@@ -9156,7 +9156,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-006"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-006"
       }
     ],
     "dedupe": {
@@ -9247,7 +9247,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-007"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-007"
       }
     ],
     "dedupe": {
@@ -9338,7 +9338,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-008"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-008"
       }
     ],
     "dedupe": {
@@ -9428,7 +9428,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-009"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-009"
       }
     ],
     "dedupe": {
@@ -9519,7 +9519,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-010"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-010"
       }
     ],
     "dedupe": {
@@ -9610,7 +9610,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-011"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-011"
       }
     ],
     "dedupe": {
@@ -9701,7 +9701,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-012"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-012"
       }
     ],
     "dedupe": {
@@ -9792,7 +9792,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-013"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-013"
       }
     ],
     "dedupe": {
@@ -9883,7 +9883,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-014"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-014"
       }
     ],
     "dedupe": {
@@ -9974,7 +9974,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-015"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-015"
       }
     ],
     "dedupe": {
@@ -10065,7 +10065,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-016"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-016"
       }
     ],
     "dedupe": {
@@ -10154,7 +10154,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-017"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-017"
       }
     ],
     "dedupe": {
@@ -10245,7 +10245,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-018"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-018"
       }
     ],
     "dedupe": {
@@ -10335,7 +10335,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-019"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-019"
       }
     ],
     "dedupe": {
@@ -10425,7 +10425,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-020"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-020"
       }
     ],
     "dedupe": {
@@ -10514,7 +10514,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-021"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-021"
       }
     ],
     "dedupe": {
@@ -10605,7 +10605,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-022"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-022"
       }
     ],
     "dedupe": {
@@ -10695,7 +10695,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-023"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-023"
       }
     ],
     "dedupe": {
@@ -10784,7 +10784,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-024"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-024"
       }
     ],
     "dedupe": {
@@ -10874,7 +10874,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-025"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-025"
       }
     ],
     "dedupe": {
@@ -10965,7 +10965,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-026"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-026"
       }
     ],
     "dedupe": {
@@ -11055,7 +11055,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-027"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-027"
       }
     ],
     "dedupe": {
@@ -11145,7 +11145,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-028"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-028"
       }
     ],
     "dedupe": {
@@ -11236,7 +11236,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-029"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-029"
       }
     ],
     "dedupe": {
@@ -11327,7 +11327,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-030"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-030"
       }
     ],
     "dedupe": {
@@ -11418,7 +11418,7 @@
         "attribution_label": "Source: JamesEdition",
         "agent_or_broker": null,
         "license_basis": "link_only",
-        "raw_payload_ref": "manual-review/jamesedition/je-castle-card-p4-031"
+        "raw_payload_ref": "data/manual-review/jamesedition/castle-card-snapshot.json#p4-031"
       }
     ],
     "dedupe": {
