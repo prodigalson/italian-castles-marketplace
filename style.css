@@ -133,23 +133,39 @@ a {
     filter: brightness(0.38) contrast(1.05) saturate(0.78);
 }
 
-.cover-image-provenance {
+.cover-image-credit {
     position: absolute;
-    left: clamp(1rem, 2.5vw, 2.5rem);
-    bottom: clamp(1rem, 2.5vw, 2rem);
+    top: clamp(3.25rem, 7vw, 5.25rem);
+    right: clamp(1.25rem, 4vw, 3rem);
     z-index: 2;
-    max-width: min(24rem, calc(50% - 7rem));
-    margin: 0;
-    color: rgba(255, 255, 255, 0.82);
-    font-size: 0.68rem;
+    max-width: min(25rem, calc(100vw - 2.5rem));
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 0.64rem;
     letter-spacing: 0.04em;
+    text-align: right;
 }
 
-.cover-image-provenance strong {
-    color: #fff;
+.cover-image-credit summary {
+    cursor: pointer;
+    list-style: none;
+    text-transform: uppercase;
 }
 
-.cover-image-provenance a {
+.cover-image-credit summary::-webkit-details-marker {
+    display: none;
+}
+
+.cover-image-credit span {
+    display: block;
+    margin-top: 0.45rem;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.35rem;
+    background: rgba(20, 25, 23, 0.72);
+    line-height: 1.5;
+}
+
+.cover-image-credit a {
     color: #fff;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
@@ -1094,11 +1110,10 @@ a {
         object-position: center 52%;
     }
 
-    .cover-image-provenance {
+    .cover-image-credit {
+        top: 2.75rem;
         right: 1rem;
-        bottom: 5rem;
-        max-width: none;
-        text-align: center;
+        max-width: calc(100vw - 2rem);
     }
 
     .spread {
