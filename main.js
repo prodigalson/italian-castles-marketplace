@@ -3,6 +3,11 @@ import sourceStatuses from './data/castle-source-status.json';
 import { buildTravelAccess } from './travel-access.js';
 import { googlePlacesByListingId } from './data/google-places.js';
 
+const hiddenSummaryPrefixes = [
+    "Manual memory import from Ava's previously shared",
+    'Manual link-only JamesEdition category-card record',
+];
+
 const listings = canonicalListings.map(normalizeListing);
 
 let currentSpread = 0;
@@ -53,11 +58,6 @@ const sections = {
         sourceScope: 'puglia_masserias',
     },
 };
-
-const hiddenSummaryPrefixes = [
-    "Manual memory import from Ava's previously shared",
-    'Manual link-only JamesEdition category-card record',
-];
 
 let filterOptions = buildFilterOptions(sectionListings());
 
