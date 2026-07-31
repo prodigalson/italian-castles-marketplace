@@ -1,5 +1,6 @@
 import canonicalListings from './data/castle-listings.json';
 import sourceStatuses from './data/castle-source-status.json';
+import { buildTravelAccess } from './travel-access.js';
 
 const listings = canonicalListings.map(normalizeListing);
 
@@ -139,6 +140,7 @@ function normalizeListing(listing) {
         sizeSqm: listing.size?.value ?? null,
         landHectares: listing.land_area?.value ?? null,
         amenities: listing.amenities || [],
+        travelAccess: normalizeTravelAccess(listing.travel_access),
         images: (listing.images || []).map(image => ({
             url: image.url,
             alt: image.alt,
@@ -169,6 +171,32 @@ function normalizeListing(listing) {
             sourceKey: action.source_key,
         })),
         dedupe: listing.dedupe,
+    };
+}
+
+function normalizeTravelAccess(access = {}) {
+    const normalizeFacility = facility => ({
+        status: facility?.status || 'unknown_not_verified',
+        name: facility?.facility_name || null,
+        distanceKm: facility?.distance_km ?? null,
+        travelTimeMinutes: facility?.travel_time_minutes ?? null,
+        sourceName: facility?.source_name || null,
+        sourceUrl: facility?.source_url || null,
+        lastCheckedAt: facility?.last_checked_at || null,
+        recordGeneratedAt: facility?.record_generated_at || null,
+        note: facility?.note || 'No verified travel data is available.',
+    });
+
+    return {
+        trainStation: normalizeFacility(access.train_station),
+        airport: normalizeFacility(access.airport),
+        uber: {
+            status: access.uber?.status || 'unknown_not_verified',
+            sourceName: access.uber?.source_name || null,
+            sourceUrl: access.uber?.source_url || null,
+            lastCheckedAt: access.uber?.last_checked_at || null,
+            note: access.uber?.note || 'Availability has not been verified.',
+        },
     };
 }
 
@@ -386,26 +414,31 @@ function buildSpread(listing, index, total) {
                     ${listing.amenities.map(amenity => `<span>${displayText(amenity)}</span>`).join('')}
                 </div>
 
-                <div class="detail-grid">
-                    <div>
-                        <h3>Map Context</h3>
-                        <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
-                        <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open approximate map</a>
-                    </div>
-                    <div>
-                        <h3>Provenance</h3>
-                        <p>${sourceSummary}. Last checked ${formatDate(listing.provenance.lastCheckedAt)}. ${listing.provenance.notes}</p>
-                        <a class="text-link" href="${source.sourceUrl}" target="_blank" rel="noopener">Original listing</a>
-                    </div>
-                </div>
+                <div class="lower-detail-layout">
+                    <div class="property-detail-stack">
+                        <div class="detail-grid">
+                            <div>
+                                <h3>Map Context</h3>
+                                <p>${listing.location.mapContext.nearbyContext.join(' · ') || listing.location.mapContext.publicLabel}</p>
+                                <a class="text-link" href="${listing.mapUrl}" target="_blank" rel="noopener">Open approximate map</a>
+                            </div>
+                            <div>
+                                <h3>Provenance</h3>
+                                <p>${sourceSummary}. Last checked ${formatDate(listing.provenance.lastCheckedAt)}. ${listing.provenance.notes}</p>
+                                <a class="text-link" href="${source.sourceUrl}" target="_blank" rel="noopener">Original listing</a>
+                            </div>
+                        </div>
 
-                <div class="source-box">
-                    ${sourceLinks}
-                </div>
+                        <div class="source-box">
+                            ${sourceLinks}
+                        </div>
 
-                <div class="action-row">
-                    ${listing.inquiryActions.map(action => `<a class="action-btn" href="${action.url}" target="_blank" rel="noopener">${action.label}</a>`).join('')}
-                    <button class="action-btn secondary share-dest-btn" type="button" data-dest-index="${index}">Share</button>
+                        <div class="action-row">
+                            ${listing.inquiryActions.map(action => `<a class="action-btn" href="${action.url}" target="_blank" rel="noopener">${action.label}</a>`).join('')}
+                            <button class="action-btn secondary share-dest-btn" type="button" data-dest-index="${index}">Share</button>
+                        </div>
+                    </div>
+                    ${buildTravelAccess(listing)}
                 </div>
             </div>
             <footer class="folio folio-footer">
@@ -445,8 +478,18 @@ function renderWindow(centerIndex) {
     magazine.querySelectorAll('.spread').forEach(el => el.classList.remove('active'));
     const activeEl = magazine.querySelector(`.spread[data-index="${centerIndex}"]`);
     if (activeEl) activeEl.classList.add('active');
+    syncNavigationPlacement(activeEl);
     wireListingButtons();
     updateUrl();
+}
+
+function syncNavigationPlacement(activeSpread = magazine.querySelector('.spread.active')) {
+    const pageLeft = activeSpread?.querySelector('.page-left');
+    if (window.matchMedia('(max-width: 720px)').matches && pageLeft) {
+        pageLeft.append(navPrev, navNext, kbHint);
+    } else {
+        document.querySelector('main').append(navPrev, navNext, kbHint);
+    }
 }
 
 function renderMagazine(list) {
@@ -795,6 +838,7 @@ function init() {
     enterBtn.addEventListener('click', openMagazine);
     navPrev.addEventListener('click', goPrev);
     navNext.addEventListener('click', goNext);
+    window.addEventListener('resize', () => syncNavigationPlacement());
     document.getElementById('share-btn').addEventListener('click', () => shareListing());
     document.addEventListener('keydown', handleKey);
     document.addEventListener('wheel', handleWheel, { passive: false });

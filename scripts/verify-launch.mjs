@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
+import { listingSchemaErrors } from './listing-schema-validator.mjs';
 
 const REQUIRED_PLACEHOLDER_LABEL = 'Editorial placeholder images.';
 const CANONICAL_URL = 'https://castle.chingularity.com/';
@@ -48,11 +49,50 @@ check(activeMasserias.every(listing => {
 }), 'Active masseria inventory lacks a property-level image-presence and permission review.');
 
 for (const listing of listings) {
+    for (const error of listingSchemaErrors(listing)) check(false, `${listing.id}: canonical schema ${error}`);
     check(listing.sources?.length > 0, `${listing.id}: missing source attribution.`);
     check(Boolean(listing.provenance?.last_checked_at), `${listing.id}: missing provenance last_checked_at.`);
     check(Boolean(listing.provenance?.notes), `${listing.id}: missing provenance notes.`);
     check(listing.inquiry_actions?.length > 0, `${listing.id}: missing source inquiry action.`);
     check(listing.images?.length > 0, `${listing.id}: missing compliant image or editorial substitute.`);
+    check(Boolean(listing.travel_access?.train_station && listing.travel_access?.airport && listing.travel_access?.uber), `${listing.id}: missing travel/access panel data.`);
+
+    for (const [kind, facility] of Object.entries({ train_station: listing.travel_access?.train_station, airport: listing.travel_access?.airport })) {
+        if (!facility) continue;
+        check(Boolean(facility.record_generated_at && facility.note), `${listing.id}: ${kind} lacks record date or verification note.`);
+        const hasDistance = facility.distance_km !== null;
+        const hasTravelTime = facility.travel_time_minutes !== null;
+        const hasEstimate = hasDistance || hasTravelTime;
+        const approximateLocation = !['exact', 'street'].includes(listing.location.precision);
+
+        check(!(hasDistance && hasTravelTime), `${listing.id}: ${kind} mixes distance and travel-time estimates.`);
+        check(!(approximateLocation && hasEstimate), `${listing.id}: ${kind} estimate requires exact or street-level location precision.`);
+        check(!(approximateLocation && facility.status !== 'unknown_not_verified'), `${listing.id}: ${kind} nearest selection requires exact or street-level location precision.`);
+        if (facility.status === 'verified_facility') {
+            check(Boolean(facility.facility_name && facility.source_name && isHttpUrl(facility.source_url) && facility.last_checked_at), `${listing.id}: verified ${kind} lacks a facility name, source, or check timestamp.`);
+            check(Boolean(facility.nearest_selection_method && isHttpUrl(facility.nearest_selection_source_url)), `${listing.id}: verified ${kind} lacks nearest-selection method or HTTP(S) evidence.`);
+            if (hasEstimate) {
+                check(Boolean(facility.estimate_method && isHttpUrl(facility.estimate_source_url)), `${listing.id}: ${kind} estimate lacks method or HTTP(S) evidence.`);
+            } else {
+                check(facility.estimate_method === null && facility.estimate_source_url === null, `${listing.id}: ${kind} carries estimate evidence without an estimate.`);
+            }
+        } else {
+            check(facility.status === 'unknown_not_verified', `${listing.id}: unsupported ${kind} verification status.`);
+            const factualFields = ['facility_name', 'distance_km', 'travel_time_minutes', 'source_name', 'source_url', 'nearest_selection_method', 'nearest_selection_source_url', 'estimate_method', 'estimate_source_url', 'last_checked_at'];
+            check(factualFields.every(field => facility[field] === null), `${listing.id}: unverified ${kind} contains inferred facts.`);
+        }
+    }
+
+    const uber = listing.travel_access?.uber;
+    if (uber) {
+        check(['available', 'limited_varies', 'not_available', 'check_app', 'unknown_not_verified'].includes(uber.status), `${listing.id}: unsupported Uber status.`);
+        check(Boolean(uber.last_checked_at && uber.note), `${listing.id}: Uber status lacks check date or caveat.`);
+        if (uber.status === 'unknown_not_verified') {
+            check(uber.source_name === null && uber.source_url === null, `${listing.id}: unknown Uber status contains sourced claims.`);
+        } else {
+            check(Boolean(uber.source_name && isHttpUrl(uber.source_url)), `${listing.id}: Uber status lacks HTTP(S) source metadata.`);
+        }
+    }
 
     for (const source of listing.sources || []) {
         check(isHttpUrl(source.source_url), `${listing.id}: invalid original source URL.`);
@@ -129,6 +169,7 @@ if (failures.length) {
 } else {
     console.log(`Launch QA passed: ${activeCastles.length} active castles, ${activeMasserias.length} active masserias, ${listings.length} unique canonical listings.`);
     console.log(`Image provenance passed: ${listings.length} listings use explicit actual-property or exactly labelled editorial imagery.`);
+    console.log(`Travel access passed: ${listings.length} listings have conservative train, airport, and Uber records.`);
     console.log(`Site image provenance passed: licensed photographic hero and owned social asset are registered and verified.`);
     console.log(`Source transparency passed: ${sources.length} source records, including all ${masseriaSources.length} required masseria sources.`);
     console.log(`Canonical metadata passed: ${CANONICAL_URL}`);

@@ -53,6 +53,45 @@
       "tourism_business",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-masseria-placeholder.svg",
@@ -161,6 +200,45 @@
       "pool",
       "tourism_business"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-masseria-placeholder.svg",
@@ -268,6 +346,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -372,6 +489,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -478,6 +634,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -584,6 +779,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -690,6 +924,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -795,6 +1068,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -900,6 +1212,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1006,6 +1357,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1112,6 +1502,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1218,6 +1647,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1324,6 +1792,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1429,6 +1936,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1535,6 +2081,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1641,6 +2226,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1746,6 +2370,45 @@
       "panoramic_views",
       "sea_view"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1852,6 +2515,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -1958,6 +2660,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2063,6 +2804,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2169,6 +2949,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2273,6 +3092,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2379,6 +3237,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2485,6 +3382,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2589,6 +3525,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2694,6 +3669,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2800,6 +3814,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -2905,6 +3958,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3011,6 +4103,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3117,6 +4248,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3223,6 +4393,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3328,6 +4537,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3433,6 +4681,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3537,6 +4824,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3643,6 +4969,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3749,6 +5114,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3853,6 +5257,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -3958,6 +5401,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4064,6 +5546,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4169,6 +5690,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4275,6 +5835,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4380,6 +5979,45 @@
       "panoramic_views",
       "sea_view"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4484,6 +6122,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4590,6 +6267,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4696,6 +6412,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4802,6 +6557,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -4907,6 +6701,45 @@
       "olive_grove",
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5012,6 +6845,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5117,6 +6989,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5222,6 +7133,45 @@
       "olive_grove",
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5327,6 +7277,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5433,6 +7422,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5538,6 +7566,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5644,6 +7711,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5749,6 +7855,45 @@
       "panoramic_views",
       "sea_view"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5855,6 +8000,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -5960,6 +8144,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6066,6 +8289,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6172,6 +8434,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6278,6 +8579,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6384,6 +8724,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6489,6 +8868,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6594,6 +9012,45 @@
       "olive_grove",
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6700,6 +9157,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6805,6 +9301,45 @@
       "olive_grove",
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -6911,6 +9446,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7017,6 +9591,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7121,6 +9734,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7226,6 +9878,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7332,6 +10023,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7438,6 +10168,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7543,6 +10312,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7647,6 +10455,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7753,6 +10600,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7859,6 +10745,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -7965,6 +10890,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8069,6 +11033,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8175,6 +11178,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8280,6 +11322,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8386,6 +11467,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8492,6 +11612,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8597,6 +11756,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8703,6 +11901,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8808,6 +12045,45 @@
       "olive_grove",
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -8913,6 +12189,45 @@
       "panoramic_views",
       "sea_view"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9019,6 +12334,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9123,6 +12477,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9227,6 +12620,45 @@
     "amenities": [
       "panoramic_views"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9333,6 +12765,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9439,6 +12910,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9544,6 +13054,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9650,6 +13199,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9755,6 +13343,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9860,6 +13487,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -9965,6 +13631,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10070,6 +13775,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10176,6 +13920,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10282,6 +14065,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10388,6 +14210,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10494,6 +14355,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10600,6 +14500,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10706,6 +14645,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10811,6 +14789,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
@@ -10917,6 +14934,45 @@
       "panoramic_views",
       "vineyard"
     ],
+    "travel_access": {
+      "train_station": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "airport": {
+        "status": "unknown_not_verified",
+        "facility_name": null,
+        "distance_km": null,
+        "travel_time_minutes": null,
+        "source_name": null,
+        "source_url": null,
+        "nearest_selection_method": null,
+        "nearest_selection_source_url": null,
+        "estimate_method": null,
+        "estimate_source_url": null,
+        "last_checked_at": null,
+        "record_generated_at": "2026-07-31T00:00:00.000Z",
+        "note": "No compliant, property-specific facility match has been verified. Ask the broker to confirm from the exact address."
+      },
+      "uber": {
+        "status": "check_app",
+        "source_name": "Uber city availability directory",
+        "source_url": "https://www.uber.com/global/it/r/italy/cities/",
+        "last_checked_at": "2026-07-31T00:00:00.000Z",
+        "note": "Coverage, products, and pickup availability can vary by exact address and time. Check the Uber app before relying on service."
+      }
+    },
     "images": [
       {
         "url": "/images/editorial-castle-placeholder.svg",
