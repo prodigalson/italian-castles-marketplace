@@ -17,6 +17,7 @@ The marketplace is expected to launch as a static Vite build with manual/link-on
 - The castle and Masserias headings and supporting copy match PER-153 exactly in the initial HTML and the interactive section model.
 - All 108 listing records retain their original source links. Their current source records are link-only and do not document property-photo display permission, so no listing photo was copied or hotlinked. Each record now stores the reviewed source URL, review timestamp, no-copy/no-hotlink decision, owned fallback rights, and the visible exact label `Editorial placeholder images.`
 - Launch QA rejects unregistered hero bytes, insufficient hero resolution, missing hero attribution/license/non-listing disclosure, missing exact copy, missing listing fallback reviews, remote fallback imagery, or fallback records that do not preserve an original listing link.
+- Local production-preview browser QA passed at 375×812, 768×1024, and 1280×720. Screenshots confirmed a sharp hero and subject-preserving crop at all three sizes; the 375×812 Masserias state rendered its exact heading/supporting copy without clipping. Computed checks reported the hero's 3840×2560 natural size, no horizontal overflow, no collisions among the title, supporting copy, section switch, attribution, and enter button, and no console errors. The mobile listing flow visibly rendered `Editorial placeholder images.` and retained its source links.
 
 ## Command Evidence
 
