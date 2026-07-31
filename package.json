@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "inventory:refresh": "node scripts/refresh-castle-inventory.mjs",
+    "qa:launch": "node scripts/verify-launch.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },

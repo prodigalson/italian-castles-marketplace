@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://italian-castles-marketplace.vercel.app/schemas/castle-listing.schema.json",
+  "$id": "https://castle.chingularity.com/schemas/castle-listing.schema.json",
   "title": "Italian Historic Estate Listing",
   "type": "object",
   "additionalProperties": false,
