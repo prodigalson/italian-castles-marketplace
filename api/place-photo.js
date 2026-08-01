@@ -1,4 +1,4 @@
-import { googlePlacesByListingId } from '../data/google-places.js';
+import { googlePlacesByListingId, suppressedGooglePlaceListingIds } from '../data/google-places.js';
 import listings from '../data/castle-listings.json' with { type: 'json' };
 
 const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
@@ -7,6 +7,9 @@ const listingsById = new Map(listings.map(listing => [listing.id, listing]));
 function placeConfigForListing(listingId) {
     const verified = googlePlacesByListingId[listingId];
     if (verified) return { ...verified, verified: true };
+
+    // Reviewed as a wrong-property match; never fall back to a title text query for it.
+    if (suppressedGooglePlaceListingIds.has(listingId)) return null;
 
     const listing = listingsById.get(listingId);
     if (!listing) return null;

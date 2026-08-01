@@ -1,7 +1,7 @@
 import canonicalListings from './data/castle-listings.json';
 import sourceStatuses from './data/castle-source-status.json';
 import { buildTravelAccess } from './travel-access.js';
-import { googlePlacesByListingId } from './data/google-places.js';
+import { googlePlacesByListingId, suppressedGooglePlaceListingIds } from './data/google-places.js';
 
 const hiddenSummaryPrefixes = [
     "Manual memory import from Ava's previously shared",
@@ -118,11 +118,11 @@ function normalizeListing(listing) {
     const mapContext = listing.location.map_context || {};
     const mapQuery = encodeURIComponent(listing.location.display);
     const verifiedGooglePlace = googlePlacesByListingId[listing.id] || null;
-    const googlePlace = verifiedGooglePlace || {
+    const googlePlace = verifiedGooglePlace || (suppressedGooglePlaceListingIds.has(listing.id) ? null : {
         expectedName: listing.canonical_title,
         mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${listing.canonical_title}, ${listing.location.display}, Italy`)}`,
         verified: false,
-    };
+    });
     const summary = listing.summary || '';
 
     return {
@@ -162,7 +162,7 @@ function normalizeListing(listing) {
             rightsBasis: displayText(image.rights_basis || 'unknown'),
             rightsNote: image.rights_note || 'Image rights not documented.',
         })),
-        mapUrl: googlePlace.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
+        mapUrl: googlePlace?.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${mapQuery}`,
         sources: listing.sources.map(source => ({
             sourceKey: source.source_key,
             sourceName: source.source_name,
