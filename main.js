@@ -6,6 +6,7 @@ import { googlePlacesByListingId, suppressedGooglePlaceListingIds } from './data
 const hiddenSummaryPrefixes = [
     "Manual memory import from Ava's previously shared",
     'Manual link-only JamesEdition category-card record',
+    'Manual link-only record for a',
 ];
 
 const listings = canonicalListings.map(normalizeListing);
