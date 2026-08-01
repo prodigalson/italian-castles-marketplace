@@ -1,7 +1,11 @@
+import { inject } from '@vercel/analytics';
 import canonicalListings from './data/castle-listings.json';
 import sourceStatuses from './data/castle-source-status.json';
 import { buildTravelAccess } from './travel-access.js';
 import { googlePlacesByListingId, suppressedGooglePlaceListingIds } from './data/google-places.js';
+
+// Initialize Vercel Analytics
+inject();
 
 const hiddenSummaryPrefixes = [
     "Manual memory import from Ava's previously shared",
