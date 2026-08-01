@@ -1,4 +1,4 @@
-import { googlePlacesByListingId } from '../data/google-places.js';
+import { googlePlacesByListingId, suppressedGooglePlaceListingIds } from '../data/google-places.js';
 import listings from '../data/castle-listings.json' with { type: 'json' };
 
 const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
@@ -28,6 +28,9 @@ function listingConfig(listingId) {
     const listing = listingsById.get(listingId);
     if (!listing) return null;
     const verified = googlePlacesByListingId[listingId];
+    // Without a verified place the origin would be the wrong property, so the derived
+    // distances would be wrong too. Fall back to the record's own unverified copy.
+    if (!verified && suppressedGooglePlaceListingIds.has(listingId)) return null;
     return {
         listing,
         query: verified?.query || [listing.canonical_title, listing.location?.display, 'Italy'].filter(Boolean).join(', '),
