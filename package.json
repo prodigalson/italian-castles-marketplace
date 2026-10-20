@@ -15,7 +15,7 @@
   "devDependencies": {
     "ajv": "^8.18.0",
     "ajv-formats": "^3.0.1",
-    "vite": "^8.0.8"
+    "vite": "^8.2.4"
   },
   "dependencies": {
     "sharp": "^0.35.3"
